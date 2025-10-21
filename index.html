@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDM Monitor - Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .filters {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .news-grid {
+            display: grid;
+            gap: 20px;
+        }
+        
+        .news-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+        
+        .news-title {
+            font-size: 1.4em;
+            color: #333;
+            font-weight: 600;
+            flex: 1;
+        }
+        
+        .importance-badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        
+        .category-tag {
+            display: inline-block;
+            background: #f0f0f0;
+            color: #666;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+        
+        .news-summary {
+            color: #555;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        
+        .news-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #999;
+        }
+        
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            padding: 50px;
+        }
+        
+        .empty-state {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+            color: #666;
+        }
+        
+        .empty-state h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .stat-card {
+                padding: 15px;
+            }
+            
+            .filter-buttons {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔧 EDM Monitor Dashboard</h1>
+            <p class="subtitle">Monitoraggio automatico delle novità sulle macchine a elettroerosione</p>
+        </header>
+        
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalNews">0</div>
+                <div class="stat-label">Notizie Totali</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="lastUpdate">-</div>
+                <div class="stat-label">Ultimo Aggiornamento</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="topCategory">-</div>
+                <div class="stat-label">Categoria Principale</div>
+            </div>
+        </div>
+        
+        <div class="filters">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tutte</button>
+                <button class="filter-btn" data-filter="Nuovi Modelli">Nuovi Modelli</button>
+                <button class="filter-btn" data-filter="Innovazioni Tecnologiche">Innovazioni</button>
+                <button class="filter-btn" data-filter="Aziende e Mercato">Aziende</button>
+                <button class="filter-btn" data-filter="Ricerca e Brevetti">Ricerca</button>
+                <button class="filter-btn" data-filter="Eventi e Fiere">Eventi</button>
+            </div>
+        </div>
+        
+        <div class="news-grid" id="newsGrid">
+            <div class="loading">⏳ Caricamento dati...</div>
+        </div>
+    </div>
+
+    <script>
+        let allNews = [];
+        let currentFilter = 'all';
+        
+        // Carica i dati
+        async function loadData() {
+            try {
+                // Sostituisci con il percorso del tuo file JSON su GitHub
+                const response = await fetch('data/edm_news.json');
+                const data = await response.json();
+                
+                // Estrai tutte le notizie da tutti gli aggiornamenti
+                allNews = [];
+                data.forEach(update => {
+                    if (update.data && update.data.notizie) {
+                        update.data.notizie.forEach(news => {
+                            allNews.push({
+                                ...news,
+                                updateTimestamp: update.timestamp
+                            });
+                        });
+                    }
+                });
+                
+                // Ordina per importanza
+                allNews.sort((a, b) => b.importanza - a.importanza);
+                
+                updateStats();
+                displayNews();
+            } catch (error) {
+                console.error('Errore nel caricamento:', error);
+                document.getElementById('newsGrid').innerHTML = `
+                    <div class="empty-state">
+                        <h2>Nessun dato disponibile</h2>
+                        <p>L'agente non ha ancora raccolto dati. Attendi il primo aggiornamento automatico.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        function updateStats() {
+            document.getElementById('totalNews').textContent = allNews.length;
+            
+            if (allNews.length > 0) {
+                // Ultimo aggiornamento
+                const lastDate = new Date(allNews[0].updateTimestamp);
+                document.getElementById('lastUpdate').textContent = 
+                    lastDate.toLocaleDateString('it-IT');
+                
+                // Categoria più comune
+                const categories = allNews.map(n => n.categoria);
+                const topCat = categories.sort((a,b) =>
+                    categories.filter(v => v===a).length - 
+                    categories.filter(v => v===b).length
+                ).pop();
+                document.getElementById('topCategory').textContent = topCat || '-';
+            }
+        }
+        
+        function displayNews() {
+            const grid = document.getElementById('newsGrid');
+            
+            let filtered = currentFilter === 'all' 
+                ? allNews 
+                : allNews.filter(n => n.categoria === currentFilter);
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <h2>Nessuna notizia trovata</h2>
+                        <p>Non ci sono notizie per questa categoria.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            grid.innerHTML = filtered.map(news => `
+                <div class="news-card">
+                    <div class="news-header">
+                        <h3 class="news-title">${news.titolo}</h3>
+                        <span class="importance-badge">${news.importanza}/10</span>
+                    </div>
+                    <span class="category-tag">${news.categoria}</span>
+                    <p class="news-summary">${news.riassunto}</p>
+                    <div class="news-footer">
+                        <span>📅 ${news.data || 'Data non disponibile'}</span>
+                        <span>🔗 ${news.fonte || 'Fonte non specificata'}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Gestione filtri
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => 
+                    b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                displayNews();
+            });
+        });
+        
+        // Carica i dati all'avvio
+        loadData();
+        
+        // Ricarica ogni 5 minuti
+        setInterval(loadData, 5 * 60 * 1000);
+    </script>
+</body>
+                  </html>
