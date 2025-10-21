@@ -1,0 +1,49 @@
+[
+  {
+    "timestamp": "2025-10-21T07:00:00",
+    "data": {
+      "notizie": [
+        {
+          "titolo": "Nuova serie di macchine Wire EDM ad alta precisione",
+          "categoria": "Nuovi Modelli",
+          "riassunto": "GF Machining Solutions ha presentato la nuova serie CUT E 2000, con precisione migliorata del 30% e velocità di taglio superiore. Ideale per componenti aerospaziali e medicali.",
+          "importanza": 9,
+          "fonte": "Manufacturing News",
+          "data": "2025-10-20"
+        },
+        {
+          "titolo": "Tecnologia AI integrata nelle EDM per ottimizzazione automatica",
+          "categoria": "Innovazioni Tecnologiche",
+          "riassunto": "Mitsubishi Electric introduce sistema AI che ottimizza automaticamente i parametri di lavorazione, riducendo i tempi di setup del 40% e migliorando la qualità superficiale.",
+          "importanza": 8,
+          "fonte": "Tech Industry Journal",
+          "data": "2025-10-18"
+        },
+        {
+          "titolo": "Sodick espande produzione in Europa",
+          "categoria": "Aziende e Mercato",
+          "riassunto": "Sodick annuncia nuovo stabilimento in Germania per supportare la crescente domanda europea di macchine EDM. Investimento di 50 milioni di euro previsto.",
+          "importanza": 7,
+          "fonte": "Industry Report",
+          "data": "2025-10-15"
+        },
+        {
+          "titolo": "Brevetto per elettrodi a lunga durata",
+          "categoria": "Ricerca e Brevetti",
+          "riassunto": "Nuovo brevetto per elettrodi in lega speciale che durano 3 volte più a lungo rispetto agli elettrodi tradizionali, riducendo costi operativi.",
+          "importanza": 6,
+          "fonte": "Patent Database",
+          "data": "2025-10-12"
+        },
+        {
+          "titolo": "EMO Hannover 2026: anteprima tecnologie EDM",
+          "categoria": "Eventi e Fiere",
+          "riassunto": "La fiera EMO 2026 presenterà le ultime innovazioni in elettroerosione, con focus su automazione e sostenibilità. Attesi oltre 2000 espositori.",
+          "importanza": 5,
+          "fonte": "Event Organizer",
+          "data": "2025-10-10"
+        }
+      ]
+    }
+  }
+]
