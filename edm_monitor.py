@@ -2,11 +2,18 @@ import os
 import json
 import requests
 from datetime import datetime
-import google.generativeai as genai
 
 # Configurazione
 GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
-genai.configure(api_key=GOOGLE_API_KEY)
+
+# Carica google-generativeai
+try:
+    import google.generativeai as genai
+    genai.configure(api_key=GOOGLE_API_KEY)
+except ImportError:
+    print("❌ Errore: google-generativeai non installato")
+    exit(1)
+
 SEARCH_QUERIES = [
     "EDM machine news 2025",
     "wire EDM innovation",
@@ -17,7 +24,6 @@ SEARCH_QUERIES = [
     "Mitsubishi EDM updates"
 ]
 
-# Categorie per classificare le notizie
 CATEGORIES = [
     "Nuovi Modelli",
     "Innovazioni Tecnologiche", 
@@ -28,7 +34,6 @@ CATEGORIES = [
 
 def search_web(query):
     """Cerca informazioni sul web usando API di ricerca"""
-    # Usiamo DuckDuckGo tramite requests (gratuito, no API key)
     url = f"https://html.duckduckgo.com/html/?q={query}"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -36,7 +41,6 @@ def search_web(query):
     
     try:
         response = requests.get(url, headers=headers, timeout=10)
-        # Estrai risultati base (questo è semplificato)
         return {
             'query': query,
             'timestamp': datetime.now().isoformat(),
@@ -80,7 +84,6 @@ NON includere testo al di fuori del JSON."""
         response = model.generate_content(prompt)
         
         response_text = response.text.strip()
-        # Rimuovi eventuali backticks markdown
         response_text = response_text.replace('```json', '').replace('```', '').strip()
         
         return json.loads(response_text)
@@ -92,7 +95,6 @@ def save_results(data, filename='data/edm_news.json'):
     """Salva i risultati in un file JSON"""
     os.makedirs('data', exist_ok=True)
     
-    # Carica dati esistenti se presenti
     existing_data = []
     if os.path.exists(filename):
         try:
@@ -101,17 +103,13 @@ def save_results(data, filename='data/edm_news.json'):
         except:
             existing_data = []
     
-    # Aggiungi nuovi dati con timestamp
     new_entry = {
         'timestamp': datetime.now().isoformat(),
         'data': data
     }
     existing_data.append(new_entry)
-    
-    # Mantieni solo gli ultimi 100 aggiornamenti
     existing_data = existing_data[-100:]
     
-    # Salva
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(existing_data, f, indent=2, ensure_ascii=False)
     
@@ -122,12 +120,10 @@ def main():
     print("🤖 Avvio Agente AI Monitoraggio EDM...")
     print(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
-    # Verifica API key
     if not GOOGLE_API_KEY:
         print("❌ ERRORE: GOOGLE_API_KEY non configurata!")
         return
     
-    # Esegui ricerche
     all_results = []
     for query in SEARCH_QUERIES:
         print(f"🔍 Ricerca: {query}")
@@ -137,11 +133,9 @@ def main():
     
     print(f"\n📊 Trovati {len(all_results)} risultati")
     
-    # Analizza con AI
     print("\n🧠 Analisi con Gemini AI...")
     analyzed_data = analyze_with_ai(all_results)
     
-    # Salva risultati
     if analyzed_data.get('notizie'):
         save_results(analyzed_data)
         print(f"\n✨ Trovate {len(analyzed_data['notizie'])} notizie rilevanti!")
