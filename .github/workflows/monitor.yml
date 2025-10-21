@@ -1,0 +1,40 @@
+name: EDM Monitor Agent
+
+on:
+  schedule:
+    # Esegui ogni giorno alle 9:00 UTC (10:00 CET)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Permette esecuzione manuale
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Necessario per committare i risultati
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install anthropic requests
+      
+      - name: Run EDM Monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python edm_monitor.py
+      
+      - name: Commit and push results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/edm_news.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Aggiornamento automatico EDM news - $(date)" && git push)
