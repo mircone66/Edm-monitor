@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch completo per evitare conflitti
       
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -37,5 +39,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main --rebase
           git add data/edm_news.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Aggiornamento automatico EDM news - $(date)" && git push)
