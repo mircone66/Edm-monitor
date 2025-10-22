@@ -3,15 +3,19 @@ import json
 import requests
 from datetime import datetime
 import re
+from urllib.parse import quote_plus
+
+# Configurazione
+GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
 
 SEARCH_QUERIES = [
     "EDM machine news 2025",
     "wire EDM innovation",
-    "elettroerosione novità",
-    "EDM technology breakthrough",
+    "electrical discharge machining technology",
     "Sodick EDM new model",
     "GF Machining Solutions EDM",
-    "Mitsubishi EDM updates"
+    "Mitsubishi EDM updates",
+    "EDM manufacturing breakthrough"
 ]
 
 CATEGORIES = [
@@ -22,123 +26,145 @@ CATEGORIES = [
     "Eventi e Fiere"
 ]
 
-# Keywords per categorizzazione automatica
-CATEGORY_KEYWORDS = {
-    "Nuovi Modelli": ["new model", "nuovo modello", "launch", "lancio", "release", "series"],
-    "Innovazioni Tecnologiche": ["innovation", "technology", "breakthrough", "AI", "automation", "precision"],
-    "Aziende e Mercato": ["company", "azienda", "market", "mercato", "acquisition", "expansion"],
-    "Ricerca e Brevetti": ["patent", "brevetto", "research", "ricerca", "university", "study"],
-    "Eventi e Fiere": ["event", "evento", "fair", "fiera", "exhibition", "conference", "EMO", "IMTS"]
-}
-
-def search_web(query):
-    """Cerca informazioni usando DuckDuckGo"""
-    url = "https://api.duckduckgo.com/"
-    params = {
-        'q': query,
-        'format': 'json',
-        'no_html': 1,
-        'skip_disambig': 1
-    }
-    
+def search_google_news(query):
+    """Cerca notizie usando Google News RSS"""
     try:
-        response = requests.get(url, params=params, timeout=10)
-        data = response.json()
+        url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
         
-        results = []
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
         
-        # Estrai risultati
-        if data.get('AbstractText'):
-            results.append({
-                'title': data.get('Heading', query),
-                'snippet': data.get('AbstractText', ''),
-                'url': data.get('AbstractURL', ''),
-                'source': data.get('AbstractSource', 'DuckDuckGo')
-            })
+        response = requests.get(url, headers=headers, timeout=15)
         
-        # Aggiungi related topics
-        for topic in data.get('RelatedTopics', [])[:3]:
-            if isinstance(topic, dict) and 'Text' in topic:
+        if response.status_code == 200:
+            titles = re.findall(r'<title><!\[CDATA\[(.*?)\]\]></title>', response.text)
+            descriptions = re.findall(r'<description><!\[CDATA\[(.*?)\]\]></description>', response.text)
+            links = re.findall(r'<link>(.*?)</link>', response.text)
+            
+            results = []
+            for i in range(1, min(len(titles), 6)):  # Skip first (feed title), max 5
+                title = titles[i] if i < len(titles) else ""
+                desc = descriptions[i-1] if i-1 < len(descriptions) else title
+                link = links[i] if i < len(links) else ""
+                
+                # Pulisci HTML dal description
+                desc_clean = re.sub(r'<.*?>', '', desc)
+                
                 results.append({
-                    'title': topic.get('FirstURL', '').split('/')[-1].replace('_', ' '),
-                    'snippet': topic.get('Text', ''),
-                    'url': topic.get('FirstURL', ''),
-                    'source': 'DuckDuckGo'
+                    'title': title,
+                    'snippet': desc_clean[:300],
+                    'url': link,
+                    'source': 'Google News'
                 })
+            
+            return results
         
-        return results
     except Exception as e:
-        print(f"Errore ricerca per '{query}': {e}")
-        return []
+        print(f"   Errore ricerca: {e}")
+    
+    return []
 
-def categorize_text(text):
-    """Categorizza il testo basandosi su keywords"""
-    text_lower = text.lower()
-    scores = {}
+def analyze_with_gemini(all_results):
+    """Usa Gemini per analizzare i risultati"""
     
-    for category, keywords in CATEGORY_KEYWORDS.items():
-        score = sum(1 for keyword in keywords if keyword.lower() in text_lower)
-        scores[category] = score
+    if not GOOGLE_API_KEY:
+        print("❌ GOOGLE_API_KEY non configurata!")
+        return {"notizie": []}
     
-    # Restituisci la categoria con punteggio più alto
-    if max(scores.values()) > 0:
-        return max(scores, key=scores.get)
-    return "Aziende e Mercato"  # Default
+    # Prepara il contenuto per Gemini
+    content_summary = []
+    for result in all_results[:20]:  # Max 20 articoli per non superare i limiti
+        content_summary.append(f"Titolo: {result.get('title', '')}\nContenuto: {result.get('snippet', '')}\n")
+    
+    combined_content = "\n---\n".join(content_summary)
+    
+    prompt = f"""Analizza questi articoli sulle macchine EDM (Electrical Discharge Machining / elettroerosione).
 
-def calculate_importance(text):
-    """Calcola importanza basata su keywords importanti"""
-    important_keywords = [
-        'breakthrough', 'revolutionary', 'first', 'new', 'innovation',
-        'rivoluzionario', 'nuovo', 'innovazione', 'prima volta',
-        'patent', 'award', 'record', 'fastest', 'best'
-    ]
-    
-    text_lower = text.lower()
-    score = 5  # Base score
-    
-    for keyword in important_keywords:
-        if keyword in text_lower:
-            score += 1
-    
-    return min(score, 10)  # Max 10
+ARTICOLI:
+{combined_content}
 
-def analyze_results(all_results):
-    """Analizza i risultati senza usare AI esterna"""
-    notizie = []
-    
-    for results in all_results:
-        for result in results:
-            if not result.get('snippet'):
-                continue
-            
-            title = result.get('title', 'Notizia EDM')
-            snippet = result.get('snippet', '')
-            combined_text = f"{title} {snippet}"
-            
-            # Filtra solo se contiene termini EDM rilevanti
-            edm_keywords = ['edm', 'elettroerosione', 'wire', 'machining', 'sodick', 'mitsubishi', 'gf machining']
-            if not any(keyword in combined_text.lower() for keyword in edm_keywords):
-                continue
-            
-            notizia = {
-                'titolo': title[:100],  # Limita lunghezza
-                'categoria': categorize_text(combined_text),
-                'riassunto': snippet[:200],  # Prime 200 caratteri
-                'importanza': calculate_importance(combined_text),
-                'fonte': result.get('source', 'Web'),
-                'data': datetime.now().strftime('%Y-%m-%d')
+COMPITO:
+1. Identifica SOLO le notizie veramente rilevanti sulle macchine EDM
+2. Ignora articoli generici o non pertinenti
+3. Per ogni notizia rilevante, categorizzala in una di queste categorie:
+   - Nuovi Modelli
+   - Innovazioni Tecnologiche
+   - Aziende e Mercato
+   - Ricerca e Brevetti
+   - Eventi e Fiere
+
+4. Crea un riassunto chiaro in italiano (2-3 frasi)
+5. Assegna un punteggio di importanza da 1 a 10
+
+FORMATO DI RISPOSTA (SOLO JSON, nessun altro testo):
+{{
+  "notizie": [
+    {{
+      "titolo": "titolo in italiano",
+      "categoria": "una delle 5 categorie",
+      "riassunto": "riassunto in italiano di 2-3 frasi",
+      "importanza": 7,
+      "fonte": "nome fonte",
+      "data": "2025-10-22"
+    }}
+  ]
+}}
+
+Rispondi SOLO con JSON valido, senza markdown o altri testi."""
+
+    try:
+        # Chiamata API Gemini
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GOOGLE_API_KEY}"
+        
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": prompt
+                }]
+            }],
+            "generationConfig": {
+                "temperature": 0.3,
+                "maxOutputTokens": 2048
             }
+        }
+        
+        response = requests.post(url, json=payload, timeout=30)
+        
+        if response.status_code == 200:
+            data = response.json()
             
-            notizie.append(notizia)
-    
-    # Ordina per importanza
-    notizie.sort(key=lambda x: x['importanza'], reverse=True)
-    
-    # Prendi solo le top 10
-    return notizie[:10]
+            # Estrai il testo dalla risposta
+            if 'candidates' in data and len(data['candidates']) > 0:
+                text = data['candidates'][0]['content']['parts'][0]['text']
+                
+                # Pulisci il testo da eventuali markdown
+                text = text.strip()
+                text = re.sub(r'```json\s*', '', text)
+                text = re.sub(r'```\s*', '', text)
+                text = text.strip()
+                
+                # Parse JSON
+                result = json.loads(text)
+                return result
+            else:
+                print("⚠️ Risposta API vuota")
+                return {"notizie": []}
+        else:
+            print(f"❌ Errore API Gemini: {response.status_code}")
+            print(f"Risposta: {response.text[:200]}")
+            return {"notizie": []}
+            
+    except json.JSONDecodeError as e:
+        print(f"❌ Errore parsing JSON: {e}")
+        print(f"Testo ricevuto: {text[:200] if 'text' in locals() else 'N/A'}")
+        return {"notizie": []}
+    except Exception as e:
+        print(f"❌ Errore Gemini: {e}")
+        return {"notizie": []}
 
-def save_results(data, filename='data/edm_news.json'):
-    """Salva i risultati in un file JSON"""
+def save_results(notizie, filename='data/edm_news.json'):
+    """Salva i risultati"""
     os.makedirs('data', exist_ok=True)
     
     existing_data = []
@@ -151,7 +177,7 @@ def save_results(data, filename='data/edm_news.json'):
     
     new_entry = {
         'timestamp': datetime.now().isoformat(),
-        'data': {'notizie': data}
+        'data': {'notizie': notizie}
     }
     existing_data.append(new_entry)
     existing_data = existing_data[-100:]
@@ -162,34 +188,51 @@ def save_results(data, filename='data/edm_news.json'):
     print(f"✅ Risultati salvati in {filename}")
 
 def main():
-    """Funzione principale"""
-    print("🤖 Avvio Agente AI Monitoraggio EDM...")
+    print("🤖 Avvio Agente AI Monitoraggio EDM con Gemini...")
     print(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
+    if not GOOGLE_API_KEY:
+        print("❌ ERRORE: GOOGLE_API_KEY non configurata!")
+        print("Aggiungi la chiave nei GitHub Secrets")
+        return
+    
+    # Raccogli notizie
     all_results = []
+    print("🔍 Ricerca notizie...")
     for query in SEARCH_QUERIES:
-        print(f"🔍 Ricerca: {query}")
-        results = search_web(query)
+        print(f"   • {query}")
+        results = search_google_news(query)
         if results:
-            all_results.append(results)
-            print(f"   Trovati {len(results)} risultati")
+            all_results.extend(results)
+            print(f"     ✓ {len(results)} risultati")
+        else:
+            print(f"     ⚠ Nessun risultato")
     
-    print(f"\n📊 Totale ricerche completate: {len(all_results)}")
+    print(f"\n📊 Totale articoli raccolti: {len(all_results)}")
     
-    print("\n🧠 Analisi e categorizzazione...")
-    notizie = analyze_results(all_results)
+    if len(all_results) == 0:
+        print("⚠️ Nessun articolo trovato nelle ricerche")
+        save_results([])
+        return
+    
+    # Analizza con Gemini
+    print("\n🧠 Analisi con Gemini AI...")
+    analyzed = analyze_with_gemini(all_results)
+    
+    notizie = analyzed.get('notizie', [])
     
     if notizie:
-        save_results(notizie)
-        print(f"\n✨ Trovate {len(notizie)} notizie rilevanti!")
+        # Ordina per importanza
+        notizie.sort(key=lambda x: x.get('importanza', 0), reverse=True)
         
-        # Mostra preview
-        print("\n📰 Preview notizie:")
-        for i, news in enumerate(notizie[:3], 1):
-            print(f"{i}. [{news['importanza']}/10] {news['titolo']}")
+        save_results(notizie)
+        print(f"\n✨ Salvate {len(notizie)} notizie rilevanti!")
+        
+        print("\n📰 Top 5 notizie:")
+        for i, news in enumerate(notizie[:5], 1):
+            print(f"{i}. [{news.get('importanza', 0)}/10] {news.get('titolo', 'N/A')[:70]}...")
     else:
-        print("\n⚠️ Nessuna notizia rilevante trovata in questa ricerca")
-        # Salva comunque un placeholder
+        print("\n⚠️ Gemini non ha trovato notizie rilevanti")
         save_results([])
     
     print("\n✅ Agente completato!")
