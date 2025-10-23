@@ -8,50 +8,73 @@ import re
 GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
 SERPAPI_KEY = os.environ.get('SERPAPI_KEY')
 
-# Query mirate per Google Search (NON News)
+# Query mirate
 SEARCH_QUERIES = [
-    # Problemi tecnici
     "EDM wire break problem solution",
     "wire EDM troubleshooting guide",
-    "EDM surface finish improvement",
-    
-    # Novità aziende
     "Sodick new EDM machine 2025",
     "GF Machining Solutions latest EDM",
     "Mitsubishi EDM innovation",
-    
-    # Applicazioni
     "EDM aerospace machining",
     "medical device EDM manufacturing",
-    
-    # Forum e community
     "site:practicalmachinist.com EDM",
-    "site:cnczone.com wire EDM"
+    "site:cnczone.com wire EDM",
+    "EDM automation Industry 4.0"
 ]
 
-CATEGORIES = [
-    "Problemi e Soluzioni",
-    "Nuovi Modelli",
-    "Innovazioni Tecnologiche",
-    "Eventi e Fiere",
-    "Applicazioni e Mercato"
+CATEGORIES = {
+    'problem': 'Problemi e Soluzioni',
+    'new_model': 'Nuovi Modelli',
+    'technology': 'Innovazioni Tecnologiche',
+    'event': 'Eventi e Fiere',
+    'application': 'Applicazioni e Mercato'
+}
+
+CATEGORY_KEYWORDS = {
+    'Problemi e Soluzioni': [
+        'problem', 'troubleshooting', 'issue', 'error', 'fix', 'solution',
+        'repair', 'maintenance', 'break', 'failure', 'problema', 'riparazione'
+    ],
+    'Nuovi Modelli': [
+        'new', 'launch', 'introduce', 'release', 'model', 'series',
+        'announce', 'unveil', 'nuovo', 'lancio', 'presentazione'
+    ],
+    'Innovazioni Tecnologiche': [
+        'innovation', 'technology', 'AI', 'automation', 'smart', 'digital',
+        'IoT', 'advanced', 'precision', 'breakthrough', 'innovazione'
+    ],
+    'Eventi e Fiere': [
+        'event', 'fair', 'exhibition', 'show', 'conference', 'EMO', 'IMTS',
+        'JIMTOF', 'fiera', 'evento', 'mostra'
+    ],
+    'Applicazioni e Mercato': [
+        'aerospace', 'medical', 'automotive', 'industry', 'market',
+        'application', 'manufacturing', 'production', 'applicazione'
+    ]
+}
+
+HIGH_IMPORTANCE = [
+    'breakthrough', 'revolutionary', 'first', 'major', 'significant',
+    'innovative', 'advanced', 'new technology', 'patent', 'award'
+]
+
+MEDIUM_IMPORTANCE = [
+    'improved', 'enhanced', 'optimized', 'updated', 'upgraded',
+    'better', 'faster', 'efficient'
 ]
 
 def search_with_serpapi(query):
-    """Cerca usando SerpAPI - accesso completo a Google Search"""
-    
+    """Cerca usando SerpAPI"""
     if not SERPAPI_KEY:
-        print("   ⚠️ SERPAPI_KEY non configurata")
         return []
     
     try:
         url = "https://serpapi.com/search"
-        
         params = {
             'q': query,
             'api_key': SERPAPI_KEY,
             'engine': 'google',
-            'num': 5,  # Primi 5 risultati
+            'num': 5,
             'gl': 'us',
             'hl': 'en'
         }
@@ -62,7 +85,6 @@ def search_with_serpapi(query):
             data = response.json()
             results = []
             
-            # Estrai risultati organici
             for result in data.get('organic_results', [])[:5]:
                 results.append({
                     'title': result.get('title', ''),
@@ -73,64 +95,22 @@ def search_with_serpapi(query):
                 })
             
             return results
-        else:
-            print(f"   ⚠️ SerpAPI error: {response.status_code}")
-            return []
+        
+        return []
             
     except Exception as e:
-        print(f"   ⚠️ Errore SerpAPI: {e}")
-        return []
-
-def search_google_fallback(query):
-    """Fallback: Cerca usando DuckDuckGo (gratis, no API)"""
-    try:
-        url = "https://api.duckduckgo.com/"
-        params = {
-            'q': query,
-            'format': 'json',
-            'no_html': 1
-        }
-        
-        response = requests.get(url, params=params, timeout=10)
-        data = response.json()
-        
-        results = []
-        
-        # Risultato principale
-        if data.get('AbstractText'):
-            results.append({
-                'title': data.get('Heading', query),
-                'snippet': data.get('AbstractText', ''),
-                'url': data.get('AbstractURL', ''),
-                'source': data.get('AbstractSource', 'DuckDuckGo'),
-                'date': datetime.now().strftime('%Y-%m-%d')
-            })
-        
-        # Related topics
-        for topic in data.get('RelatedTopics', [])[:3]:
-            if isinstance(topic, dict) and 'Text' in topic:
-                results.append({
-                    'title': topic.get('Text', '')[:100],
-                    'snippet': topic.get('Text', ''),
-                    'url': topic.get('FirstURL', ''),
-                    'source': 'DuckDuckGo',
-                    'date': datetime.now().strftime('%Y-%m-%d')
-                })
-        
-        return results
-    except Exception as e:
-        print(f"   ⚠️ Errore DuckDuckGo: {e}")
+        print(f"   ⚠️ Errore: {e}")
         return []
 
 def analyze_with_gemini(all_results):
-    """Analizza con Gemini"""
+    """Usa Gemini per analizzare (se disponibile)"""
     
     if not GOOGLE_API_KEY:
-        print("⚠️ GOOGLE_API_KEY non configurata")
-        return analyze_locally(all_results)
+        print("⚠️ GOOGLE_API_KEY non configurata, uso analisi locale")
+        return None
     
     if len(all_results) == 0:
-        return {"notizie": []}
+        return None
     
     # Prepara contenuto
     content_summary = []
@@ -138,7 +118,7 @@ def analyze_with_gemini(all_results):
         content_summary.append(
             f"Titolo: {result.get('title', '')}\n"
             f"Descrizione: {result.get('snippet', '')}\n"
-            f"Fonte: {result.get('source', '')}\n"
+            f"URL: {result.get('url', '')}\n"
         )
     
     combined_content = "\n---\n".join(content_summary)
@@ -160,6 +140,8 @@ Crea notizie in ITALIANO, focus su:
 - Benefici pratici
 - Soluzioni a problemi comuni
 
+IMPORTANTE: Mantieni gli URL originali per ogni notizia.
+
 CATEGORIE: Problemi e Soluzioni, Nuovi Modelli, Innovazioni Tecnologiche, Eventi e Fiere, Applicazioni e Mercato
 
 Rispondi SOLO in JSON:
@@ -171,7 +153,8 @@ Rispondi SOLO in JSON:
       "riassunto": "spiegazione pratica in italiano (2-3 frasi)",
       "importanza": 7,
       "fonte": "nome fonte",
-      "data": "2025-10-22"
+      "data": "2025-10-23",
+      "url": "URL originale completo"
     }}
   ]
 }}"""
@@ -194,26 +177,127 @@ Rispondi SOLO in JSON:
                 text = re.sub(r'```\s*', '', text).strip()
                 return json.loads(text)
         
-        print("⚠️ Gemini non disponibile, analisi locale")
-        return analyze_locally(all_results)
+        print("⚠️ Gemini non disponibile")
+        return None
             
     except Exception as e:
         print(f"⚠️ Errore Gemini: {e}")
-        return analyze_locally(all_results)
+        return None
 
-def analyze_locally(results):
-    """Analisi locale semplice"""
+def categorize_smart(text):
+    """Categorizzazione intelligente"""
+    text_lower = text.lower()
+    scores = {}
+    
+    for category, keywords in CATEGORY_KEYWORDS.items():
+        score = sum(2 if keyword in text_lower else 0 for keyword in keywords)
+        scores[category] = score
+    
+    if max(scores.values()) > 0:
+        return max(scores, key=scores.get)
+    
+    return 'Applicazioni e Mercato'
+
+def calculate_importance_smart(text):
+    """Calcola importanza"""
+    text_lower = text.lower()
+    score = 5
+    
+    for keyword in HIGH_IMPORTANCE:
+        if keyword in text_lower:
+            score += 2
+    
+    for keyword in MEDIUM_IMPORTANCE:
+        if keyword in text_lower:
+            score += 1
+    
+    brands = ['sodick', 'mitsubishi', 'gf machining', 'makino', 'fanuc', 'agie']
+    if any(brand in text_lower for brand in brands):
+        score += 1
+    
+    if re.search(r'\d+%|\d+x|€\d+|\$\d+', text):
+        score += 1
+    
+    return min(score, 10)
+
+def clean_and_summarize(snippet):
+    """Pulisce snippet"""
+    snippet = re.sub(r'[^\w\s\.,;:()\-\'\"!?€$%]', '', snippet)
+    
+    if len(snippet) > 280:
+        truncated = snippet[:280]
+        last_period = truncated.rfind('.')
+        if last_period > 200:
+            snippet = truncated[:last_period + 1]
+        else:
+            snippet = truncated + '...'
+    
+    return snippet.strip()
+
+def translate_title(title):
+    """Traduzione parziale"""
+    translations = {
+        'New': 'Nuovo',
+        'Latest': 'Ultimo',
+        'Innovation': 'Innovazione',
+        'Technology': 'Tecnologia',
+        'Problem': 'Problema',
+        'Solution': 'Soluzione',
+        'Guide': 'Guida',
+        'Troubleshooting': 'Risoluzione Problemi',
+        'Advanced': 'Avanzato',
+        'Machine': 'Macchina',
+        'Manufacturing': 'Produzione'
+    }
+    
+    title_translated = title
+    for eng, ita in translations.items():
+        title_translated = re.sub(r'\b' + eng + r'\b', ita, title_translated, flags=re.IGNORECASE)
+    
+    return title_translated
+
+def clean_source(source):
+    """Pulisce la fonte da caratteri speciali"""
+    # Rimuovi caratteri speciali comuni
+    source = source.replace('›', '/').replace('»', '/').replace('…', '...')
+    source = re.sub(r'[<>]', '', source)
+    return source.strip()
+
+def analyze_locally_enhanced(results):
+    """Analisi locale migliorata"""
     notizie = []
     
     for result in results:
-        notizie.append({
-            'titolo': result.get('title', 'Notizia EDM')[:120],
-            'categoria': 'Applicazioni e Mercato',
-            'riassunto': result.get('snippet', '')[:300],
-            'importanza': 6,
-            'fonte': result.get('source', 'Web'),
-            'data': result.get('date', datetime.now().strftime('%Y-%m-%d'))
-        })
+        title = result.get('title', 'Notizia EDM')
+        snippet = result.get('snippet', '')
+        combined = f"{title} {snippet}"
+        
+        edm_terms = ['edm', 'electrical discharge', 'wire edm', 'sodick', 
+                     'mitsubishi', 'gf machining', 'makino', 'electrode']
+        
+        if not any(term in combined.lower() for term in edm_terms):
+            continue
+        
+        categoria = categorize_smart(combined)
+        importanza = calculate_importance_smart(combined)
+        riassunto = clean_and_summarize(snippet)
+        titolo_translated = translate_title(title[:120])
+        
+        # Pulisci URL e fonte
+        url = result.get('url', '').strip()
+        fonte = clean_source(result.get('source', 'Web'))
+        
+        notizia = {
+            'titolo': titolo_translated,
+            'categoria': categoria,
+            'riassunto': riassunto,
+            'importanza': importanza,
+            'fonte': fonte,
+            'data': result.get('date', datetime.now().strftime('%Y-%m-%d')),
+            'url': url
+        }
+        
+        notizie.append(notizia)
     
     return {'notizie': notizie}
 
@@ -242,29 +326,23 @@ def save_results(notizie, filename='data/edm_news.json'):
     print(f"✅ Risultati salvati in {filename}")
 
 def main():
-    print("🤖 Avvio Agente EDM - Ricerca con SerpAPI")
+    print("🤖 Avvio Agente EDM - Versione Completa")
     print(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
-    all_results = []
+    if not SERPAPI_KEY:
+        print("❌ SERPAPI_KEY non configurata!")
+        return
     
-    # Determina quale motore usare
-    use_serpapi = bool(SERPAPI_KEY)
-    use_fallback = not use_serpapi
-    
-    if use_serpapi:
-        print("✓ Uso SerpAPI (Google Search completo)")
-    else:
-        print("⚠️ SERPAPI_KEY non trovata, uso DuckDuckGo (limitato)")
+    has_gemini = bool(GOOGLE_API_KEY)
+    print(f"✓ SerpAPI: Attivo")
+    print(f"✓ Gemini AI: {'Attivo' if has_gemini else 'Non disponibile (uso analisi locale)'}")
     
     print("\n🔍 Ricerca in corso...")
     
+    all_results = []
     for i, query in enumerate(SEARCH_QUERIES, 1):
         print(f"\n[{i}/{len(SEARCH_QUERIES)}] {query}")
-        
-        if use_serpapi:
-            results = search_with_serpapi(query)
-        else:
-            results = search_google_fallback(query)
+        results = search_with_serpapi(query)
         
         if results:
             all_results.extend(results)
@@ -276,9 +354,6 @@ def main():
     
     if len(all_results) == 0:
         print("\n❌ Nessun risultato trovato")
-        print("💡 Suggerimenti:")
-        print("   - Verifica SERPAPI_KEY in GitHub Secrets")
-        print("   - Controlla quota SerpAPI su serpapi.com/dashboard")
         save_results([])
         return
     
@@ -293,10 +368,19 @@ def main():
     
     print(f"📊 Risultati unici: {len(unique_results)}")
     
-    # Analisi
-    print("\n🧠 Analisi con Gemini...")
-    analyzed = analyze_with_gemini(unique_results)
-    notizie = analyzed.get('notizie', [])
+    # Prova Gemini prima
+    notizie = []
+    if has_gemini:
+        print("\n🧠 Analisi con Gemini AI...")
+        analyzed = analyze_with_gemini(unique_results)
+        if analyzed:
+            notizie = analyzed.get('notizie', [])
+    
+    # Se Gemini fallisce, usa analisi locale
+    if not notizie:
+        print("\n🔧 Uso analisi locale avanzata...")
+        analyzed = analyze_locally_enhanced(unique_results)
+        notizie = analyzed.get('notizie', [])
     
     if notizie:
         notizie.sort(key=lambda x: x.get('importanza', 0), reverse=True)
@@ -304,9 +388,19 @@ def main():
         
         print(f"\n✨ Salvate {len(notizie[:15])} notizie!")
         
+        cat_count = {}
+        for news in notizie[:15]:
+            cat = news.get('categoria', 'Altro')
+            cat_count[cat] = cat_count.get(cat, 0) + 1
+        
+        print("\n📊 Distribuzione:")
+        for cat, count in cat_count.items():
+            print(f"   • {cat}: {count}")
+        
         print("\n📰 Top 5:")
         for i, news in enumerate(notizie[:5], 1):
-            print(f"{i}. [{news.get('importanza')}/10] {news.get('titolo')[:70]}...")
+            print(f"{i}. [{news.get('importanza')}/10] {news.get('categoria')}")
+            print(f"   {news.get('titolo')[:75]}...")
     else:
         print("\n⚠️ Nessuna notizia rilevante")
         save_results([])
