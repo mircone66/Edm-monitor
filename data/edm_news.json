@@ -1,624 +1,207 @@
 [
   {
-    "timestamp": "2025-10-21T07:00:00",
+    "timestamp": "2025-10-23T21:44:02.465532",
     "data": {
       "notizie": [
         {
-          "titolo": "Nuova serie di macchine Wire EDM ad alta precisione",
-          "categoria": "Nuovi Modelli",
-          "riassunto": "GF Machining Solutions ha presentato la nuova serie CUT E 2000, con precisione migliorata del 30% e velocità di taglio superiore. Ideale per componenti aerospaziali e medicali.",
+          "titolo": "Slightly OT, repair of a Makino wire EDM that eats ... - Forums",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The problem with it is that it has begun to break wire easily. It's a 16A machine, but can't be run much above 3A or it eats wire. It may go as ...",
           "importanza": 9,
-          "fonte": "Manufacturing News",
-          "data": "2025-10-20"
+          "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
+          "data": "2025-10-23",
+          "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/67409-slightly-ot-repair-of-a-makino-wire-edm-that-eats-wire-need-ideas",
+          "costruttore": "Makino"
         },
         {
-          "titolo": "Tecnologia AI integrata nelle EDM per ottimizzazione automatica",
-          "categoria": "Innovazioni Tecnologiche",
-          "riassunto": "Mitsubishi Electric introduce sistema AI che ottimizza automaticamente i parametri di lavorazione, riducendo i tempi di setup del 40% e migliorando la qualità superficiale.",
+          "titolo": "Mitsubishi Wire EDM Wire Cut Problems",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The machine is attempting to cut the wire it will just blow short bursts of air and end up not actually cutting the wire (it leaves a wire cut error).",
           "importanza": 8,
-          "fonte": "Tech Industry Journal",
-          "data": "2025-10-18"
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-wire-cut-problems.291211/",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "Sodick espande produzione in Europa",
-          "categoria": "Aziende e Mercato",
-          "riassunto": "Sodick annuncia nuovo stabilimento in Germania per supportare la crescente domanda europea di macchine EDM. Investimento di 50 milioni di euro previsto.",
-          "importanza": 7,
-          "fonte": "Industry Report",
-          "data": "2025-10-15"
+          "titolo": "EDM Machining | Newbie Problem.",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I am very new to EDM machining. I just took a class on a new Sodick Die Sinker that we have and now I am trying to make some burns.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/newbie-problem.110818/",
+          "costruttore": "Sodick"
         },
         {
-          "titolo": "Brevetto per elettrodi a lunga durata",
-          "categoria": "Ricerca e Brevetti",
-          "riassunto": "Nuovo brevetto per elettrodi in lega speciale che durano 3 volte più a lungo rispetto agli elettrodi tradizionali, riducendo costi operativi.",
-          "importanza": 6,
-          "fonte": "Patent Database",
-          "data": "2025-10-12"
+          "titolo": "Makino Us false wire breakage - EDM Machining",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "False wire breaks are typically the result of a roller issue somewhere, and the (x3) main rollers to look at and pay attention to are the D-Shaft (Main Clutch ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/makino-us-false-wire-breakage.409732/",
+          "costruttore": "Makino"
         },
         {
-          "titolo": "EMO Hannover 2026: anteprima tecnologie EDM",
-          "categoria": "Eventi e Fiere",
-          "riassunto": "La fiera EMO 2026 presenterà le ultime innovazioni in elettroerosione, con focus su automazione e sostenibilità. Attesi oltre 2000 espositori.",
-          "importanza": 5,
-          "fonte": "Event Organizer",
-          "data": "2025-10-10"
-        }
-      ]
-    }
-  },
-  {
-    "timestamp": "2025-10-22T04:04:36.708709",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-22T05:00:41.855037",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-22T08:32:09.761930",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-22T18:21:09.162310",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-22T19:27:02.019975",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-22T23:37:44.360258",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-23T09:16:23.446294",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-23T17:44:48.918296",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-23T18:44:19.476044",
-    "data": {
-      "notizie": []
-    }
-  },
-  {
-    "timestamp": "2025-10-23T18:56:41.004549",
-    "data": {
-      "notizie": [
-        {
-          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "This guide explores common wire EDM problems, outlines preventive strategies, and provides troubleshooting steps for how to fix wire breaks in ...",
-          "importanza": 6,
-          "fonte": "https://www.sstconsumables.com › article › edm19",
-          "data": "2025-10-23"
+          "titolo": "MITSUBISHI DWC90C WIRE EDM - CONSTANT ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Too high wire tension will cause breaks for obvious reasons. Bad take up rollers ( the wheels on the side that actually pull the wire) if they ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-dwc90c-wire-edm-constant-wire-breaks.413824/",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "What do you adjust first when you break wire",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Increasing SV (Servo Voltage) acts like a \"shock absorber\" and will help with wire breaks but will slow the cut. You most likely can back down ...",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
+          "titolo": "Mitsubishi Wire EDM problems",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I am running a MV1200R Mitsubishi Wire EDM and for some reason my tank wont stay filled with water while running a program.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-problems.346305/",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "The possible reasons and solutions of the wire-breaking ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "1) Poor electrical discharging condition: Try to Reduce the P value firstly. If the wire still break, try to reduce I value till wire stops breaking. This ...",
-          "importanza": 6,
-          "fonte": "http://www.techedm.com › N_view",
-          "data": "2025-10-23"
+          "titolo": "WIRE EDM PROBLEM - Fanuc",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut ?",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / forums / fanuc / 427592-...",
+          "data": "2025-10-23",
+          "url": "https://www.cnczone.com/forums/fanuc/427592-wire-edm-problem-new-post.html",
+          "costruttore": "Fanuc"
         },
         {
-          "titolo": "Why Do EDM Wires Break?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Adequate flushing is needed to keep EDM wires from breaking. This article explains why wires break, and how dielectric fluid delivered with sufficient flow ...",
-          "importanza": 6,
-          "fonte": "https://www.ctemag.com › articles › why-do-edm-wires-...",
-          "data": "2025-10-23"
+          "titolo": "Sodick Wire EDM problem ??",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I have a problem with my sodick wire cut AQ535L, when i press power on botton i get this error message (E00189 tension zero setting error )",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / forums / 265420-sodick-w...",
+          "data": "2025-10-23",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/265420-sodick-wire-edm-problem.html",
+          "costruttore": "Sodick"
         },
         {
-          "titolo": "Wire Cut EDM Machine Issues & Solutions",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Troubleshoot common Wire EDM problems with DMNC EDM's professional solutions. Learn how to resolve cutting errors, wire breaks, and precision issues for ...",
-          "importanza": 6,
-          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
-          "data": "2025-10-23"
+          "titolo": "EDM Machining | Sodick A325 Troubleshooting Problems",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "First, when manually threading the wire, when the wire reach the rear discharge rollers after the suction block, the wire speed was extremely fast.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-a325-troubleshooting-problems.411974/",
+          "costruttore": "Sodick"
         },
         {
-          "titolo": "Wire EDM Processing: Problems and Solutions 101 - SANS",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "1. Wire Broken · 2. Processing Speed Problem · 3. Surface Line Problems · 4. The Surface Of The Workpiece Is Not Polished · 5. Large Cutting Shape ...",
-          "importanza": 6,
-          "fonte": "https://www.sansmachining.com › wire-edm-processing...",
-          "data": "2025-10-23"
+          "titolo": "Sodick Wire EDM Question : r/Machinists",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The E000180 Discharge Timeout code means that there's an error with the IPG (Intelligent Power Generator) not communicating properly with the NC.",
+          "importanza": 8,
+          "fonte": "4 comments · 7 months ago",
+          "data": "2025-10-23",
+          "url": "https://www.reddit.com/r/Machinists/comments/1j3f4k1/sodick_wire_edm_question/",
+          "costruttore": "Sodick"
         },
         {
-          "titolo": "EDM Machining | wire breaks problem troubleshooting",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Checked your wire tension? Checked your pinch roller adjustment? Cleaned and checked your power and ground connections? Changed your lower ...",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
+          "titolo": "Eliminating problems with EDM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "High precision die-sink operations require a holistic EDM process approach says Martin Spencer, managing director at GF Machining Solutions UK.",
+          "importanza": 8,
+          "fonte": "https://www.pesmedia.com / eliminating-problems-edm",
+          "data": "2025-10-23",
+          "url": "https://www.pesmedia.com/eliminating-problems-edm",
+          "costruttore": "GF Machining"
         },
         {
-          "titolo": "Guidance for High Quality Surface Finish from EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Newer sinker EDM equipment will give you a better surface finish compared to older sinkers assuming equivalent quality electrodes.",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
+          "titolo": "Case 2, Resistivity error :EDM remote service｜MITSUBISHI ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "This alarm appears when the fluid conductivity rises above a normal level the ion exchange resin might be out.",
+          "importanza": 8,
+          "fonte": "390+ views · 7 years ago",
+          "data": "2025-10-23",
+          "url": "https://www.youtube.com/watch?v=q3ire_gdQS4",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "Controlling Surface Finishes with Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The truth is that wire EDM can easily achieve surface finishes smooth enough for even aerospace and medical applications.",
-          "importanza": 6,
-          "fonte": "https://www.arbisermachine.com › blog › can-wire-edm...",
-          "data": "2025-10-23"
+          "titolo": "Thread: Mitsubishi Wire EDM - Industry Arena",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The problem is that the machine is death, it does not let me to run the water thru the resin tank. I can move all the axis, but when i try to ...",
+          "importanza": 8,
+          "fonte": "https://en.industryarena.com / forum / mitsubishi-wire-e...",
+          "data": "2025-10-23",
+          "url": "https://en.industryarena.com/forum/mitsubishi-wire-edm--65875.html",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "How To Improve The Surface Finish Of Cut Pieces By Wire ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The surface finish will be improved by taking the following measures: 1. appropriately reduce the pulse width and peak current, that is, reduce the size of the ...",
-          "importanza": 6,
-          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
-          "data": "2025-10-23"
+          "titolo": "Thread: Mitsubishi EDM Taper Cutting Problem (Buttress ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "I am having two problems with cutting a Buttress thread lathe tool out of a 3/8”x3/8”x3” HSS tool blank on a Mitsubishi FA-S wire machine using the 4 th axis.",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / 351156-cadcam-cam",
+          "data": "2025-10-23",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/351156-cadcam-cam.html",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "EDM Surface Finishing Explained",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Shorter pulse durations and higher frequencies generally yield better surface finishes by minimising the amount of material removed per discharge. Flushing ...",
-          "importanza": 6,
-          "fonte": "https://www.amedm.co.uk › edm-surface-finishing-expl...",
-          "data": "2025-10-23"
+          "titolo": "Makino Sinker EDM hyper i Arcing issue",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Makino Sinker EDM hyper i Arcing issue ... When graphite chips/breaks off and gets trapped in the cut, it can cause issues such as you pictured.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/makino-sinker-edm-hyper-i-arcing-issue.435831/",
+          "costruttore": "Makino"
         },
         {
-          "titolo": "Surface Finish of Electrical Discharge Wire Cutting (EDM)",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Proper pulse timing can promote uniform melting and evaporation of material, thereby enhancing the surface finish of the cut.",
-          "importanza": 6,
-          "fonte": "https://www.carbide-products.com › blog › surface-fini...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Featuring Sodick's patented flat rigid linear motors, our machines maximize cutting performance and part accuracy with less cost of operation.",
-          "importanza": 6,
-          "fonte": "https://sodick.com › Machines",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Sodick",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Expand your capabilities, and increase productivity with Sodick's cutting-edge EDM, high-speed milling, and additive manufacturing solutions.",
-          "importanza": 6,
-          "fonte": "https://sodick.com",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Sinker EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The new AL40G, AL60G and AL80G are the next-generation die-sinker EDM that fuses discharge control technology carefully nurtured since the foundation of the ...",
-          "importanza": 6,
-          "fonte": "https://sodick.com › Machines",
-          "data": "2025-10-23"
-        }
-      ]
-    }
-  },
-  {
-    "timestamp": "2025-10-23T19:48:09.527921",
-    "data": {
-      "notizie": [
-        {
-          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "This guide explores common wire EDM problems, outlines preventive strategies, and provides troubleshooting steps for how to fix wire breaks in ...",
-          "importanza": 6,
-          "fonte": "https://www.sstconsumables.com › article › edm19",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "What do you adjust first when you break wire",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Increasing SV (Servo Voltage) acts like a \"shock absorber\" and will help with wire breaks but will slow the cut. You most likely can back down ...",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "The possible reasons and solutions of the wire-breaking ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "1) Poor electrical discharging condition: Try to Reduce the P value firstly. If the wire still break, try to reduce I value till wire stops breaking. This ...",
-          "importanza": 6,
-          "fonte": "http://www.techedm.com › N_view",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Why Do EDM Wires Break?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Adequate flushing is needed to keep EDM wires from breaking. This article explains why wires break, and how dielectric fluid delivered with sufficient flow ...",
-          "importanza": 6,
-          "fonte": "https://www.ctemag.com › articles › why-do-edm-wires-...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire Cut EDM Machine Issues & Solutions",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Troubleshoot common Wire EDM problems with DMNC EDM's professional solutions. Learn how to resolve cutting errors, wire breaks, and precision issues for ...",
-          "importanza": 6,
-          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire EDM Processing: Problems and Solutions 101 - SANS",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "1. Wire Broken · 2. Processing Speed Problem · 3. Surface Line Problems · 4. The Surface Of The Workpiece Is Not Polished · 5. Large Cutting Shape ...",
-          "importanza": 6,
-          "fonte": "https://www.sansmachining.com › wire-edm-processing...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "EDM Machining | wire breaks problem troubleshooting",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Checked your wire tension? Checked your pinch roller adjustment? Cleaned and checked your power and ground connections? Changed your lower ...",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Guidance for High Quality Surface Finish from EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Newer sinker EDM equipment will give you a better surface finish compared to older sinkers assuming equivalent quality electrodes.",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Controlling Surface Finishes with Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The truth is that wire EDM can easily achieve surface finishes smooth enough for even aerospace and medical applications.",
-          "importanza": 6,
-          "fonte": "https://www.arbisermachine.com › blog › can-wire-edm...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "How To Improve The Surface Finish Of Cut Pieces By Wire ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The surface finish will be improved by taking the following measures: 1. appropriately reduce the pulse width and peak current, that is, reduce the size of the ...",
-          "importanza": 6,
-          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "EDM Surface Finishing Explained",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Shorter pulse durations and higher frequencies generally yield better surface finishes by minimising the amount of material removed per discharge. Flushing ...",
-          "importanza": 6,
-          "fonte": "https://www.amedm.co.uk › edm-surface-finishing-expl...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Surface Finish of Electrical Discharge Wire Cutting (EDM)",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Proper pulse timing can promote uniform melting and evaporation of material, thereby enhancing the surface finish of the cut.",
-          "importanza": 6,
-          "fonte": "https://www.carbide-products.com › blog › surface-fini...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Featuring Sodick's patented flat rigid linear motors, our machines maximize cutting performance and part accuracy with less cost of operation.",
-          "importanza": 6,
-          "fonte": "https://sodick.com › Machines",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Sodick",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Expand your capabilities, and increase productivity with Sodick's cutting-edge EDM, high-speed milling, and additive manufacturing solutions.",
-          "importanza": 6,
-          "fonte": "https://sodick.com",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Sinker EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The new AL40G, AL60G and AL80G are the next-generation die-sinker EDM that fuses discharge control technology carefully nurtured since the foundation of the ...",
-          "importanza": 6,
-          "fonte": "https://sodick.com › Machines",
-          "data": "2025-10-23"
-        }
-      ]
-    }
-  },
-  {
-    "timestamp": "2025-10-23T20:39:05.987314",
-    "data": {
-      "notizie": [
-        {
-          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "This guide explores common wire EDM problems, outlines preventive strategies, and provides troubleshooting steps for how to fix wire breaks in ...",
-          "importanza": 6,
-          "fonte": "https://www.sstconsumables.com › article › edm19",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "What do you adjust first when you break wire",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Increasing SV (Servo Voltage) acts like a \"shock absorber\" and will help with wire breaks but will slow the cut. You most likely can back down ...",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "The possible reasons and solutions of the wire-breaking ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "1) Poor electrical discharging condition: Try to Reduce the P value firstly. If the wire still break, try to reduce I value till wire stops breaking. This ...",
-          "importanza": 6,
-          "fonte": "http://www.techedm.com › N_view",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Why Do EDM Wires Break?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Adequate flushing is needed to keep EDM wires from breaking. This article explains why wires break, and how dielectric fluid delivered with sufficient flow ...",
-          "importanza": 6,
-          "fonte": "https://www.ctemag.com › articles › why-do-edm-wires-...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire EDM breakage issues? : r/Machinists",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Make sure parameters match what is suggested for wire size/type for the kind of material and the workpiece thickness.",
-          "importanza": 6,
-          "fonte": "8 comments · 4 years ago",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire Cut EDM Machine Issues & Solutions",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Common issues include open circuit, short circuit, arc discharge, and wire loss due to friction, material deflection, and wire wear.",
-          "importanza": 6,
-          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire EDM Processing: Problems and Solutions 101 - SANS",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Common problems in Wire EDM include wire breakage, processing speed issues, surface line problems, and large cutting shape errors.",
-          "importanza": 6,
-          "fonte": "https://www.sansmachining.com › wire-edm-processing...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "EDM Machining | wire breaks problem troubleshooting",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Check for weak bottom wetting, damaged contact, high tension, misadjusted injection, low wire speed, dirty bottom head, and pinch roller ...",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Questions and Answers about Wire Electric Discharge ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Problems and troubleshooting ; 1. Wire breaking · ⑤Breaking after cutting 5 mm or more ; 2. Error of cutting accuracy, ①Shaping defect. Insufficient pressing force ...",
-          "importanza": 6,
-          "fonte": "https://www.proterial.com › products › discharge_wire_...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Guidance for High Quality Surface Finish from EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Newer sinker EDM equipment will give you a better surface finish compared to older sinkers assuming equivalent quality electrodes.",
-          "importanza": 6,
-          "fonte": "https://www.practicalmachinist.com › forum › threads",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Controlling Surface Finishes with Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "The truth is that wire EDM can easily achieve surface finishes smooth enough for even aerospace and medical applications.",
-          "importanza": 6,
-          "fonte": "https://www.arbisermachine.com › blog › can-wire-edm...",
-          "data": "2025-10-23"
+          "titolo": "Makino wire EDM touch problem",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The problem is with the TOUCH function. If I try to find a hole center or a workpiece edge, the machine starts to move, searching for the edge ...",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / waterjet-general-topics / 70...",
+          "data": "2025-10-23",
+          "url": "https://www.cnczone.com/forums/waterjet-general-topics/70600-makino-wire-edm-touch-problem-new-post.html",
+          "costruttore": "Makino"
         },
         {
           "titolo": "Additive Solves EDM Surface Finish Problem",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Other benefits include a 30 percent reduction in machining time as well as reducedfinishing time compared to standard EDM technology.",
-          "importanza": 6,
-          "fonte": "https://www.makino.com › resources › article › archive",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "How To Improve The Surface Finish Of Cut Pieces By Wire ...",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Improve surface finish by reducing pulse width/current, maintaining wire tension, using non-new working liquid, and adding plates for thin workpieces.",
-          "importanza": 6,
-          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Surface Finish of Electrical Discharge Wire Cutting (EDM)",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Proper pulse timing can promote uniform melting and evaporation of material, thereby enhancing the surface finish of the cut.",
-          "importanza": 6,
-          "fonte": "https://www.carbide-products.com › blog › surface-fini...",
-          "data": "2025-10-23"
-        },
-        {
-          "titolo": "Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Featuring Sodick's patented flat rigid linear motors, our machines maximize cutting performance and part accuracy with less cost of operation.",
-          "importanza": 6,
-          "fonte": "https://sodick.com › Machines",
-          "data": "2025-10-23"
-        }
-      ]
-    }
-  },
-  {
-    "timestamp": "2025-10-23T21:13:23.577207",
-    "data": {
-      "notizie": [
-        {
-          "titolo": "VN400Q",
-          "categoria": "Innovazioni Tecnologiche",
-          "riassunto": "The VN400Q Wire EDM Machine is a small sized, advanced-performance machine with an upgraded AWT and improved finish. Specs X-Travel: 15.75 (400 mm) Y-Travel: ...",
-          "importanza": 9,
-          "fonte": "https://sodick.com / ... / Wire EDM / VN/VL Series",
-          "data": "2025-10-23",
-          "url": "https://sodick.com/product/vl400q/"
-        },
-        {
-          "titolo": "Wire EDM",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Featuring Sodick's patented flat rigid linear motors, our machines maximize cutting performance and part accuracy with less cost of operation.",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The biggest benefit that Makino ascribes to this technology is achieving a fine finish using graphite rather than copper as the electrode material. Customarily, ...",
           "importanza": 8,
-          "fonte": "https://sodick.com / Machines",
+          "fonte": "https://www.makino.com / resources / article / archive",
           "data": "2025-10-23",
-          "url": "https://sodick.com/machines/wire-edm/"
+          "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
+          "costruttore": "Makino"
         },
         {
-          "titolo": "Sodick Europe Announces Record-Breaking 2025",
-          "categoria": "Nuovi Modelli",
-          "riassunto": "With EMO Hannover just around the corner, Sodick Europe is preparing to unveil new automation options alongside its advanced EDM portfolio.  ...",
+          "titolo": "Fanuc or Makino - EDM Machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "A Wire Chopper can correct or mask certain machine design flaws that would otherwise suffer from a reliability issue, but Wire Chopper units ...",
           "importanza": 8,
-          "fonte": "https://sodick.eu / news / sodick-europe-announces-rec...",
-          "data": "2025-10-23",
-          "url": "https://sodick.eu/news/sodick-europe-announces-record-breaking-2025-as-growth-accelerates-across-key-sectors-and-regions"
-        },
-        {
-          "titolo": "GF Machining Solutions Launches Revolutionary CUT X ...",
-          "categoria": "Nuovi Modelli",
-          "riassunto": "Switzerland-based GF Machining Solutions has unveiled its latest advancement in electrical discharge machining (EDM)  the CUT X Series.",
-          "importanza": 8,
-          "fonte": "https://mtdcnc.com / news / gf-machining-solutions",
-          "data": "2025-10-23",
-          "url": "https://mtdcnc.com/news/gf-machining-solutions/gf-machining-solutions-launches-revolutionary-cut-x-edm-series-with-ai-and-additive-innovations/"
-        },
-        {
-          "titolo": "Illinois, Indiana & Wisconsin - EDM, Macchina Tools & Waterjet",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Innovate Technologies Delivers Advanced Mitsubishi EDM Solutions to TMA. Innovate Technologies installs Mitsubishi MV-1200S Wire EDM and SG8 Sinker EDM at ...",
-          "importanza": 8,
-          "fonte": "https://innovatetec.com",
-          "data": "2025-10-23",
-          "url": "https://innovatetec.com/"
-        },
-        {
-          "titolo": "Milling - EDM - Avanzato Produzione",
-          "categoria": "Innovazioni Tecnologiche",
-          "riassunto": "This trip allowed our team to connect directly with the engineers and experts driving our latest innovations in EDM, Laser, Milling, Automation, and more.",
-          "importanza": 7,
-          "fonte": "https://www.gfms.com / en-us",
-          "data": "2025-10-23",
-          "url": "https://www.gfms.com/en-us.html"
-        },
-        {
-          "titolo": "Conventional EDM (Electrical Discharge Machining)",
-          "categoria": "Innovazioni Tecnologiche",
-          "riassunto": "Aerospace Techniques has employed electrical discharge machining (EDM), having recognized the major impact this technology would have on the machining of ...",
-          "importanza": 7,
-          "fonte": "https://www.aerospacetechniques.com / Services / Conv...",
-          "data": "2025-10-23",
-          "url": "https://www.aerospacetechniques.com/Services/Conventional-EDM/"
-        },
-        {
-          "titolo": "EDM as first Macchina?",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "I want to start a shop and buy a EDM machine. The reason behind this is that I would be providing something different in terms of value ...",
-          "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
           "data": "2025-10-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/edm-as-first-machine.442104/"
+          "url": "https://www.practicalmachinist.com/forum/threads/fanuc-or-makino.350906/",
+          "costruttore": "Makino"
         },
         {
-          "titolo": "Sodick",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Expand your capabilities, and increase productivity with Sodick's cutting-edge EDM, high-speed milling, and additive manufacturing solutions.",
-          "importanza": 6,
-          "fonte": "https://sodick.com",
+          "titolo": "Wire EDM general performance in real terms... | Page 3",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "It is a very heavily built machine, that is now older than the Sodick was when I got it, but I have had almost zero problems with it. Some ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
           "data": "2025-10-23",
-          "url": "https://sodick.com/"
+          "url": "https://www.practicalmachinist.com/forum/threads/wire-edm-general-performance-in-real-terms.426501/page-3",
+          "costruttore": "Sodick"
         },
         {
-          "titolo": "EDM Macchina | Die-sinking | AgieCharmilles FORM E Series",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "At the heart of the AgieCharmilles FORM E 350 sinker EDM solution is GF Machining Solutions' proprietary, high-end Intelligent Speed Power Generator (ISPG). The ...",
-          "importanza": 6,
-          "fonte": "https://www.gfms.com / ... / EDM / Die-sinking EDM",
+          "titolo": "Wire EDM problem and test cuts - Forums",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The cutting went nicely, but what is bothering me is the brass welding in to the already cut gap behind the wire.",
+          "importanza": 8,
+          "fonte": "https://bbs.homeshopmachinist.net / Forum / General",
           "data": "2025-10-23",
-          "url": "https://www.gfms.com/en-us/machines/edm/die-sinking/agiecharmilles-form-e-series.html"
-        },
-        {
-          "titolo": "EDM Solutions | Wire & Sinker EDM Machines",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Mitsubishi wire EDM machines have intuitive, user-friendly controls, internal designs that reduce wear and tear, while minimizing downtime and maintenance ...",
-          "importanza": 6,
-          "fonte": "https://www.mcmachinery.com / technology / edm",
-          "data": "2025-10-23",
-          "url": "https://www.mcmachinery.com/technology/edm/"
-        },
-        {
-          "titolo": "Innovazione for high productivity - Mitsubishi Electric EDM",
-          "categoria": "Innovazioni Tecnologiche",
-          "riassunto": "Turnkey special-purpose machines and automated plant for the high-productivity manufacture of metal and plastics components for road and rail vehicles.",
-          "importanza": 6,
-          "fonte": "https://www.mitsubishielectric-edm.eu / innovation-for-...",
-          "data": "2025-10-23",
-          "url": "https://www.mitsubishielectric-edm.eu/innovation-for-high-productivity/"
-        },
-        {
-          "titolo": "Electrical Discharge Machines | Products",
-          "categoria": "Applicazioni e Mercato",
-          "riassunto": "Mitsubishi Electric Die-sinking EDMs and Wire-cut EDMs enhance productivity with high-speed and high-accuracy.",
-          "importanza": 6,
-          "fonte": "https://www.mitsubishielectric.com / mecha / edm",
-          "data": "2025-10-23",
-          "url": "https://www.mitsubishielectric.com/fa/products/mecha/edm/"
-        },
-        {
-          "titolo": "How to realise EDM's full potential with automation",
-          "categoria": "Innovazioni Tecnologiche",
-          "riassunto": "One eye-catcher that points to a likely Industry 4.0 infrastructure in the future was Makino's iAssist, a collaborative autonomous robot ...",
-          "importanza": 6,
-          "fonte": "https://www.etmm-online.com / EDM",
-          "data": "2025-10-23",
-          "url": "https://www.etmm-online.com/how-to-realise-edms-full-potential-with-automation-a-028f94d27fd0261b0819cf7ed3fba565/"
-        },
-        {
-          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "This guide explores common wire EDM problems, outlines preventive strategies, and provides troubleshooting steps for how to fix wire breaks in ...",
-          "importanza": 5,
-          "fonte": "https://www.sstconsumables.com / article / edm19",
-          "data": "2025-10-23",
-          "url": "https://www.sstconsumables.com/en/knowledgeCenter/article/edm19"
+          "url": "https://bbs.homeshopmachinist.net/forum/general/61820-wire-edm-problem-and-test-cuts",
+          "costruttore": null
         }
       ]
     }
