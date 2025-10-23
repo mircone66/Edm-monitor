@@ -353,5 +353,132 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2025-10-23T20:39:05.987314",
+    "data": {
+      "notizie": [
+        {
+          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "This guide explores common wire EDM problems, outlines preventive strategies, and provides troubleshooting steps for how to fix wire breaks in ...",
+          "importanza": 6,
+          "fonte": "https://www.sstconsumables.com › article › edm19",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "What do you adjust first when you break wire",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Increasing SV (Servo Voltage) acts like a \"shock absorber\" and will help with wire breaks but will slow the cut. You most likely can back down ...",
+          "importanza": 6,
+          "fonte": "https://www.practicalmachinist.com › forum › threads",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "The possible reasons and solutions of the wire-breaking ...",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "1) Poor electrical discharging condition: Try to Reduce the P value firstly. If the wire still break, try to reduce I value till wire stops breaking. This ...",
+          "importanza": 6,
+          "fonte": "http://www.techedm.com › N_view",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Why Do EDM Wires Break?",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Adequate flushing is needed to keep EDM wires from breaking. This article explains why wires break, and how dielectric fluid delivered with sufficient flow ...",
+          "importanza": 6,
+          "fonte": "https://www.ctemag.com › articles › why-do-edm-wires-...",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Wire EDM breakage issues? : r/Machinists",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Make sure parameters match what is suggested for wire size/type for the kind of material and the workpiece thickness.",
+          "importanza": 6,
+          "fonte": "8 comments · 4 years ago",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Wire Cut EDM Machine Issues & Solutions",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Common issues include open circuit, short circuit, arc discharge, and wire loss due to friction, material deflection, and wire wear.",
+          "importanza": 6,
+          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Wire EDM Processing: Problems and Solutions 101 - SANS",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Common problems in Wire EDM include wire breakage, processing speed issues, surface line problems, and large cutting shape errors.",
+          "importanza": 6,
+          "fonte": "https://www.sansmachining.com › wire-edm-processing...",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "EDM Machining | wire breaks problem troubleshooting",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Check for weak bottom wetting, damaged contact, high tension, misadjusted injection, low wire speed, dirty bottom head, and pinch roller ...",
+          "importanza": 6,
+          "fonte": "https://www.practicalmachinist.com › forum › threads",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Questions and Answers about Wire Electric Discharge ...",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Problems and troubleshooting ; 1. Wire breaking · ⑤Breaking after cutting 5 mm or more ; 2. Error of cutting accuracy, ①Shaping defect. Insufficient pressing force ...",
+          "importanza": 6,
+          "fonte": "https://www.proterial.com › products › discharge_wire_...",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Guidance for High Quality Surface Finish from EDM",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Newer sinker EDM equipment will give you a better surface finish compared to older sinkers assuming equivalent quality electrodes.",
+          "importanza": 6,
+          "fonte": "https://www.practicalmachinist.com › forum › threads",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Controlling Surface Finishes with Wire EDM",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "The truth is that wire EDM can easily achieve surface finishes smooth enough for even aerospace and medical applications.",
+          "importanza": 6,
+          "fonte": "https://www.arbisermachine.com › blog › can-wire-edm...",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Additive Solves EDM Surface Finish Problem",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Other benefits include a 30 percent reduction in machining time as well as reducedfinishing time compared to standard EDM technology.",
+          "importanza": 6,
+          "fonte": "https://www.makino.com › resources › article › archive",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "How To Improve The Surface Finish Of Cut Pieces By Wire ...",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Improve surface finish by reducing pulse width/current, maintaining wire tension, using non-new working liquid, and adding plates for thin workpieces.",
+          "importanza": 6,
+          "fonte": "https://www.dmncedm.com › Blog › Wire Cut EDM",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Surface Finish of Electrical Discharge Wire Cutting (EDM)",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Proper pulse timing can promote uniform melting and evaporation of material, thereby enhancing the surface finish of the cut.",
+          "importanza": 6,
+          "fonte": "https://www.carbide-products.com › blog › surface-fini...",
+          "data": "2025-10-23"
+        },
+        {
+          "titolo": "Wire EDM",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Featuring Sodick's patented flat rigid linear motors, our machines maximize cutting performance and part accuracy with less cost of operation.",
+          "importanza": 6,
+          "fonte": "https://sodick.com › Machines",
+          "data": "2025-10-23"
+        }
+      ]
+    }
   }
 ]
