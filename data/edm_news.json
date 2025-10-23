@@ -480,5 +480,147 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2025-10-23T21:13:23.577207",
+    "data": {
+      "notizie": [
+        {
+          "titolo": "VN400Q",
+          "categoria": "Innovazioni Tecnologiche",
+          "riassunto": "The VN400Q Wire EDM Machine is a small sized, advanced-performance machine with an upgraded AWT and improved finish. Specs X-Travel: 15.75 (400 mm) Y-Travel: ...",
+          "importanza": 9,
+          "fonte": "https://sodick.com / ... / Wire EDM / VN/VL Series",
+          "data": "2025-10-23",
+          "url": "https://sodick.com/product/vl400q/"
+        },
+        {
+          "titolo": "Wire EDM",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Featuring Sodick's patented flat rigid linear motors, our machines maximize cutting performance and part accuracy with less cost of operation.",
+          "importanza": 8,
+          "fonte": "https://sodick.com / Machines",
+          "data": "2025-10-23",
+          "url": "https://sodick.com/machines/wire-edm/"
+        },
+        {
+          "titolo": "Sodick Europe Announces Record-Breaking 2025",
+          "categoria": "Nuovi Modelli",
+          "riassunto": "With EMO Hannover just around the corner, Sodick Europe is preparing to unveil new automation options alongside its advanced EDM portfolio.  ...",
+          "importanza": 8,
+          "fonte": "https://sodick.eu / news / sodick-europe-announces-rec...",
+          "data": "2025-10-23",
+          "url": "https://sodick.eu/news/sodick-europe-announces-record-breaking-2025-as-growth-accelerates-across-key-sectors-and-regions"
+        },
+        {
+          "titolo": "GF Machining Solutions Launches Revolutionary CUT X ...",
+          "categoria": "Nuovi Modelli",
+          "riassunto": "Switzerland-based GF Machining Solutions has unveiled its latest advancement in electrical discharge machining (EDM)  the CUT X Series.",
+          "importanza": 8,
+          "fonte": "https://mtdcnc.com / news / gf-machining-solutions",
+          "data": "2025-10-23",
+          "url": "https://mtdcnc.com/news/gf-machining-solutions/gf-machining-solutions-launches-revolutionary-cut-x-edm-series-with-ai-and-additive-innovations/"
+        },
+        {
+          "titolo": "Illinois, Indiana & Wisconsin - EDM, Macchina Tools & Waterjet",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Innovate Technologies Delivers Advanced Mitsubishi EDM Solutions to TMA. Innovate Technologies installs Mitsubishi MV-1200S Wire EDM and SG8 Sinker EDM at ...",
+          "importanza": 8,
+          "fonte": "https://innovatetec.com",
+          "data": "2025-10-23",
+          "url": "https://innovatetec.com/"
+        },
+        {
+          "titolo": "Milling - EDM - Avanzato Produzione",
+          "categoria": "Innovazioni Tecnologiche",
+          "riassunto": "This trip allowed our team to connect directly with the engineers and experts driving our latest innovations in EDM, Laser, Milling, Automation, and more.",
+          "importanza": 7,
+          "fonte": "https://www.gfms.com / en-us",
+          "data": "2025-10-23",
+          "url": "https://www.gfms.com/en-us.html"
+        },
+        {
+          "titolo": "Conventional EDM (Electrical Discharge Machining)",
+          "categoria": "Innovazioni Tecnologiche",
+          "riassunto": "Aerospace Techniques has employed electrical discharge machining (EDM), having recognized the major impact this technology would have on the machining of ...",
+          "importanza": 7,
+          "fonte": "https://www.aerospacetechniques.com / Services / Conv...",
+          "data": "2025-10-23",
+          "url": "https://www.aerospacetechniques.com/Services/Conventional-EDM/"
+        },
+        {
+          "titolo": "EDM as first Macchina?",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "I want to start a shop and buy a EDM machine. The reason behind this is that I would be providing something different in terms of value ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/edm-as-first-machine.442104/"
+        },
+        {
+          "titolo": "Sodick",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Expand your capabilities, and increase productivity with Sodick's cutting-edge EDM, high-speed milling, and additive manufacturing solutions.",
+          "importanza": 6,
+          "fonte": "https://sodick.com",
+          "data": "2025-10-23",
+          "url": "https://sodick.com/"
+        },
+        {
+          "titolo": "EDM Macchina | Die-sinking | AgieCharmilles FORM E Series",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "At the heart of the AgieCharmilles FORM E 350 sinker EDM solution is GF Machining Solutions' proprietary, high-end Intelligent Speed Power Generator (ISPG). The ...",
+          "importanza": 6,
+          "fonte": "https://www.gfms.com / ... / EDM / Die-sinking EDM",
+          "data": "2025-10-23",
+          "url": "https://www.gfms.com/en-us/machines/edm/die-sinking/agiecharmilles-form-e-series.html"
+        },
+        {
+          "titolo": "EDM Solutions | Wire & Sinker EDM Machines",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Mitsubishi wire EDM machines have intuitive, user-friendly controls, internal designs that reduce wear and tear, while minimizing downtime and maintenance ...",
+          "importanza": 6,
+          "fonte": "https://www.mcmachinery.com / technology / edm",
+          "data": "2025-10-23",
+          "url": "https://www.mcmachinery.com/technology/edm/"
+        },
+        {
+          "titolo": "Innovazione for high productivity - Mitsubishi Electric EDM",
+          "categoria": "Innovazioni Tecnologiche",
+          "riassunto": "Turnkey special-purpose machines and automated plant for the high-productivity manufacture of metal and plastics components for road and rail vehicles.",
+          "importanza": 6,
+          "fonte": "https://www.mitsubishielectric-edm.eu / innovation-for-...",
+          "data": "2025-10-23",
+          "url": "https://www.mitsubishielectric-edm.eu/innovation-for-high-productivity/"
+        },
+        {
+          "titolo": "Electrical Discharge Machines | Products",
+          "categoria": "Applicazioni e Mercato",
+          "riassunto": "Mitsubishi Electric Die-sinking EDMs and Wire-cut EDMs enhance productivity with high-speed and high-accuracy.",
+          "importanza": 6,
+          "fonte": "https://www.mitsubishielectric.com / mecha / edm",
+          "data": "2025-10-23",
+          "url": "https://www.mitsubishielectric.com/fa/products/mecha/edm/"
+        },
+        {
+          "titolo": "How to realise EDM's full potential with automation",
+          "categoria": "Innovazioni Tecnologiche",
+          "riassunto": "One eye-catcher that points to a likely Industry 4.0 infrastructure in the future was Makino's iAssist, a collaborative autonomous robot ...",
+          "importanza": 6,
+          "fonte": "https://www.etmm-online.com / EDM",
+          "data": "2025-10-23",
+          "url": "https://www.etmm-online.com/how-to-realise-edms-full-potential-with-automation-a-028f94d27fd0261b0819cf7ed3fba565/"
+        },
+        {
+          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "This guide explores common wire EDM problems, outlines preventive strategies, and provides troubleshooting steps for how to fix wire breaks in ...",
+          "importanza": 5,
+          "fonte": "https://www.sstconsumables.com / article / edm19",
+          "data": "2025-10-23",
+          "url": "https://www.sstconsumables.com/en/knowledgeCenter/article/edm19"
+        }
+      ]
+    }
   }
 ]
