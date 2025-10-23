@@ -177,7 +177,7 @@
         .read-more {
             display: inline-block;
             margin-top: 15px;
-            padding: 10px 20px;
+            padding: 12px 24px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             text-decoration: none;
@@ -185,6 +185,7 @@
             font-size: 0.9em;
             font-weight: 600;
             transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
         }
         
         .read-more:hover {
@@ -254,8 +255,8 @@
                 <button class="filter-btn active" data-filter="all">Tutte</button>
                 <button class="filter-btn" data-filter="Nuovi Modelli">Nuovi Modelli</button>
                 <button class="filter-btn" data-filter="Innovazioni Tecnologiche">Innovazioni</button>
-                <button class="filter-btn" data-filter="Aziende e Mercato">Aziende</button>
-                <button class="filter-btn" data-filter="Ricerca e Brevetti">Ricerca</button>
+                <button class="filter-btn" data-filter="Problemi e Soluzioni">Problemi</button>
+                <button class="filter-btn" data-filter="Applicazioni e Mercato">Applicazioni</button>
                 <button class="filter-btn" data-filter="Eventi e Fiere">Eventi</button>
             </div>
         </div>
@@ -269,14 +270,11 @@
         let allNews = [];
         let currentFilter = 'all';
         
-        // Carica i dati
         async function loadData() {
             try {
-                // Sostituisci con il percorso del tuo file JSON su GitHub
                 const response = await fetch('data/edm_news.json');
                 const data = await response.json();
                 
-                // Estrai tutte le notizie da tutti gli aggiornamenti
                 allNews = [];
                 data.forEach(update => {
                     if (update.data && update.data.notizie) {
@@ -289,13 +287,12 @@
                     }
                 });
                 
-                // Ordina per importanza
-                allNews.sort((a, b) => b.importanza - a.importanza);
+                allNews.sort((a, b) => (b.importanza || 0) - (a.importanza || 0));
                 
                 updateStats();
                 displayNews();
             } catch (error) {
-                console.error('Errore nel caricamento:', error);
+                console.error('Errore caricamento:', error);
                 document.getElementById('newsGrid').innerHTML = `
                     <div class="empty-state">
                         <h2>Nessun dato disponibile</h2>
@@ -309,12 +306,10 @@
             document.getElementById('totalNews').textContent = allNews.length;
             
             if (allNews.length > 0) {
-                // Ultimo aggiornamento
                 const lastDate = new Date(allNews[0].updateTimestamp);
                 document.getElementById('lastUpdate').textContent = 
                     lastDate.toLocaleDateString('it-IT');
                 
-                // Categoria più comune
                 const categories = allNews.map(n => n.categoria);
                 const topCat = categories.sort((a,b) =>
                     categories.filter(v => v===a).length - 
@@ -341,24 +336,38 @@
                 return;
             }
             
-            grid.innerHTML = filtered.map(news => `
-                <div class="news-card">
-                    <div class="news-header">
-                        <h3 class="news-title">${news.titolo}</h3>
-                        <span class="importance-badge">${news.importanza}/10</span>
+            grid.innerHTML = filtered.map(news => {
+                const title = (news.titolo || 'Notizia EDM').replace(/[<>]/g, '');
+                const category = (news.categoria || 'Generale').replace(/[<>]/g, '');
+                const summary = (news.riassunto || '').replace(/[<>]/g, '');
+                const importance = news.importanza || 5;
+                const date = (news.data || 'Data non disponibile').replace(/[<>]/g, '');
+                const source = (news.fonte || 'Web').replace(/[<>›»…]/g, ' ');
+                const url = (news.url || '').trim();
+                
+                let linkButton = '';
+                if (url && url.length > 10 && (url.startsWith('http://') || url.startsWith('https://'))) {
+                    linkButton = `<a href="${url}" target="_blank" rel="noopener noreferrer" class="read-more">Leggi articolo completo →</a>`;
+                }
+                
+                return `
+                    <div class="news-card">
+                        <div class="news-header">
+                            <h3 class="news-title">${title}</h3>
+                            <span class="importance-badge">${importance}/10</span>
+                        </div>
+                        <span class="category-tag">${category}</span>
+                        <p class="news-summary">${summary}</p>
+                        <div class="news-footer">
+                            <span>📅 ${date}</span>
+                            <span>🔗 ${source}</span>
+                        </div>
+                        ${linkButton}
                     </div>
-                    <span class="category-tag">${news.categoria}</span>
-                    <p class="news-summary">${news.riassunto}</p>
-                    <div class="news-footer">
-                        <span>📅 ${news.data || 'Data non disponibile'}</span>
-                        <span>🔗 ${news.fonte || 'Fonte non specificata'}</span>
-                    </div>
-                    ${news.url ? `<a href="${news.url}" target="_blank" rel="noopener noreferrer" class="read-more">Leggi articolo completo →</a>` : ''}
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
         
-        // Gestione filtri
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.filter-btn').forEach(b => 
@@ -369,10 +378,7 @@
             });
         });
         
-        // Carica i dati all'avvio
         loadData();
-        
-        // Ricarica ogni 5 minuti
         setInterval(loadData, 5 * 60 * 1000);
     </script>
 </body>
