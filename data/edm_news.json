@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2025-10-23T21:44:02.465532",
+    "timestamp": "2025-10-24T09:17:15.618115",
     "data": {
       "notizie": [
         {
@@ -9,19 +9,9 @@
           "riassunto": "The problem with it is that it has begun to break wire easily. It's a 16A machine, but can't be run much above 3A or it eats wire. It may go as ...",
           "importanza": 9,
           "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/67409-slightly-ot-repair-of-a-makino-wire-edm-that-eats-wire-need-ideas",
           "costruttore": "Makino"
-        },
-        {
-          "titolo": "Mitsubishi Wire EDM Wire Cut Problems",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The machine is attempting to cut the wire it will just blow short bursts of air and end up not actually cutting the wire (it leaves a wire cut error).",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-wire-cut-problems.291211/",
-          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "EDM Machining | Newbie Problem.",
@@ -29,9 +19,19 @@
           "riassunto": "I am very new to EDM machining. I just took a class on a new Sodick Die Sinker that we have and now I am trying to make some burns.",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.practicalmachinist.com/forum/threads/newbie-problem.110818/",
           "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Mitsubishi Wire EDM Wire Cut Problems",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The machine is attempting to cut the wire it will just blow short bursts of air and end up not actually cutting the wire (it leaves a wire cut error).",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2025-10-24",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-wire-cut-problems.291211/",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "Makino Us false wire breakage - EDM Machining",
@@ -39,17 +39,17 @@
           "riassunto": "False wire breaks are typically the result of a roller issue somewhere, and the (x3) main rollers to look at and pay attention to are the D-Shaft (Main Clutch ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.practicalmachinist.com/forum/threads/makino-us-false-wire-breakage.409732/",
           "costruttore": "Makino"
         },
         {
           "titolo": "MITSUBISHI DWC90C WIRE EDM - CONSTANT ...",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Too high wire tension will cause breaks for obvious reasons. Bad take up rollers ( the wheels on the side that actually pull the wire) if they ...",
+          "riassunto": "The user experienced frequent wire breaks on a Mitsubishi DWC90C. Possible causes include incorrect resistance, old cables, high wire tension, ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-dwc90c-wire-edm-constant-wire-breaks.413824/",
           "costruttore": "Mitsubishi"
         },
@@ -59,17 +59,17 @@
           "riassunto": "I am running a MV1200R Mitsubishi Wire EDM and for some reason my tank wont stay filled with water while running a program.",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-problems.346305/",
           "costruttore": "Mitsubishi"
         },
         {
           "titolo": "WIRE EDM PROBLEM - Fanuc",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut ?",
+          "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut ...",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / forums / fanuc / 427592-...",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.cnczone.com/forums/fanuc/427592-wire-edm-problem-new-post.html",
           "costruttore": "Fanuc"
         },
@@ -79,9 +79,19 @@
           "riassunto": "I have a problem with my sodick wire cut AQ535L, when i press power on botton i get this error message (E00189 tension zero setting error )",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / forums / 265420-sodick-w...",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/265420-sodick-wire-edm-problem.html",
           "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Wire EDM and lack of information online. : r/Machinists",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Personally I'm having an issue with finding info for the OKK machines I run. ... I'm also running into the same issue but with a fanuc wire EDM.",
+          "importanza": 8,
+          "fonte": "80+ comments · 1 year ago",
+          "data": "2025-10-24",
+          "url": "https://www.reddit.com/r/Machinists/comments/1bg4q2c/wire_edm_and_lack_of_information_online/",
+          "costruttore": "Fanuc"
         },
         {
           "titolo": "EDM Machining | Sodick A325 Troubleshooting Problems",
@@ -89,7 +99,7 @@
           "riassunto": "First, when manually threading the wire, when the wire reach the rear discharge rollers after the suction block, the wire speed was extremely fast.",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.practicalmachinist.com/forum/threads/sodick-a325-troubleshooting-problems.411974/",
           "costruttore": "Sodick"
         },
@@ -99,7 +109,7 @@
           "riassunto": "The E000180 Discharge Timeout code means that there's an error with the IPG (Intelligent Power Generator) not communicating properly with the NC.",
           "importanza": 8,
           "fonte": "4 comments · 7 months ago",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.reddit.com/r/Machinists/comments/1j3f4k1/sodick_wire_edm_question/",
           "costruttore": "Sodick"
         },
@@ -109,7 +119,7 @@
           "riassunto": "High precision die-sink operations require a holistic EDM process approach says Martin Spencer, managing director at GF Machining Solutions UK.",
           "importanza": 8,
           "fonte": "https://www.pesmedia.com / eliminating-problems-edm",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.pesmedia.com/eliminating-problems-edm",
           "costruttore": "GF Machining"
         },
@@ -119,18 +129,28 @@
           "riassunto": "This alarm appears when the fluid conductivity rises above a normal level the ion exchange resin might be out.",
           "importanza": 8,
           "fonte": "390+ views · 7 years ago",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.youtube.com/watch?v=q3ire_gdQS4",
           "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "Thread: Mitsubishi Wire EDM - Industry Arena",
+          "titolo": "EDM cutting wire randomly : r/Machinists",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "The problem is that the machine is death, it does not let me to run the water thru the resin tank. I can move all the axis, but when i try to ...",
+          "riassunto": "Mitsubishi recommends 0.008\" gap. Careful increasing flush though, as it can cause vibration in thin parts which can also cause wire breaks and ...",
           "importanza": 8,
-          "fonte": "https://en.industryarena.com / forum / mitsubishi-wire-e...",
-          "data": "2025-10-23",
-          "url": "https://en.industryarena.com/forum/mitsubishi-wire-edm--65875.html",
+          "fonte": "10+ comments · 1 year ago",
+          "data": "2025-10-24",
+          "url": "https://www.reddit.com/r/Machinists/comments/18sytwo/edm_cutting_wire_randomly/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Thread: Mitsubishi FX20 contact problem - Industry Arena",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "It worked fine for a while but since about 5-6 months it started to show a contact with the IP settings of 4 and up. It works fine with smaller power settings.",
+          "importanza": 8,
+          "fonte": "https://en.industryarena.com / forum / mitsubishi-fx20-c...",
+          "data": "2025-10-24",
+          "url": "https://en.industryarena.com/forum/mitsubishi-fx20-contact-problem--322386.html",
           "costruttore": "Mitsubishi"
         },
         {
@@ -139,7 +159,7 @@
           "riassunto": "I am having two problems with cutting a Buttress thread lathe tool out of a 3/8”x3/8”x3” HSS tool blank on a Mitsubishi FA-S wire machine using the 4 th axis.",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / 351156-cadcam-cam",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/351156-cadcam-cam.html",
           "costruttore": "Mitsubishi"
         },
@@ -149,18 +169,8 @@
           "riassunto": "Makino Sinker EDM hyper i Arcing issue ... When graphite chips/breaks off and gets trapped in the cut, it can cause issues such as you pictured.",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.practicalmachinist.com/forum/threads/makino-sinker-edm-hyper-i-arcing-issue.435831/",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Makino wire EDM touch problem",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "The problem is with the TOUCH function. If I try to find a hole center or a workpiece edge, the machine starts to move, searching for the edge ...",
-          "importanza": 8,
-          "fonte": "https://www.cnczone.com / waterjet-general-topics / 70...",
-          "data": "2025-10-23",
-          "url": "https://www.cnczone.com/forums/waterjet-general-topics/70600-makino-wire-edm-touch-problem-new-post.html",
           "costruttore": "Makino"
         },
         {
@@ -169,29 +179,19 @@
           "riassunto": "The biggest benefit that Makino ascribes to this technology is achieving a fine finish using graphite rather than copper as the electrode material. Customarily, ...",
           "importanza": 8,
           "fonte": "https://www.makino.com / resources / article / archive",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
           "costruttore": "Makino"
         },
         {
-          "titolo": "Fanuc or Makino - EDM Machining",
+          "titolo": "Makino wire EDM touch problem",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "A Wire Chopper can correct or mask certain machine design flaws that would otherwise suffer from a reliability issue, but Wire Chopper units ...",
+          "riassunto": "The problem is with the TOUCH function. If I try to find a hole center or a workpiece edge, the machine starts to move, searching for the edge of the workpiece.",
           "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/fanuc-or-makino.350906/",
+          "fonte": "https://www.cnczone.com / waterjet-general-topics / 70...",
+          "data": "2025-10-24",
+          "url": "https://www.cnczone.com/forums/waterjet-general-topics/70600-makino-wire-edm-touch-problem.html",
           "costruttore": "Makino"
-        },
-        {
-          "titolo": "Wire EDM general performance in real terms... | Page 3",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "It is a very heavily built machine, that is now older than the Sodick was when I got it, but I have had almost zero problems with it. Some ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2025-10-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/wire-edm-general-performance-in-real-terms.426501/page-3",
-          "costruttore": "Sodick"
         },
         {
           "titolo": "Wire EDM problem and test cuts - Forums",
@@ -199,7 +199,7 @@
           "riassunto": "The cutting went nicely, but what is bothering me is the brass welding in to the already cut gap behind the wire.",
           "importanza": 8,
           "fonte": "https://bbs.homeshopmachinist.net / Forum / General",
-          "data": "2025-10-23",
+          "data": "2025-10-24",
           "url": "https://bbs.homeshopmachinist.net/forum/general/61820-wire-edm-problem-and-test-cuts",
           "costruttore": null
         }
