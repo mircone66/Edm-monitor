@@ -1,8 +1,209 @@
 [
   {
-    "timestamp": "2026-05-22T11:40:28.193401",
+    "timestamp": "2026-05-23T10:24:16.817247",
     "data": {
-      "notizie": []
+      "notizie": [
+        {
+          "titolo": "Help needed. Sodick A500W, problem filling tank.",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "start the pump for about 0,5seconds with bad noice from relay and the relay dont pull. If I stop filling the tank the pump starts perfect again. This happends ...",
+          "importanza": 9,
+          "fonte": "https://www.cnczone.com / 271386-software-new-post",
+          "data": "2026-05-23",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/271386-software-new-post.html",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Mitsubishi FX 20 - system loading problem",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Hi, I have problem with FX20, after the battery inside cabinet was dischared and the system was out, I tried to reload system.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-fx-20-system-loading-problem.405014/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "MITSUBISHI DWC90C WIRE EDM - CONSTANT ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "My issue is that over the past few month the wire has been breaking at an increased frequency. Last week it was breaking every few minutes.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-dwc90c-wire-edm-constant-wire-breaks.413824/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Fanuc Wire EDM - Change Behavior when Cooler Faults",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Is there a way to change the cooler fault to an alarm, so that the machine stops cutting until the issue is addressed?",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / f...",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/fanuc-wire-edm-change-behavior-when-cooler-faults.418555/",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Problem in FANUC Wire Cut Machine - CNCZone.com",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The old Fanucs won't turn them on automatically without an M86 in the program, or you manually turn on the wire feed, flush, tension, and spark.",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
+          "data": "2026-05-23",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/65262-problem-fanuc-wire-cut-machine-new-post.html",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Wire EDM and lack of information online. : r/Machinists",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Personally I'm having an issue with finding info for the OKK machines I run. ... I'm also running into the same issue but with a fanuc wire EDM.",
+          "importanza": 8,
+          "fonte": "80+ comments · 2 years ago",
+          "data": "2026-05-23",
+          "url": "https://www.reddit.com/r/Machinists/comments/1bg4q2c/wire_edm_and_lack_of_information_online/",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Wire breakage.... - Industrial Forum",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Wire breakage detection pulley is freakin' out !!! Keeps bouncing violently up and down when cutting. Enough to toss wire off pulley and break or error out.",
+          "importanza": 8,
+          "fonte": "https://www.emastercam.com / ... / Industrial Forum",
+          "data": "2026-05-23",
+          "url": "https://www.emastercam.com/forums/topic/7774-wire-breakage/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Sodick wire EDM taper issues",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "If your control settings are not correct, you can influence how the part will be cut and whether you get a taper that's large on the top, small ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-wire-edm-taper-issues.396483/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Intentionally CRASHING Our New Wire EDM 😳 GF ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Intentionally CRASHING Our New Wire EDM GF Machining ... This will lead to serious issues in precision control, affecting your product quality ...",
+          "importanza": 8,
+          "fonte": "https://www.facebook.com / titansofcnc / posts / intent...",
+          "data": "2026-05-23",
+          "url": "https://www.facebook.com/titansofcnc/posts/intentionally-crashing-our-new-wire-edm-gf-machining-solutions/910431537323178/",
+          "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "Mitsubishi Wire EDM problems",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "I am running a MV1200R Mitsubishi Wire EDM and for some reason my tank wont stay filled with water while running a program.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-problems.346305/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Dear Sir, I have a problem with the mitsubishi sx10 edm ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Mill guy thrown on a wire edm Mitsubishi FX10 Replaced the resister on top of machine as 4+5 was bad or which ever works with 5. She ran faster ...",
+          "importanza": 8,
+          "fonte": "1 year ago",
+          "data": "2026-05-23",
+          "url": "https://www.facebook.com/groups/370518224235699/posts/1247210726566440/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "OT...interesting problem ..with.... Makino U6 and some ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "I had a touch or part sensing / location error problem. The best, I can figure is it developed over time. For machines using PICO guides",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/ot-interesting-problem-with-makino-u6-and-some-information.384440/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Additive Solves EDM Surface Finish Problem",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The additive used in Makino's HQSF TM technology overcomes these shortcomings, the company claims. HQSF TM uses a proprietary non-toxic powder, called µSC. Its ...",
+          "importanza": 8,
+          "fonte": "https://www.makino.com / resources / article / archive",
+          "data": "2026-05-23",
+          "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Slightly OT, repair of a Makino wire EDM that eats ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The problem with it is that it has begun to break wire easily. It's a 16A machine, but can't be run much above 3A or it eats wire.",
+          "importanza": 8,
+          "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
+          "data": "2026-05-23",
+          "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/67409-slightly-ot-repair-of-a-makino-wire-edm-that-eats-wire-need-ideas",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Fanuc or Makino - EDM Machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "A Wire Chopper can correct or mask certain machine design flaws that would otherwise suffer from a reliability issue, but Wire Chopper units ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / f...",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/fanuc-or-makino.350906/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Unmatched wire EDM versatility with new FANUC ROBOCUT ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Final Yadm technology has a very big advantage in the so-called wide layer problem which is very interesting for the Aerospace industry.",
+          "importanza": 8,
+          "fonte": "1.3K+ views · 2 years ago",
+          "data": "2026-05-23",
+          "url": "https://www.youtube.com/watch?v=5mV-AAL9ChQ",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Issue with automation and authentication on company's ...",
+          "categoria": "Richieste Funzionalità",
+          "riassunto": "We now have to manually enter credentials to get on the EDM library. This breaks the flow of our software and isn't something we want to do.",
+          "importanza": 8,
+          "fonte": "https://community.sw.siemens.com / question / issue-w...",
+          "data": "2026-05-23",
+          "url": "https://community.sw.siemens.com/s/question/0D54O00006eo5XrSAI/issue-with-automation-and-authentication-on-companys-edm-server",
+          "costruttore": null
+        },
+        {
+          "titolo": "PROBLEM WITH WIRE EDM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "It sounds like your transformer taps and breaker are the most likely problem. If the machine is able to power up at all with the transformer set the way it is,",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-wire-edm.111121/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Setting suggestions/possible problems",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The main problem is bad flush. The only option is a machine with a linear motor z axis to make high speed jumps, pumping the dielectric oil with a hydraulic ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/setting-suggestions-possible-problems.188705/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Newbie Problem.",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Increase your off time and add lots of flusihing even if the piece is submreged. Also have the jump settings such that the electrode comes ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-05-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/newbie-problem.110818/",
+          "costruttore": null
+        }
+      ]
     }
   }
 ]
