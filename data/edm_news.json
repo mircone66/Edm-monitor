@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-08-23T09:22:37.865906",
+    "timestamp": "2026-08-24T09:41:30.784014",
     "data": {
       "notizie": [
         {
@@ -9,7 +9,7 @@
           "riassunto": "When I press \"wire guide open\" it goes to the center of the nozzle , but when the guide is closed it is not centered (the wire goes in Y+ ...",
           "importanza": 9,
           "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/265420-sodick-wire-edm-problem.html",
           "costruttore": "Sodick"
         },
@@ -19,19 +19,9 @@
           "riassunto": "1. You need to have a wire compensation code (G41 or G42) otherwise your U and V won't move properly. Even if you want no comp, you need to use ...",
           "importanza": 9,
           "fonte": "https://www.cnczone.com / forums / 351156-cadcam-cam",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/351156-cadcam-cam.html",
           "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Sodick Short Circuit Error - CNCZONE FORUM - Industry Arena",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Sodick have suggested a few fixes like changing main power cables to tank and also cables to T&B heads but nothing has worked. They have also ...",
-          "importanza": 9,
-          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-08-23",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/434087-sodick-short-circuit-error.html",
-          "costruttore": "Sodick"
         },
         {
           "titolo": "Makino wire EDM touch problem - CNCZONE FORUM",
@@ -39,7 +29,7 @@
           "riassunto": "The problem was with the GAP cable. It was loose and hanging on a thread. After replacing the GAP cable the touch function works fine.",
           "importanza": 9,
           "fonte": "https://en.industryarena.com / forum / thread / 168240-...",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://en.industryarena.com/forum/thread/168240-makino-wire-edm-touch-problem/",
           "costruttore": "Makino"
         },
@@ -49,7 +39,7 @@
           "riassunto": "What I came up with is that the current is uneven , possibly from a defect in the control circuits. A noisy part or bad connection in the ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / ... / General",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.practicalmachinist.com/forum/threads/problem-with-old-makino-ec7050-wire-edm-breaking-wire-at-higher-currents.298912/",
           "costruttore": "Makino"
         },
@@ -59,7 +49,7 @@
           "riassunto": "Discuss ram and wire machining techiniques. EDM cutting machine. Alarm Problems with Mitsubishi Wire EDM. Practical Machinist is the go-to hub for metalworking ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / categories",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.practicalmachinist.com/forum/categories/edm-machining.17/",
           "costruttore": "Mitsubishi"
         },
@@ -69,18 +59,8 @@
           "riassunto": "On our machines if the wire diameter is not set correctly it will not cut the wire,it's on the process control page under PM.",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-wire-cut-problems.291211/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Mitsubishi DWC-110H \"110 WIRE BREAKAGE\" alarm",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Hello! Trying to do some very first cuts with this old machine (year 1988.), unfortunately there occurs this \"110 WIRE BREAKAGE\" alarm ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-08-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-dwc-110h-110-wire-breakage-alarm.377408/",
           "costruttore": "Mitsubishi"
         },
         {
@@ -89,9 +69,19 @@
           "riassunto": "Oftentimes, the cooler fault is a symptom of a much bigger problem (like debris in the line, which could be from a blown filter).",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads / f...",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.practicalmachinist.com/forum/threads/fanuc-wire-edm-change-behavior-when-cooler-faults.418555/",
           "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Mitsubishi DWC-110H \"110 WIRE BREAKAGE\" alarm",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Hello! Trying to do some very first cuts with this old machine (year 1988.), unfortunately there occurs this \"110 WIRE BREAKAGE\" alarm ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-08-24",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-dwc-110h-110-wire-breakage-alarm.377408/",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "WIRE EDM PROBLEM - CNCZONE FORUM - Industry Arena",
@@ -99,7 +89,7 @@
           "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut. ...",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / forums / fanuc / 427592-wi...",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.cnczone.com/forums/fanuc/427592-wire-edm-problem.html",
           "costruttore": null
         },
@@ -109,18 +99,18 @@
           "riassunto": "Wire breakage detection pulley. Enough to toss wire off pulley and break or error out. Sounds like it could be a brake or tensioner problem.",
           "importanza": 8,
           "fonte": "https://www.emastercam.com / ... / Industrial Forum",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.emastercam.com/forums/topic/7774-wire-breakage/",
           "costruttore": null
         },
         {
-          "titolo": "Sodick A325 Mk25 problem with 2-3 skim cuts",
+          "titolo": "Sodick wire EDM taper issues",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "We see odd behaviour when our lower power feed contact is worn. Machine will rough cut fine, but will go super slow or even report shorts on ...",
+          "riassunto": "If the hole is tapered and not angled, the alignment of the upper guide relative to the lower guide cannot be the issue.",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
-          "data": "2026-08-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/sodick-a325-mk25-problem-with-2-3-skim-cuts.410504/",
+          "data": "2026-08-24",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-wire-edm-taper-issues.396483/",
           "costruttore": "Sodick"
         },
         {
@@ -129,39 +119,9 @@
           "riassunto": "Made in the USA has looked into system-wide effects of broken supply chains, automation, skilled workforce issues and our perception of ...",
           "importanza": 8,
           "fonte": "https://www.mmsonline.com / ... / Machining Solutions",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.mmsonline.com/news/gf-machining-solutions-celebrates-70-years-of-edm-technology",
           "costruttore": "GF Machining"
-        },
-        {
-          "titolo": "Mitsubishi Wire EDM problems",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "water level detection floating switch was bad. Both caused the drain gate to open (or entirely fail to close). Try checking them. seal plate ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-08-23",
-          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-problems.346305/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Mitsubishi DWC90C Wire Break Fix: Field Repair Guide",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The reported DWC90C failure was the result of two compounding electrical faults: aged power cables and a failed DC unit board. The combination ...",
-          "importanza": 8,
-          "fonte": "https://industrialmonitordirect.com / knowledgebase",
-          "data": "2026-08-23",
-          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/mitsubishi-dwc90c-wire-edm-fixing-constant-wire-break-failures?srsltid=AfmBOoocU7Hq3lt-BCQuJwHv3RQuRbYbQnDBphjMXYf0YnkMMUfvTklB",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "EDM Machines | Wire & Sinker EDM Solutions",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "\"Tooling for high-speed stamping has some tight tolerances, but the Mitsubishi wire EDMs have no problems meeting those tolerances. To know what we're ...",
-          "importanza": 8,
-          "fonte": "https://www.mcmachinery.com / technology / edm",
-          "data": "2026-08-23",
-          "url": "https://www.mcmachinery.com/technology/edm/",
-          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "OT...interesting problem ..with.... Makino U6 and some ...",
@@ -169,7 +129,7 @@
           "riassunto": "I had a touch or part sensing / location error problem. The best, I can figure is it developed over time. For machines using PICO guides",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.practicalmachinist.com/forum/threads/ot-interesting-problem-with-makino-u6-and-some-information.384440/",
           "costruttore": "Makino"
         },
@@ -179,7 +139,7 @@
           "riassunto": "The additive used in Makino's HQSF TM technology overcomes these shortcomings, the company claims. HQSF TM uses a proprietary non-toxic powder, called µSC. Its ...",
           "importanza": 8,
           "fonte": "https://www.makino.com / resources / article / archive",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
           "costruttore": "Makino"
         },
@@ -189,7 +149,7 @@
           "riassunto": "common reliability problems include screen failures, EMG stop faults, wire breaks, and position drift that usually trace back to fuses, cables, or parameter ...",
           "importanza": 8,
           "fonte": "https://www.facebook.com / fb-answers / fanuc-edm-r...",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.facebook.com/fb-answers/fanuc-edm-reliability-problems/",
           "costruttore": "Fanuc"
         },
@@ -199,9 +159,49 @@
           "riassunto": "Problem: The wire curls in the storage box, therefore causing a ''Wire Jamming'' alarm. changed every bearing from the spool to the feed and ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-08-23",
+          "data": "2026-08-24",
           "url": "https://www.practicalmachinist.com/forum/threads/problem-with-fanuc-alpha-1ib.194192/",
           "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Exemplary reliability: 35-year-old FANUC wire EDM still ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "FANUC wire EDM technology delivers unmatched reliability, the company reports that the last call-out for an issue with any of its FANUC models was over six ...",
+          "importanza": 8,
+          "fonte": "https://www.fanuc.eu / Home / Case Studies",
+          "data": "2026-08-24",
+          "url": "https://www.fanuc.eu/eu-en/case-studies/exemplary-reliability-35-year-old-fanuc-wire-edm-still-daily-use",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Unmatched wire EDM versatility with new FANUC ROBOCUT ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Final Yadm technology has a very big advantage in the so-called wide layer problem which is very interesting for the Aerospace industry.",
+          "importanza": 8,
+          "fonte": "1.3K+ views · 2 years ago",
+          "data": "2026-08-24",
+          "url": "https://www.youtube.com/watch?v=5mV-AAL9ChQ",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "[FR] Electrochemical Machining (ECM) and EDM Retraction",
+          "categoria": "Richieste Funzionalità",
+          "riassunto": "Is your feature request related to a problem? ECM is sort of like EDM, We require a feature that detects when a sensor reports the current is ...",
+          "importanza": 8,
+          "fonte": "https://github.com / MarlinFirmware / Marlin / issues",
+          "data": "2026-08-24",
+          "url": "https://github.com/MarlinFirmware/Marlin/issues/22849",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Problems cutting in center",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The center bore doesn't look clean, its probably not making good contact. Emry or clean the center bore before performing a wire center. Joined ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-08-24",
+          "url": "https://www.practicalmachinist.com/forum/threads/problems-cutting-in-center.417973/",
+          "costruttore": null
         }
       ]
     }
