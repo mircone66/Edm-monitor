@@ -1,137 +1,57 @@
 [
   {
-    "timestamp": "2026-09-24T13:59:05.077436",
+    "timestamp": "2026-09-25T14:24:18.852661",
     "data": {
       "notizie": [
         {
-          "titolo": "Sodick Wire EDM problem ?? - CNCARENA FORUM",
+          "titolo": "Sodick Taper Issue - EDM Machining",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "When I press \"wire guide open\" it goes to the center of the nozzle , but when the guide is closed it is not centered (the wire goes in Y+ ...",
-          "importanza": 9,
-          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-09-24",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/265420-sodick-wire-edm-problem.html",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Mitsubishi EDM Taper Cutting Problem (Buttress Thread Tool)",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "1. You need to have a wire compensation code (G41 or G42) otherwise your U and V won't move properly. Even if you want no comp, you need to use ...",
-          "importanza": 9,
-          "fonte": "https://www.cnczone.com / forums / 351156-cadcam-cam",
-          "data": "2026-09-24",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/351156-cadcam-cam.html",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Makino wire EDM touch problem - CNCZONE FORUM",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "The problem was with the GAP cable. It was loose and hanging on a thread. After replacing the GAP cable the touch function works fine.",
-          "importanza": 9,
-          "fonte": "https://en.industryarena.com / forum / thread / 168240-...",
-          "data": "2026-09-24",
-          "url": "https://en.industryarena.com/forum/thread/168240-makino-wire-edm-touch-problem/",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Problem with old Makino EC7050 wire EDM breaking ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "What I came up with is that the current is uneven , possibly from a defect in the control circuits. A noisy part or bad connection in the ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / ... / General",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-old-makino-ec7050-wire-edm-breaking-wire-at-higher-currents.298912/",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Mitsubishi Wire EDM Wire Cut Problems",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Might check and make sure that A. the wire is getting pushed over and contacting both electrical contacts B. that the current is making it to ...",
+          "riassunto": "I'm cutting a series of identical plates with a 3 degree taper. The first 5 had no issues. The next one I tried the top of the plate was cut in ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-wire-cut-problems.291211/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Alarm Problems with Mitsubishi Wire EDM",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Hey guys, I'm having some problems with my Mitsubishi wire EDM machine, the power went out and when I re-booted the machine a few alarms ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/alarm-problems-with-mitsubishi-wire-edm.287855/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "wire edm problem - cncarena forum - Industry Arena",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut ?",
-          "importanza": 8,
-          "fonte": "https://www.cnczone.com / forums / fanuc / 427592-wi...",
-          "data": "2026-09-24",
-          "url": "https://www.cnczone.com/forums/fanuc/427592-wire-edm-problem.html",
-          "costruttore": null
-        },
-        {
-          "titolo": "wire edm help - CNCARENA FORUM",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "filters and flow hardware is also an issue. Make sure the \"Back off\" circuit is working good, as well, or lots of broke wire. Note: EDM is SLOW ...",
-          "importanza": 8,
-          "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
-          "data": "2026-09-24",
-          "url": "https://www.cnczone.com/forums/waterjet-general-topics/32196-wire-edm-help.html",
-          "costruttore": null
-        },
-        {
-          "titolo": "Sodick EDM Common Problems",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Sodick EDM users often run into flushing issues, wire EDM post problems, and floppy disc failures on older Mark 25 machines. The most talked-about headaches ...",
-          "importanza": 8,
-          "fonte": "https://www.facebook.com / fb-answers / sodick-edm-...",
-          "data": "2026-09-24",
-          "url": "https://www.facebook.com/fb-answers/sodick-edm-common-problems/",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-taper-issue.422052/",
           "costruttore": "Sodick"
         },
         {
-          "titolo": "Sodick wire EDM with a wire chopper issues?",
+          "titolo": "I knew GF… | Giles Walker | 24 comments",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "Maintenance guy here. Our FAV30 has a chopper, used to have issues with he blade and wire getting stuck or jammed occasionally.",
+          "riassunto": "GF Machining Solutions have been sold off ! their product quality goes down then it's an issue. EDM wire /consumables and machine parts ...",
           "importanza": 8,
-          "fonte": "10+ comments · 5 months ago",
-          "data": "2026-09-24",
-          "url": "https://www.facebook.com/groups/769782850345135/posts/1997125717610836/",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Sodick wire EDM taper issues",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "I am having issues cutting a straight hole. I am attempting to wire some 0.1582\" +/- 0.0002\" holes in a 0.210\" thick plate; they appear to be ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/sodick-wire-edm-taper-issues.396483/",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Sodick EDM Software Issues? Expert Troubleshooting Guide",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Software freezes and communication errors frequently disrupt Sodick EDM machine operations. For software issues in Sodick EDM machines, first restart the ...",
-          "importanza": 8,
-          "fonte": "https://www.justanswer.com / computer-programming",
-          "data": "2026-09-24",
-          "url": "https://www.justanswer.com/computer-programming/uwdhr-sodick-edm-machine-software-issue.html",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "GF Machining Solutions Celebrates 70 Years of EDM ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Made in the USA has looked into system-wide effects of broken supply chains, automation, skilled workforce issues and our perception of ...",
-          "importanza": 8,
-          "fonte": "https://www.mmsonline.com / ... / Machining Solutions",
-          "data": "2026-09-24",
-          "url": "https://www.mmsonline.com/news/gf-machining-solutions-celebrates-70-years-of-edm-technology",
+          "fonte": "30+ reactions · 1 year ago",
+          "data": "2026-09-25",
+          "url": "https://www.linkedin.com/posts/giles-walker-7488ba92_gf-machining-solutions-have-been-sold-off-activity-7257697958488338432-0QN-",
           "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "Precision Tool Building via Precision Wire EDM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "In medical applications, care must be taken as to die-component materials due to biocompatibility issues—one more complication. GF Machining ...",
+          "importanza": 8,
+          "fonte": "https://www.metalformingmagazine.com / article / preci...",
+          "data": "2026-09-25",
+          "url": "https://www.metalformingmagazine.com/article/?/materials/tooling-materials/precision-tool-building-via-precision-wire-edm",
+          "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "Trode Trouble shooting - EDM Machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "We are having problems with the graphite trode wearing out depth into the broken drill. It is a Mitsubishi edm sinker. c Wire EDM Positioning ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / t...",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/trode-trouble-shooting.422560/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Mitsubishi MV2400R / MX600 EDM Positioning Accuracy ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "EDM positioning drift causing part dimension errors is usually thermal expansion of the machine casting, encoder scale contamination, or worn drive components.",
+          "importanza": 8,
+          "fonte": "https://dovient.com / troubleshoot / aerospace-defense",
+          "data": "2026-09-25",
+          "url": "https://dovient.com/troubleshoot/aerospace-defense/mitsubishi-mitsubishi-mv2400r-mx600/edm-positioning-accuracy-drift",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "OT...interesting problem ..with.... Makino U6 and some ...",
@@ -139,69 +59,149 @@
           "riassunto": "the water jet ceramic induction tube will have wear issues. The (x2) most common issues I have seen are: 1) Dirty I-Roller on the Upper Head. ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-24",
+          "data": "2026-09-25",
           "url": "https://www.practicalmachinist.com/forum/threads/ot-interesting-problem-with-makino-u6-and-some-information.384440/",
           "costruttore": "Makino"
         },
         {
-          "titolo": "MAKINO wedm users looking for help! New to ...",
+          "titolo": "Micro-EDM Studies of the Fabrication of Customized ...",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Troubleshooting wire edm cutting … the wire often breaks. Replaced replacement parts: water, bearings, carbon, electrical cables and rollers. ...",
+          "riassunto": "ABSTRACT. The fabrication of personalized implants, tailored on patient needs, is a key issue for the future of several surgical fields. The.",
           "importanza": 8,
-          "fonte": "2 comments · 2 years ago",
-          "data": "2026-09-24",
-          "url": "https://www.facebook.com/groups/769782850345135/posts/1407648553225225/",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Sodick EDM UV-wire alignment goes on forever : r/Machinists",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "We have a Sodium VN600 but I suspect the issue is the same on all machines with sodick software. It's just a bad algorithm. I notice that they ...",
-          "importanza": 8,
-          "fonte": "20+ comments · 4 months ago",
-          "data": "2026-09-24",
-          "url": "https://www.reddit.com/r/Machinists/comments/1t54oye/sodick_edm_uvwire_alignment_goes_on_forever/",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "EDM Machining | Problems cutting in center",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The center bore doesn't look clean, its probably not making good contact. Emry or clean the center bore before performing a wire center. Joined ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/problems-cutting-in-center.417973/",
+          "fonte": "https://ebooks.asmedigitalcollection.asme.org / IDETC-C...",
+          "data": "2026-09-25",
+          "url": "https://ebooks.asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/IDETC-CIE2015/57113/4224356/v004t09a028-detc2015-46489.pdf",
           "costruttore": null
         },
         {
-          "titolo": "PROBLEM WITH WIRE EDM",
+          "titolo": "Poll on general electronics failures on CNC",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "It sounds like your transformer taps and breaker are the most likely problem. If the machine is able to power up at all with the transformer set ...",
+          "riassunto": "New Charmilles EDM- board failure, latent defect as battery leakage was a known issue however this was not communicated to customers.",
           "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-wire-edm.111121/",
+          "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/poll-on-general-electronics-failures-on-cnc.419852/",
           "costruttore": null
         },
         {
-          "titolo": "Does Wire EDM change the temper or properties of metal?",
+          "titolo": "EDM Machining | Brother HS-300 on the way | Page 10",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "The recast layer and Heat Affected Zone (HAZ) left on workpiece surfaces by the EDM process can be a problem in aerospace applications.",
+          "riassunto": "one of its failure points was that the discharge cables were ... :wall: for as long as you own a Wire EDM!!! Click to expand... hey ...",
           "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/does-wire-edm-change-the-temper-or-properties-of-metal.325633/",
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/brother-hs-300-on-the-way.419780/page-10",
           "costruttore": null
         },
         {
-          "titolo": "Fanuc Wire EDM - Change Behavior when Cooler Faults",
+          "titolo": "Motor failure - terminal block burned off motor - why?",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Mighty brains of the EDM Forum, I have a Robocut C400iA with a 31 iW control. When the cooler faults, the control throws warning #2064 ...",
+          "riassunto": "However, vibration with a lack of enough varnish is likely a cause of defered failure, once the wires start moving in the slots it is a matter ...",
           "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads / f...",
-          "data": "2026-09-24",
-          "url": "https://www.practicalmachinist.com/forum/threads/fanuc-wire-edm-change-behavior-when-cooler-faults.418555/",
-          "costruttore": "Fanuc"
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/motor-failure-terminal-block-burned-off-motor-why.255511/",
+          "costruttore": null
+        },
+        {
+          "titolo": "CNC Machining | WIRE physical location",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "DK7732/40 Series Wire EDM – Powers On but Drum Won't Move, \"Short Circuit\" Error During Auto Cut · mkom72 · Jul 28, 2026 · EDM Machining.",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/wire-physical-location.424067/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Waterjet leaking water into the mixingchamber and clogging ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Hi you may have a problem with the on off valve situated on the head, this depends on what make of machine you have.",
+          "importanza": 7,
+          "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
+          "data": "2026-09-25",
+          "url": "https://www.cnczone.com/forums/waterjet-general-topics/416674-waterjet-leaking-water-mixingchamber-clogging-system-new-post.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "Moving a Mitsubishi FA20 EDM - CNCZONE FORUM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Ultimately all I am looking for is the information on how to appropriately disconnect the fluid reservoir from the main EDM machine. Thank you ...",
+          "importanza": 7,
+          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
+          "data": "2026-09-25",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/460174-moving-mitsubishi-fa20-edm.html",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Pierce RUR 2500 Burny 10 lcd Lincoln Invertec PC100",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I am having issues getting this Plasma cutting machine up and running. EDM / Waterjet Machines. Looks like a software error to start with. My ...",
+          "importanza": 7,
+          "fonte": "https://www.cnczone.com / forums / 305384-pierce-rur-...",
+          "data": "2026-09-25",
+          "url": "https://www.cnczone.com/forums/general-cnc-plasma-oxy-fuel-cutting-machines/305384-pierce-rur-2500-burny-10-lcd-lincoln.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Electrical Cabinet Overheating Fix : r/Machinists",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "We've got the opposite problem. One of our lathes won't come out of e-stop until a relay warms up, so we put a space heater at the back.",
+          "importanza": 7,
+          "fonte": "8 comments · 5 years ago",
+          "data": "2026-09-25",
+          "url": "https://www.reddit.com/r/Machinists/comments/mcg9tt/edm_electrical_cabinet_overheating_fix/",
+          "costruttore": null
+        },
+        {
+          "titolo": "This is what trust issues looks like : r/Machinists",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "We did this with our wire EDM when it acts up and gives us alarms unexpectedly.",
+          "importanza": 7,
+          "fonte": "70+ comments · 5 months ago",
+          "data": "2026-09-25",
+          "url": "https://www.reddit.com/r/Machinists/comments/1smmu59/this_is_what_trust_issues_looks_like/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Wire threading issues. - EDM Machining",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The machine requires washing and cleaning of the entire wire path. I use a 5% solution of citric or tartaric acid to dissolve the dense ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-25",
+          "url": "https://www.practicalmachinist.com/forum/threads/wire-threading-issues.417969/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Charmilles Robofil 310 wire breakage problems - Industry Arena",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "We have been having troubles with wire breakage during the annealing process of the wire cut function. We just went through the upper and lower ...",
+          "importanza": 7,
+          "fonte": "https://en.industryarena.com / forum / charmilles-robofi...",
+          "data": "2026-09-25",
+          "url": "https://en.industryarena.com/forum/charmilles-robofil-310-wire-breakage-problems--200188.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "Wire EDM machine | Page 2",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The problem/issue is that wire edm has differrent generator requirements from plunge edm. The wire is thin, breaks easily and is subject to ...",
+          "importanza": 7,
+          "fonte": "https://canadianhobbymetalworkers.com / threads / pa...",
+          "data": "2026-09-25",
+          "url": "https://canadianhobbymetalworkers.com/threads/wire-edm-machine.6528/page-2",
+          "costruttore": null
+        },
+        {
+          "titolo": "Any tips manually threading EDM wire ?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I try to break the wire in an attempt to stretch and neck it down, very often I get a kink in the very end that stops it entering the guide, but ...",
+          "importanza": 7,
+          "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
+          "data": "2026-09-25",
+          "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/66030-any-tips-manually-threading-edm-wire",
+          "costruttore": null
         }
       ]
     }
