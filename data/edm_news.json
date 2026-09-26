@@ -1,96 +1,76 @@
 [
   {
-    "timestamp": "2026-09-25T14:24:18.852661",
+    "timestamp": "2026-09-26T13:36:11.920573",
     "data": {
       "notizie": [
         {
-          "titolo": "Sodick Taper Issue - EDM Machining",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "I'm cutting a series of identical plates with a 3 degree taper. The first 5 had no issues. The next one I tried the top of the plate was cut in ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/sodick-taper-issue.422052/",
-          "costruttore": "Sodick"
+          "titolo": "wire edm help - CNCARENA FORUM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Fanuc EDM's I have found to be ultra reliable with great generator codes. filters and flow hardware is also an issue. Make sure the \"Back off\" ...",
+          "importanza": 9,
+          "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
+          "data": "2026-09-26",
+          "url": "https://www.cnczone.com/forums/waterjet-general-topics/32196-wire-edm-help.html",
+          "costruttore": "Fanuc"
         },
         {
-          "titolo": "I knew GF… | Giles Walker | 24 comments",
+          "titolo": "Ar 15 trigger assembly",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "GF Machining Solutions have been sold off ! their product quality goes down then it's an issue. EDM wire /consumables and machine parts ...",
+          "riassunto": "I bought a JP enterprise trigger and although it is nice it has had several malfunctions ... In fact they are cut on 3 Makino edm's. Makino is widely known as the ...",
           "importanza": 8,
-          "fonte": "30+ reactions · 1 year ago",
-          "data": "2026-09-25",
-          "url": "https://www.linkedin.com/posts/giles-walker-7488ba92_gf-machining-solutions-have-been-sold-off-activity-7257697958488338432-0QN-",
-          "costruttore": "GF Machining"
-        },
-        {
-          "titolo": "Precision Tool Building via Precision Wire EDM",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "In medical applications, care must be taken as to die-component materials due to biocompatibility issues—one more complication. GF Machining ...",
-          "importanza": 8,
-          "fonte": "https://www.metalformingmagazine.com / article / preci...",
-          "data": "2026-09-25",
-          "url": "https://www.metalformingmagazine.com/article/?/materials/tooling-materials/precision-tool-building-via-precision-wire-edm",
-          "costruttore": "GF Machining"
-        },
-        {
-          "titolo": "Trode Trouble shooting - EDM Machining",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "We are having problems with the graphite trode wearing out depth into the broken drill. It is a Mitsubishi edm sinker. c Wire EDM Positioning ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads / t...",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/trode-trouble-shooting.422560/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Mitsubishi MV2400R / MX600 EDM Positioning Accuracy ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "EDM positioning drift causing part dimension errors is usually thermal expansion of the machine casting, encoder scale contamination, or worn drive components.",
-          "importanza": 8,
-          "fonte": "https://dovient.com / troubleshoot / aerospace-defense",
-          "data": "2026-09-25",
-          "url": "https://dovient.com/troubleshoot/aerospace-defense/mitsubishi-mitsubishi-mv2400r-mx600/edm-positioning-accuracy-drift",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "OT...interesting problem ..with.... Makino U6 and some ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "the water jet ceramic induction tube will have wear issues. The (x2) most common issues I have seen are: 1) Dirty I-Roller on the Upper Head. ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/ot-interesting-problem-with-makino-u6-and-some-information.384440/",
+          "fonte": "https://forum.accurateshooter.com / threads / ar-15-trigg...",
+          "data": "2026-09-26",
+          "url": "https://forum.accurateshooter.com/threads/ar-15-trigger-assembly.3790987/",
           "costruttore": "Makino"
         },
         {
-          "titolo": "Micro-EDM Studies of the Fabrication of Customized ...",
+          "titolo": "Robocut Edm Fanuc Control Manual Academic PDF",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "ABSTRACT. The fabrication of personalized implants, tailored on patient needs, is a key issue for the future of several surgical fields. The.",
+          "riassunto": "Some frequent problems include: - Unexpected alarms or error codes - Inconsistent machining quality - Electrode wear or breakage - Control communication ...",
           "importanza": 8,
-          "fonte": "https://ebooks.asmedigitalcollection.asme.org / IDETC-C...",
-          "data": "2026-09-25",
-          "url": "https://ebooks.asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/IDETC-CIE2015/57113/4224356/v004t09a028-detc2015-46489.pdf",
-          "costruttore": null
+          "fonte": "https://ddriseandshine.com / paper / RobocutEdm...",
+          "data": "2026-09-26",
+          "url": "https://ddriseandshine.com/paper/uVL4ZDBEEE2T/RobocutEdmFanucControlManual",
+          "costruttore": "Fanuc"
         },
         {
-          "titolo": "Poll on general electronics failures on CNC",
+          "titolo": "Wire threading issues. - EDM Machining",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "New Charmilles EDM- board failure, latent defect as battery leakage was a known issue however this was not communicated to customers.",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/poll-on-general-electronics-failures-on-cnc.419852/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM Machining | Brother HS-300 on the way | Page 10",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "one of its failure points was that the discharge cables were ... :wall: for as long as you own a Wire EDM!!! Click to expand... hey ...",
+          "riassunto": "The machine requires washing and cleaning of the entire wire path. I use a 5% solution of citric or tartaric acid to dissolve the dense sediment ...",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/brother-hs-300-on-the-way.419780/page-10",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/wire-threading-issues.417969/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM through loctite?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I don't think it will be a problem to edm through it, but holding a real tight tolerance might present a problem. We often wedm laminated ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/edm-through-loctite.183525/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Mits DWC90C1 trouble shooting - EDM Machining",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I have received on the slow cutting issue: disconnect & remove your DC module. If you find one that isn't reading correct DCv, then replace it. ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/mits-dwc90c1-trouble-shooting.380215/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Hitachi 254Y HELP!!!",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Wire breaks are a normal part of wire EDM operations. Have you tried changing your spark generator settings to make the cut less aggressive? ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/hitachi-254y-help.272961/",
           "costruttore": null
         },
         {
@@ -99,87 +79,57 @@
           "riassunto": "However, vibration with a lack of enough varnish is likely a cause of defered failure, once the wires start moving in the slots it is a matter ...",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-25",
+          "data": "2026-09-26",
           "url": "https://www.practicalmachinist.com/forum/threads/motor-failure-terminal-block-burned-off-motor-why.255511/",
           "costruttore": null
         },
         {
-          "titolo": "CNC Machining | WIRE physical location",
+          "titolo": "Ona Prima E400 jagged circles - EDM Machining",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "DK7732/40 Series Wire EDM – Powers On but Drum Won't Move, \"Short Circuit\" Error During Auto Cut · mkom72 · Jul 28, 2026 · EDM Machining.",
+          "riassunto": "I have a problem with an E400 Ona prima. It cuts straight lines fine but when cutting a radius it is jagged and has slight flats on it all ...",
           "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/wire-physical-location.424067/",
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/ona-prima-e400-jagged-circles.388178/",
           "costruttore": null
         },
         {
-          "titolo": "Waterjet leaking water into the mixingchamber and clogging ...",
+          "titolo": "Proactive planning for predictable tool failure",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Hi you may have a problem with the on off valve situated on the head, this depends on what make of machine you have.",
+          "riassunto": "There are many factors that contribute to failing consistently from the tools themselves to outside factors like coolant, machine maintenance, material hardness ...",
           "importanza": 7,
-          "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
-          "data": "2026-09-25",
-          "url": "https://www.cnczone.com/forums/waterjet-general-topics/416674-waterjet-leaking-water-mixingchamber-clogging-system-new-post.html",
+          "fonte": "https://www.practicalmachinist.com / Posts",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/proactive-planning-for-predictable-tool-failure/",
           "costruttore": null
         },
         {
-          "titolo": "Moving a Mitsubishi FA20 EDM - CNCZONE FORUM",
+          "titolo": "Agie spirit2 edm issues",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Ultimately all I am looking for is the information on how to appropriately disconnect the fluid reservoir from the main EDM machine. Thank you ...",
+          "riassunto": "I would recheck BIOS settings. If they all look correct, with a keyboard attached, hit the \"windows\" key to get into windows xp. Go to control ...",
           "importanza": 7,
-          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-09-25",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/460174-moving-mitsubishi-fa20-edm.html",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Pierce RUR 2500 Burny 10 lcd Lincoln Invertec PC100",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "I am having issues getting this Plasma cutting machine up and running. EDM / Waterjet Machines. Looks like a software error to start with. My ...",
-          "importanza": 7,
-          "fonte": "https://www.cnczone.com / forums / 305384-pierce-rur-...",
-          "data": "2026-09-25",
-          "url": "https://www.cnczone.com/forums/general-cnc-plasma-oxy-fuel-cutting-machines/305384-pierce-rur-2500-burny-10-lcd-lincoln.html",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM Electrical Cabinet Overheating Fix : r/Machinists",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "We've got the opposite problem. One of our lathes won't come out of e-stop until a relay warms up, so we put a space heater at the back.",
-          "importanza": 7,
-          "fonte": "8 comments · 5 years ago",
-          "data": "2026-09-25",
-          "url": "https://www.reddit.com/r/Machinists/comments/mcg9tt/edm_electrical_cabinet_overheating_fix/",
-          "costruttore": null
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/agie-spirit2-edm-issues.443742/",
+          "costruttore": "Agie"
         },
         {
           "titolo": "This is what trust issues looks like : r/Machinists",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "We did this with our wire EDM when it acts up and gives us alarms unexpectedly.",
+          "riassunto": "the machine in the photo is a wire EDM machine. We did this with our wire EDM when it acts up and gives us alarms unexpectedly.",
           "importanza": 7,
           "fonte": "70+ comments · 5 months ago",
-          "data": "2026-09-25",
+          "data": "2026-09-26",
           "url": "https://www.reddit.com/r/Machinists/comments/1smmu59/this_is_what_trust_issues_looks_like/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Wire threading issues. - EDM Machining",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The machine requires washing and cleaning of the entire wire path. I use a 5% solution of citric or tartaric acid to dissolve the dense ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-25",
-          "url": "https://www.practicalmachinist.com/forum/threads/wire-threading-issues.417969/",
           "costruttore": null
         },
         {
           "titolo": "Charmilles Robofil 310 wire breakage problems - Industry Arena",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "We have been having troubles with wire breakage during the annealing process of the wire cut function. We just went through the upper and lower ...",
+          "riassunto": "EDM Discussion General Topics. Be sure there is not much clearance at the wirebrake(axial).Is the wirebrake belt ok? Stay with Stamm wire or ...",
           "importanza": 7,
           "fonte": "https://en.industryarena.com / forum / charmilles-robofi...",
-          "data": "2026-09-25",
+          "data": "2026-09-26",
           "url": "https://en.industryarena.com/forum/charmilles-robofil-310-wire-breakage-problems--200188.html",
           "costruttore": null
         },
@@ -189,18 +139,68 @@
           "riassunto": "The problem/issue is that wire edm has differrent generator requirements from plunge edm. The wire is thin, breaks easily and is subject to ...",
           "importanza": 7,
           "fonte": "https://canadianhobbymetalworkers.com / threads / pa...",
-          "data": "2026-09-25",
+          "data": "2026-09-26",
           "url": "https://canadianhobbymetalworkers.com/threads/wire-edm-machine.6528/page-2",
           "costruttore": null
         },
         {
           "titolo": "Any tips manually threading EDM wire ?",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "I try to break the wire in an attempt to stretch and neck it down, very often I get a kink in the very end that stops it entering the guide, but ...",
+          "riassunto": "I try to break the wire in an attempt to stretch and neck it down, very often I get a kink in the very end that stops it entering the guide, ...",
           "importanza": 7,
           "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
-          "data": "2026-09-25",
+          "data": "2026-09-26",
           "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/66030-any-tips-manually-threading-edm-wire",
+          "costruttore": null
+        },
+        {
+          "titolo": "Agie charmilles GF EDM CUT 30 probleme",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Get expert advice and feedback on your specific machining challenges from industry leaders. Build your network by sharing your expertise and ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-09-26",
+          "url": "https://www.practicalmachinist.com/forum/threads/agie-charmilles-gf-edm-cut-30-probleme.445097/",
+          "costruttore": "Agie"
+        },
+        {
+          "titolo": "Attentional failures after sleep deprivation are locked to joint ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Attentional failures after sleep deprivation are locked to joint neurovascular, pupil and cerebrospinal fluid flow dynamics",
+          "importanza": 7,
+          "fonte": "https://pubmed.ncbi.nlm.nih.gov / ...",
+          "data": "2026-09-26",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41162627/",
+          "costruttore": null
+        },
+        {
+          "titolo": "2023 Bank Failures: Preliminary lessons learnt for resolution",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "This report describes the bank distress cases that occurred in March 2023 and authorities' approaches to address that distress.",
+          "importanza": 7,
+          "fonte": "https://www.fsb.org / 2023/10 / 2023-bank-failures-pr...",
+          "data": "2026-09-26",
+          "url": "https://www.fsb.org/2023/10/2023-bank-failures-preliminary-lessons-learnt-for-resolution/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Bank Failures in Brief – Summary",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "There were 576 bank failures from 2001 through 2026. See Summary by Year below. For more bank failure information on a specific year, select a date from the ...",
+          "importanza": 7,
+          "fonte": "https://www.fdic.gov / ... / Failed Bank List",
+          "data": "2026-09-26",
+          "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/index",
+          "costruttore": null
+        },
+        {
+          "titolo": "FAILURE Definition & Meaning",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The meaning of FAILURE is omission of occurrence or performance; specifically : a failing to perform a duty or expected action.",
+          "importanza": 7,
+          "fonte": "https://www.merriam-webster.com / dictionary / failure",
+          "data": "2026-09-26",
+          "url": "https://www.merriam-webster.com/dictionary/failure",
           "costruttore": null
         }
       ]
