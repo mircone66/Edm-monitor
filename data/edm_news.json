@@ -1,67 +1,97 @@
 [
   {
-    "timestamp": "2026-09-28T17:16:30.842379",
+    "timestamp": "2026-09-29T15:19:40.880677",
     "data": {
       "notizie": [
         {
-          "titolo": "Yesterday my boss wanted me to machine a square‑corner ...",
+          "titolo": "PROBLEM | English meaning - Cambridge Dictionary",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Sending parts out for wire‑EDM actually costs real cash. The boss wants you to use idle machine capacity to solve the problem instead of forcing ...",
+          "riassunto": "PROBLEM definition: 1. a situation, person, or thing that needs attention and needs to be dealt with or solved: 2. a…. Learn more.",
           "importanza": 8,
-          "fonte": "260+ comments · 3 weeks ago",
-          "data": "2026-09-28",
-          "url": "https://www.reddit.com/r/Machinists/comments/1w5u3am/yesterday_my_boss_wanted_me_to_machine_a/",
+          "fonte": "https://dictionary.cambridge.org / dictionary / problem",
+          "data": "2026-09-29",
+          "url": "https://dictionary.cambridge.org/dictionary/english/problem",
           "costruttore": null
         },
         {
-          "titolo": "Sodick FX20: Fix SMS-01/CMS-01 Transistor Failures",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Root Cause Analysis · A. Low dielectric resistivity · B. Degraded current-feed cables in the water bath · C. Low shop temperature.",
+          "titolo": "Problem-Solving Courts",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Problem-Solving Courts are designed to serve high-risk, high need individuals across the state in all 12 judicial districts.",
           "importanza": 8,
-          "fonte": "https://industrialmonitordirect.com / knowledgebase",
-          "data": "2026-09-28",
-          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/troubleshooting-sodick-fx20-sms-01cms-01-transistor-faults?srsltid=AU7gw4VWkMD4D3n_SUaLGz-psL11mbpAh5oMCIcb-droJZvqYx6mXvKL",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Issues | GitLab Docs",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Issues: Track feature proposals, tasks, support requests, and bug reports. Organize and prioritize work with assignees, due dates, and health status.",
-          "importanza": 8,
-          "fonte": "https://docs.gitlab.com / ... / Work items",
-          "data": "2026-09-28",
-          "url": "https://docs.gitlab.com/user/project/issues/",
+          "fonte": "https://nebraskajudicial.gov / courts / problem-solving-...",
+          "data": "2026-09-29",
+          "url": "https://nebraskajudicial.gov/courts/problem-solving-courts",
           "costruttore": null
         },
         {
-          "titolo": "Ar 15 trigger assembly",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "I bought a JP enterprise trigger and although it is nice it has had several malfunctions ... In fact they are cut on 3 Makino edm's. Makino is widely known as the ...",
+          "titolo": "THC problem - Torch keeps lifting - CNCZONE FORUM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "My main problem is that, when the THC is activated, the torch keeps lifting to the Max THC limit I've set, whether thats 10mm or 30mm. When THC ...",
           "importanza": 8,
-          "fonte": "https://forum.accurateshooter.com / threads / ar-15-trigg...",
-          "data": "2026-09-28",
-          "url": "https://forum.accurateshooter.com/threads/ar-15-trigger-assembly.3790987/",
-          "costruttore": "Makino"
+          "fonte": "https://www.cnczone.com / forums / 346062-cnc",
+          "data": "2026-09-29",
+          "url": "https://www.cnczone.com/forums/cnc-plasma-oxy-fuel-cutting-machines/346062-cnc.html",
+          "costruttore": null
         },
         {
-          "titolo": "Replacing screen with white dots on Fanuc CNC machine",
+          "titolo": "Mitsubishi MV2400R / MX600 EDM Positioning Accuracy ...",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "Makino Command 5 Having problems with the display / monitor turning off. ... What causes Fanuc 0A EDM console screen issues? Curtis ...",
+          "riassunto": "EDM positioning drift causing part dimension errors is usually thermal expansion of the machine casting, encoder scale contamination, or worn drive components.",
           "importanza": 8,
-          "fonte": "9 comments · 3 years ago",
-          "data": "2026-09-28",
-          "url": "https://www.facebook.com/groups/603711620209991/posts/1245628469351633/",
-          "costruttore": "Makino"
+          "fonte": "https://dovient.com / troubleshoot / aerospace-defense",
+          "data": "2026-09-29",
+          "url": "https://dovient.com/troubleshoot/aerospace-defense/mitsubishi-mitsubishi-mv2400r-mx600/edm-positioning-accuracy-drift",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Trode Trouble shooting - EDM Machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "We are having problems with the graphite trode wearing out depth into the broken drill. It is a Mitsubishi edm sinker. c Wire EDM Positioning ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / t...",
+          "data": "2026-09-29",
+          "url": "https://www.practicalmachinist.com/forum/threads/trode-trouble-shooting.422560/",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "Robocut Edm Fanuc Control Manual Academic PDF",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Some frequent problems include: - Unexpected alarms or error codes - Inconsistent machining quality - Electrode wear or breakage - Control communication ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The manual provides detailed instructions on interpreting these diagnostics to quickly resolve issues. Maintenance and Troubleshooting. Routine Maintenance ...",
           "importanza": 8,
           "fonte": "https://ddriseandshine.com / paper / RobocutEdm...",
-          "data": "2026-09-28",
+          "data": "2026-09-29",
           "url": "https://ddriseandshine.com/paper/uVL4ZDBEEE2T/RobocutEdmFanucControlManual",
           "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Problem - song and lyrics by Ariana Grande, Iggy Azalea",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Listen to Problem on Spotify. Song · Ariana Grande, Iggy Azalea · I got one more problem with you, girl, ay. I hate ya I wanna love ya",
+          "importanza": 7,
+          "fonte": "https://open.spotify.com / track",
+          "data": "2026-09-29",
+          "url": "https://open.spotify.com/track/7vS3Y0IKjde7Xg85LWIEdP",
+          "costruttore": null
+        },
+        {
+          "titolo": "PROBLEM Definition & Meaning",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The meaning of PROBLEM is a question raised for inquiry, consideration, or solution. dealing with a problem of conduct or social relationship a ...",
+          "importanza": 7,
+          "fonte": "https://www.merriam-webster.com / dictionary / problem",
+          "data": "2026-09-29",
+          "url": "https://www.merriam-webster.com/dictionary/problem",
+          "costruttore": null
+        },
+        {
+          "titolo": "Problem Gambling Awareness Month (PGAM)",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Problem Gambling Awareness Month is a nationwide grassroots campaign, held annually in March, that seeks to increase public awareness of problem gambling",
+          "importanza": 7,
+          "fonte": "https://www.ncpgambling.org / Problem Gambling",
+          "data": "2026-09-29",
+          "url": "https://www.ncpgambling.org/problem-gambling/pgam/",
+          "costruttore": null
         },
         {
           "titolo": "HL-90/ ESAB shilouette 1000 motor/driver problem",
@@ -69,18 +99,8 @@
           "riassunto": "It sounds as though you have a motor locking up, possibly in the gearhead or in the encoder (I have cracked some encoder discs before from ...",
           "importanza": 7,
           "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
-          "data": "2026-09-28",
+          "data": "2026-09-29",
           "url": "https://www.cnczone.com/forums/general-cnc-plasma-oxy-fuel-cutting-machines/119480-hl-90-esab-shilouette-1000-motor-driver-post877498.html",
-          "costruttore": null
-        },
-        {
-          "titolo": "Eltee Pulsitron - CNC (Mill / Lathe) Control Software (NC)",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Hello, I can help with your ELTEE problems. Send a note to hunteredm@windstream.net and I'll work you through troubleshooting your machine ...",
-          "importanza": 7,
-          "fonte": "https://www.cnczone.com / forums / 114986-eltee-pulsit...",
-          "data": "2026-09-28",
-          "url": "https://www.cnczone.com/forums/cnc-mill-lathe-control-software-nc-/114986-eltee-pulsitron.html",
           "costruttore": null
         },
         {
@@ -89,118 +109,98 @@
           "riassunto": "Hi you may have a problem with the on off valve situated on the head, this depends on what make of machine you have. HI Neal. We tried to swap ...",
           "importanza": 7,
           "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
-          "data": "2026-09-28",
+          "data": "2026-09-29",
           "url": "https://www.cnczone.com/forums/waterjet-general-topics/416674-waterjet-leaking-water-mixingchamber-clogging-system-new-post.html",
           "costruttore": null
         },
         {
-          "titolo": "Charmilles Robofil 310 wire breakage problems - Industry Arena",
+          "titolo": "Eltee Pulsitron - CNC (Mill / Lathe) Control Software (NC)",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "EDM Discussion General Topics. Be sure there is not much clearance at the wirebrake(axial).Is the wirebrake belt ok? Stay with Stamm wire or ...",
+          "riassunto": "Hello, I can help with your ELTEE problems. Send a note to hunteredm@windstream.net and I'll work you through troubleshooting your machine ...",
           "importanza": 7,
-          "fonte": "https://en.industryarena.com / forum / charmilles-robofi...",
-          "data": "2026-09-28",
-          "url": "https://en.industryarena.com/forum/charmilles-robofil-310-wire-breakage-problems--200188.html",
-          "costruttore": null
-        },
-        {
-          "titolo": "Wire stuck in lower guide - EDM Machining",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Hi all: I've a problem in lower guide; the wire is break or stuck in lower head once a week and can't thread in a diamond guide nozzle.",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-28",
-          "url": "https://www.practicalmachinist.com/forum/threads/wire-stuck-in-lower-guide.227036/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Wire EDM machine | Page 2",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The problem/issue is that wire edm has differrent generator requirements from plunge edm. The wire is thin, breaks easily and is subject to ...",
-          "importanza": 7,
-          "fonte": "https://canadianhobbymetalworkers.com / threads / pa...",
-          "data": "2026-09-28",
-          "url": "https://canadianhobbymetalworkers.com/threads/wire-edm-machine.6528/page-2",
-          "costruttore": null
-        },
-        {
-          "titolo": "Any tips manually threading EDM wire ?",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "I try to break the wire in an attempt to stretch and neck it down, very often I get a kink in the very end that stops it entering the guide, ...",
-          "importanza": 7,
-          "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
-          "data": "2026-09-28",
-          "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/66030-any-tips-manually-threading-edm-wire",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM Machining | Dedicated User",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Hello all, My company is having an operator problem, its a case of to many cooks spoil the broth. Six operators all have different setting ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-28",
-          "url": "https://www.practicalmachinist.com/forum/threads/dedicated-user.406771/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Eroding the Challenges of Die-Sink EDM",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "can pose challenging problems during the machining process. Sinker EDMs often can solve the problems posed by machining materials such as high- ...",
-          "importanza": 7,
-          "fonte": "https://www.canadianmetalworking.com / metalworking",
-          "data": "2026-09-28",
-          "url": "https://www.canadianmetalworking.com/canadianindustrialmachinery/article/metalworking/eroding-the-challenges-of-die-sink-edm",
-          "costruttore": null
-        },
-        {
-          "titolo": "Julia Michaels - Issues",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Share your videos with friends, family, and the world.",
-          "importanza": 7,
-          "fonte": "298.5M+ views · 9 years ago",
-          "data": "2026-09-28",
-          "url": "https://www.youtube.com/watch?v=9Ke4480MicU",
-          "costruttore": null
-        },
-        {
-          "titolo": "Issues - song and lyrics by Julia Michaels",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Lyrics. I'm jealous, I'm overzealous. When I'm down I get real down. When I'm high I don't come down. But I get angry, baby, believe me.",
-          "importanza": 7,
-          "fonte": "https://open.spotify.com / track",
-          "data": "2026-09-28",
-          "url": "https://open.spotify.com/track/7vu0JkJh0ldukEYbTVcqd0",
+          "fonte": "https://www.cnczone.com / forums / 114986-eltee-pulsit...",
+          "data": "2026-09-29",
+          "url": "https://www.cnczone.com/forums/cnc-mill-lathe-control-software-nc-/114986-eltee-pulsitron.html",
           "costruttore": null
         },
         {
           "titolo": "ISSUE Definition & Meaning",
-          "categoria": "Problemi per Costruttore",
+          "categoria": "Problemi e Soluzioni",
           "riassunto": "The meaning of ISSUE is a vital or unsettled matter. How to use issue in a sentence. Synonym Discussion of Issue.",
           "importanza": 7,
           "fonte": "https://www.merriam-webster.com / dictionary / issue",
-          "data": "2026-09-28",
+          "data": "2026-09-29",
           "url": "https://www.merriam-webster.com/dictionary/issue",
           "costruttore": null
         },
         {
-          "titolo": "Issues",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "We have teamed up with veeps to bring the very last Issues show to you! link for tickets in bio.",
+          "titolo": "FIT IS A FEMINIST ISSUE – Feminist reflections on fitness ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Feminist reflections on fitness, sport, and health.",
           "importanza": 7,
-          "fonte": "189.6K+ followers",
-          "data": "2026-09-28",
-          "url": "https://x.com/issues",
+          "fonte": "https://fitisafeministissue.com",
+          "data": "2026-09-29",
+          "url": "https://fitisafeministissue.com/",
           "costruttore": null
         },
         {
-          "titolo": "Attentional failures after sleep deprivation are locked to joint ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Attentional failures after sleep deprivation are locked to joint neurovascular, pupil and cerebrospinal fluid flow dynamics",
+          "titolo": "Current Issue | Brevity",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "... Issue 83 / Fall 2026 · Against the Current of the Moment, We Arrived. Nonfiction · Against the Current of the Moment, We Arrived. September 12, 2026 by Minh ...",
           "importanza": 7,
-          "fonte": "https://pubmed.ncbi.nlm.nih.gov / ...",
-          "data": "2026-09-28",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41162627/",
+          "fonte": "https://brevitymag.com / category / current-issue",
+          "data": "2026-09-29",
+          "url": "https://brevitymag.com/category/current-issue/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Food safety becomes an election issue as major outbreaks ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Recent outbreaks of foodborne illness and high-profile recalls have made food safety a concern of voters.",
+          "importanza": 7,
+          "fonte": "https://www.cbsnews.com / HealthWatch",
+          "data": "2026-09-29",
+          "url": "https://www.cbsnews.com/news/food-safety-outbreaks-recalls-midterm-elections/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Electronic dance music",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Following the festival, which was impacted by transportation issues (as there is only one vehicular link between Virginia Key and mainland Miami) and other ...",
+          "importanza": 7,
+          "fonte": "https://en.wikipedia.org / wiki / Electronic_dance_music",
+          "data": "2026-09-29",
+          "url": "https://en.wikipedia.org/wiki/Electronic_dance_music",
+          "costruttore": null
+        },
+        {
+          "titolo": "Edmtrain Concerts • Festivals • Raves",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Upcoming EDM shows near you! 2-6PM happy hour, food, cocktails, live DJs. electroclash, idm, techno. PROBLEMS NYC Promo code 'edmtrain' for 20% OFF Champagne ...",
+          "importanza": 7,
+          "fonte": "https://edmtrain.com",
+          "data": "2026-09-29",
+          "url": "https://edmtrain.com/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Wire EDM | Page 16",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "\"Bad Schrader valve\" was the diagnosis, and with a recharge, was charged $1,200. The fee was a bitter pill for a failed $0.25 part, failed to ...",
+          "importanza": 7,
+          "fonte": "https://www.hobby-machinist.com / wire-edm.118604",
+          "data": "2026-09-29",
+          "url": "https://www.hobby-machinist.com/threads/wire-edm.118604/page-16",
+          "costruttore": null
+        },
+        {
+          "titolo": "Buy Wire EDM machine NEW vs. USED (pros and cons) ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Let me put this stright out: When you are new to EDM, everything is an issue. When you become experienced with EDM, everything is still an issue ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / threads / latest",
+          "data": "2026-09-29",
+          "url": "https://www.practicalmachinist.com/forum/threads/buy-wire-edm-machine-new-vs-used-pros-and-cons-makino-u3-u6-vs-sp64-43-u53-u86.388507/latest",
           "costruttore": null
         }
       ]
