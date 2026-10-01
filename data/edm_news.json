@@ -1,17 +1,27 @@
 [
   {
-    "timestamp": "2026-09-30T15:33:07.238198",
+    "timestamp": "2026-10-01T15:56:22.162686",
     "data": {
       "notizie": [
         {
-          "titolo": "PROBLEM | English meaning - Cambridge Dictionary",
+          "titolo": "Brother HS-300 Wirecut EDM - CNCARENA FORUM",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "PROBLEM definition: 1. a situation, person, or thing that needs attention and needs to be dealt with or solved: 2. a…. Learn more.",
-          "importanza": 8,
-          "fonte": "https://dictionary.cambridge.org / dictionary / problem",
-          "data": "2026-09-30",
-          "url": "https://dictionary.cambridge.org/dictionary/english/problem",
+          "riassunto": "There is a wiring problem in the machine. If you have a wiring manualof the machine. Requesting you to send me the diagram so that i can work ...",
+          "importanza": 9,
+          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
+          "data": "2026-10-01",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/108091-brother-hs-300-wirecut-edm.html",
           "costruttore": null
+        },
+        {
+          "titolo": "Mitsubishi FX20 Chiller issue - CNCARENA FORUM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Could be a bad relay contact, or something in the machine shutting down the chiller, not the chiller actually going in to alarm. I believe one ...",
+          "importanza": 9,
+          "fonte": "https://en.industryarena.com / forum / thread / 264188-...",
+          "data": "2026-10-01",
+          "url": "https://en.industryarena.com/forum/thread/264188-mitsubishi-fx20-chiller-issue/",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "Sodick Taper Issue - EDM Machining",
@@ -19,38 +29,18 @@
           "riassunto": "I'm cutting a series of identical plates with a 3 degree taper. The first 5 had no issues. The next one I tried the top of the plate was cut in ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
-          "data": "2026-09-30",
+          "data": "2026-10-01",
           "url": "https://www.practicalmachinist.com/forum/threads/sodick-taper-issue.422052/",
           "costruttore": "Sodick"
         },
         {
-          "titolo": "Issues | GitLab Docs",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Issues: Track feature proposals, tasks, support requests, and bug reports. Organize and prioritize work with assignees, due dates, and health status.",
+          "titolo": "Mitsubishi RA90 wire EDM error p241 \"NO VARI NUMBER\" ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Is a \"2C31 Lambda probe in front of catalyst; below threshold\" error code that went away after a tank of premium and a few starts something to ...",
           "importanza": 8,
-          "fonte": "https://docs.gitlab.com / ... / Work items",
-          "data": "2026-09-30",
-          "url": "https://docs.gitlab.com/user/project/issues/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Issues, The Band (@issues)",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "They inspired an entire generation of heavy music by doing whatever they wanted and writing whatever they wanted. You don't normally see bands 20 years into ...",
-          "importanza": 8,
-          "fonte": "141.6K+ followers",
-          "data": "2026-09-30",
-          "url": "https://www.instagram.com/issues/?hl=en",
-          "costruttore": null
-        },
-        {
-          "titolo": "Mitsubishi MV2400R / MX600 EDM Positioning Accuracy ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "EDM positioning drift causing part dimension errors is usually thermal expansion of the machine casting, encoder scale contamination, or worn drive components.",
-          "importanza": 8,
-          "fonte": "https://dovient.com / troubleshoot / aerospace-defense",
-          "data": "2026-09-30",
-          "url": "https://dovient.com/troubleshoot/aerospace-defense/mitsubishi-mitsubishi-mv2400r-mx600/edm-positioning-accuracy-drift",
+          "fonte": "1 comment · 1 year ago",
+          "data": "2026-10-01",
+          "url": "https://www.reddit.com/r/Machinists/comments/1gzhosi/mitsubishi_ra90_wire_edm_error_p241_no_vari/",
           "costruttore": "Mitsubishi"
         },
         {
@@ -59,8 +49,8 @@
           "riassunto": "FX10 typically encounter four setup-time problems on first commissioning: the controller is in metric mode by default, the hand-wheel (manual ...",
           "importanza": 8,
           "fonte": "https://industrialmonitordirect.com / knowledgebase",
-          "data": "2026-09-30",
-          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/mitsubishi-fx10-edm-p293-alarm-metric-mode-and-sram-battery?srsltid=AU7gw4VL30ZgZuB9x22r890VCgJkfRkeYO4wo6xbioGVzKpP5C6j9gea",
+          "data": "2026-10-01",
+          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/mitsubishi-fx10-edm-p293-alarm-metric-mode-and-sram-battery?srsltid=AU7gw4VsAZu1dXz5lRynb82FjETHBjRSndB8Zq2Dm5WY1CJ1A86d4x07",
           "costruttore": "Mitsubishi"
         },
         {
@@ -69,99 +59,39 @@
           "riassunto": "When I go to cut the wire it'll attempt to pinch the wire but it won't close far enough, after it fails it just defaults to a Wire Cut Error ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-30",
+          "data": "2026-10-01",
           "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-mv4800-annealing-rollers-wont-close.412024/",
           "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "Machining Manager jobs in Menomonee Falls, WI",
+          "titolo": "Mitsubishi MV2400R / MX600 EDM Positioning Accuracy ...",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "... EDM and Sinker EDM. Starts and observes machine operation to detect malfunctions or out-of-tolerance… ... Makino MMC pallet pool systems, ensuring ...",
+          "riassunto": "EDM positioning drift causing part dimension errors is usually thermal expansion of the machine casting, encoder scale contamination, or worn drive components.",
           "importanza": 8,
-          "fonte": "https://www.indeed.com / q-machining-manager-l-meno...",
-          "data": "2026-09-30",
-          "url": "https://www.indeed.com/q-machining-manager-l-menomonee-falls,-wi-jobs.html",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Reduce wire consumption with FANUC ROBOCUT",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Problem: You have separate Omron and Fanuc silos—programming, diagnostics, and safety procedures differ, slowing down project rollouts.",
-          "importanza": 8,
-          "fonte": "70+ reactions · 1 year ago",
-          "data": "2026-09-30",
-          "url": "https://www.linkedin.com/posts/methods-machine-tools_reduce-wire-consumption-with-fanuc-robocut-activity-7376586957612793856-iyN-",
-          "costruttore": "Fanuc"
-        },
-        {
-          "titolo": "Ariana Grande - Problem ft. Iggy Azalea",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Official video by Ariana Grande ft. Iggy Azalea performing “Problem” – available now: I got ninety-nine problems But you won't be one Like what ...",
-          "importanza": 7,
-          "fonte": "1.5B+ views · 12 years ago",
-          "data": "2026-09-30",
-          "url": "https://www.youtube.com/watch?v=iS1g8G_njx8",
-          "costruttore": null
-        },
-        {
-          "titolo": "Problem - song and lyrics by Ariana Grande, Iggy Azalea",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Song · Ariana Grande, Iggy Azalea · I got one more problem with you, girl, ay. I hate ya I wanna love ya. Wicked: The Soundtrack Album",
-          "importanza": 7,
-          "fonte": "https://open.spotify.com / track",
-          "data": "2026-09-30",
-          "url": "https://open.spotify.com/track/7vS3Y0IKjde7Xg85LWIEdP",
-          "costruttore": null
-        },
-        {
-          "titolo": "Problem Gambling Awareness Month (PGAM)",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Problem Gambling Awareness Month is a nationwide grassroots campaign, held annually in March, that seeks to increase public awareness of problem gambling",
-          "importanza": 7,
-          "fonte": "https://www.ncpgambling.org / Problem Gambling",
-          "data": "2026-09-30",
-          "url": "https://www.ncpgambling.org/problem-gambling/pgam/",
-          "costruttore": null
-        },
-        {
-          "titolo": "PROBLEM Definition & Meaning",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The meaning of PROBLEM is a question raised for inquiry, consideration, or solution. dealing with a problem of conduct or social relationship a ...",
-          "importanza": 7,
-          "fonte": "https://www.merriam-webster.com / dictionary / problem",
-          "data": "2026-09-30",
-          "url": "https://www.merriam-webster.com/dictionary/problem",
-          "costruttore": null
+          "fonte": "https://dovient.com / troubleshoot / aerospace-defense",
+          "data": "2026-10-01",
+          "url": "https://dovient.com/troubleshoot/aerospace-defense/mitsubishi-mitsubishi-mv2400r-mx600/edm-positioning-accuracy-drift",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "Poll on general electronics failures on CNC",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "New Charmilles EDM- board failure, latent defect as battery leakage was a known issue however this was not communicated to customers.",
+          "riassunto": "3. New Charmilles EDM- board failure, latent defect as battery leakage was a known issue however this was not communicated to customers. 4.",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
-          "data": "2026-09-30",
+          "data": "2026-10-01",
           "url": "https://www.practicalmachinist.com/forum/threads/poll-on-general-electronics-failures-on-cnc.419852/",
           "costruttore": null
         },
         {
           "titolo": "CNC Machining | WIRE physical location",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "DK7732/40 Series Wire EDM – Powers On but Drum Won't Move, \"Short Circuit\" Error During Auto Cut · mkom72 · Jul 28, 2026 · EDM Machining.",
+          "riassunto": "Wire EDM – Powers On but Drum Won't Move, \"Short Circuit\" Error During Auto",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
-          "data": "2026-09-30",
+          "data": "2026-10-01",
           "url": "https://www.practicalmachinist.com/forum/threads/wire-physical-location.424067/",
           "costruttore": null
-        },
-        {
-          "titolo": "Charmilles 290 / agie 250hss - EDM Machining",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The reason the hard drive fails is because the machine was turned off. Changing filters were easy and lasted ~300 hours. It auto-threads ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-30",
-          "url": "https://www.practicalmachinist.com/forum/threads/charmilles-290-agie-250hss.243728/",
-          "costruttore": "Agie"
         },
         {
           "titolo": "EDM Machining | Brother HS-300 on the way | Page 10",
@@ -169,38 +99,108 @@
           "riassunto": "one of its failure points was that the discharge cables were ... :wall: for as long as you own a Wire EDM!!! Click to expand... hey ...",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-09-30",
+          "data": "2026-10-01",
           "url": "https://www.practicalmachinist.com/forum/threads/brother-hs-300-on-the-way.419780/page-10",
           "costruttore": null
         },
         {
-          "titolo": "Edmtrain Concerts • Festivals • Raves",
+          "titolo": "Proactive planning for predictable tool failure",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Upcoming EDM shows near you! Hearing Protection. Click to protect, click to chat! 2-6PM happy hour, food, cocktails, live DJs. PROBLEMS NYC Promo code ' ...",
+          "riassunto": "Tool life is often a top priority when working in a high-production environment. How can you proactively plan for predictable tool failure?",
           "importanza": 7,
-          "fonte": "https://edmtrain.com",
-          "data": "2026-09-30",
-          "url": "https://edmtrain.com/",
+          "fonte": "https://www.practicalmachinist.com / Posts",
+          "data": "2026-10-01",
+          "url": "https://www.practicalmachinist.com/proactive-planning-for-predictable-tool-failure/",
           "costruttore": null
         },
         {
-          "titolo": "ISSUE Definition & Meaning",
+          "titolo": "HL-90/ ESAB shilouette 1000 motor/driver problem",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "The meaning of ISSUE is a vital or unsettled matter. Synonym Discussion of Issue. confinement through an outlet. campaign issues like education ...",
+          "riassunto": "It sounds as though you have a motor locking up, possibly in the gearhead or in the encoder (I have cracked some encoder discs before from ...",
           "importanza": 7,
-          "fonte": "https://www.merriam-webster.com / dictionary / issue",
-          "data": "2026-09-30",
-          "url": "https://www.merriam-webster.com/dictionary/issue",
+          "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
+          "data": "2026-10-01",
+          "url": "https://www.cnczone.com/forums/general-cnc-plasma-oxy-fuel-cutting-machines/119480-hl-90-esab-shilouette-1000-motor-driver-post877498.html",
           "costruttore": null
         },
         {
-          "titolo": "FIT IS A FEMINIST ISSUE – Feminist reflections on fitness ...",
+          "titolo": "Eltee Pulsitron - CNC (Mill / Lathe) Control Software (NC)",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Fit Is a Feminist Issue started with a conversation blog co-founders Sam and Tracy have been having for more than two decades about feminism and fitness.",
+          "riassunto": "Hello, I can help with your ELTEE problems. Send a note to hunteredm@windstream.net and I'll work you through troubleshooting your machine.",
           "importanza": 7,
-          "fonte": "https://fitisafeministissue.com",
-          "data": "2026-09-30",
-          "url": "https://fitisafeministissue.com/",
+          "fonte": "https://www.cnczone.com / forums / 114986-eltee-pulsit...",
+          "data": "2026-10-01",
+          "url": "https://www.cnczone.com/forums/cnc-mill-lathe-control-software-nc-/114986-eltee-pulsitron.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "This is what trust issues looks like : r/Machinists",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "This is what trust issues looks like \"error beep\" the machine in the photo is a wire EDM machine so. We did this with our wire EDM when it acts ...",
+          "importanza": 7,
+          "fonte": "70+ comments · 5 months ago",
+          "data": "2026-10-01",
+          "url": "https://www.reddit.com/r/Machinists/comments/1smmu59/this_is_what_trust_issues_looks_like/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Wire EDM machine | Page 2",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The problem/issue is that wire edm has differrent generator requirements from plunge edm. The wire is thin, breaks easily and is subject to ...",
+          "importanza": 7,
+          "fonte": "https://canadianhobbymetalworkers.com / threads / pa...",
+          "data": "2026-10-01",
+          "url": "https://canadianhobbymetalworkers.com/threads/wire-edm-machine.6528/page-2",
+          "costruttore": null
+        },
+        {
+          "titolo": "Charmilles Robofil 310 wire breakage problems - Industry Arena",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "EDM Discussion General Topics. Be sure there is not much clearance at the wirebrake(axial).Is the wirebrake belt ok? Stay with Stamm wire or ...",
+          "importanza": 7,
+          "fonte": "https://en.industryarena.com / forum / charmilles-robofi...",
+          "data": "2026-10-01",
+          "url": "https://en.industryarena.com/forum/charmilles-robofil-310-wire-breakage-problems--200188.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "Hello I have questions about wirecut EDM, When i started ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "On my edm baoma 7763 the wire often breaks. water, bearings, carbon, electrical cables and rollers. the wire broke too many times too quickly. ...",
+          "importanza": 7,
+          "fonte": "10+ comments · 3 years ago",
+          "data": "2026-10-01",
+          "url": "https://www.facebook.com/groups/1155283854594528/posts/5669101449879390/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Dedicated User",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Hello all, My company is having an operator problem, its a case of to many cooks spoil the broth. Six operators all have different setting ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-10-01",
+          "url": "https://www.practicalmachinist.com/forum/threads/dedicated-user.406771/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Eroding the Challenges of Die-Sink EDM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "can pose challenging problems during the machining process. Sinker EDMs often can solve the problems posed by machining materials such as high- ...",
+          "importanza": 7,
+          "fonte": "https://www.canadianmetalworking.com / metalworking",
+          "data": "2026-10-01",
+          "url": "https://www.canadianmetalworking.com/canadianindustrialmachinery/article/metalworking/eroding-the-challenges-of-die-sink-edm",
+          "costruttore": null
+        },
+        {
+          "titolo": "what problem with EDM cutting wire?",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Pls help me anybody. This on what problem",
+          "importanza": 7,
+          "fonte": "5 comments · 1 year ago",
+          "data": "2026-10-01",
+          "url": "https://www.facebook.com/groups/603711620209991/posts/1701089030472239/",
           "costruttore": null
         }
       ]
