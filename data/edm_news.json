@@ -1,206 +1,206 @@
 [
   {
-    "timestamp": "2026-10-02T15:16:32.580168",
+    "timestamp": "2026-10-03T14:09:07.091055",
     "data": {
       "notizie": [
         {
+          "titolo": "Sodick A325 part needed.... - EDM Machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "So one of the Sodick EDM's I run at work won't move in any axis. I keep getting error message \"E164 Machine Over Moved.",
+          "importanza": 9,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-a325-part-needed.306102/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Makino wire EDM touch problem - CNCZONE FORUM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The problem was with the GAP cable. It was loose and hanging on a thread. After replacing the GAP cable the touch function works fine.",
+          "importanza": 9,
+          "fonte": "https://en.industryarena.com / forum / thread / 168240-...",
+          "data": "2026-10-03",
+          "url": "https://en.industryarena.com/forum/thread/168240-makino-wire-edm-touch-problem/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Sodick Vs Other EDM Brands Comparison",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Sodick EDM machines: Linear drives and older model issues ... When comparing Sodick to other EDM brands, Mitsubishi comes up as a common alternative.",
+          "importanza": 8,
+          "fonte": "https://www.facebook.com / fb-answers / sodick-vs-ot...",
+          "data": "2026-10-03",
+          "url": "https://www.facebook.com/fb-answers/sodick-vs-other-edm-brands-comparison/?locale=ru_RU",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "EDM Machining | Sodick_ACL400_ Will not source on",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Problem solved, turns out we were dropping a leg on the incoming power. Reason for dropping a leg, was there was a short in the SO cord at the ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick_acl400_-will-not-source-on.429765/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Sodick Short Circuit Error - EDM Machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "When you try to run at max settings I get a short circuit error, if I lower the settings and keep Amps to about 8 or lower it will run all day ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-short-circuit-error.405540/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "OT...interesting problem ..with.... Makino U6 and some ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "the water jet ceramic induction tube will have wear issues. The (x2) most common issues I have seen are: 1) Dirty I-Roller on the Upper Head. ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/ot-interesting-problem-with-makino-u6-and-some-information.384440/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Device",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Device publishes the applied research needed to make groundbreaking fundamental research into tomorrow's cutting-edge technology.",
+          "importanza": 8,
+          "fonte": "https://www.cell.com / device",
+          "data": "2026-10-03",
+          "url": "https://www.cell.com/device/home",
+          "costruttore": null
+        },
+        {
+          "titolo": "Failure detection and control for wire EDM process using ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Unstable machining conditions during wire EDM process would lead to process failures, affecting the efficiency and sustainability of process.",
+          "importanza": 7,
+          "fonte": "https://strathprints.strath.ac.uk / Puthanveettil_M...",
+          "data": "2026-10-03",
+          "url": "https://strathprints.strath.ac.uk/80701/1/Puthanveettil_Madathil_Chakradhar_CIRPJ_2021_Failure_detection_and_control_for_wire_EDM.pdf",
+          "costruttore": null
+        },
+        {
+          "titolo": "What are some common challenges faced by wire EDM ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Wire EDM Operators often encounter challenges such as maintaining tight tolerances, managing machine maintenance, and troubleshooting wire breakage",
+          "importanza": 7,
+          "fonte": "https://www.ziprecruiter.com / wire-edm-operator-what...",
+          "data": "2026-10-03",
+          "url": "https://www.ziprecruiter.com/e/wire-edm-operator-what-are-some-common-challenges-faced-by-wire-edm-operators-and-how-can-they-be-addressed",
+          "costruttore": null
+        },
+        {
+          "titolo": "Poll on general electronics failures on CNC",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "3. New Charmilles EDM- board failure, latent defect as battery leakage was a known issue however this was not communicated to customers. 4.",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/poll-on-general-electronics-failures-on-cnc.419852/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Brother HS-300 on the way | Page 10",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "one of its failure points was that the discharge cables were ... :wall: for as long as you own a Wire EDM!!! Click to expand... hey ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/brother-hs-300-on-the-way.419780/page-10",
+          "costruttore": null
+        },
+        {
+          "titolo": "Motor failure - terminal block burned off motor - why?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "However, vibration with a lack of enough varnish is likely a cause of defered failure, once the wires start moving in the slots it is a matter ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/motor-failure-terminal-block-burned-off-motor-why.255511/",
+          "costruttore": null
+        },
+        {
+          "titolo": "CNC Machining | WIRE physical location",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "DK7732/40 Series Wire EDM – Powers On but Drum Won't Move, \"Short Circuit\" Error During Auto Cut · mkom72 · Jul 28, 2026 · EDM Machining.",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
+          "data": "2026-10-03",
+          "url": "https://www.practicalmachinist.com/forum/threads/wire-physical-location.424067/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM NEWS",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Just EDM News every week! Seth Troxler over Camelphat abuse. Martin Garrix Announces Breakup, Spinnin' Records launch a new Label",
+          "importanza": 7,
+          "fonte": "https://www.youtube.com / EDMNEWS / videos",
+          "data": "2026-10-03",
+          "url": "https://www.youtube.com/c/EDMNEWS/videos",
+          "costruttore": null
+        },
+        {
+          "titolo": "GRAVEDGR on Why EDM Artists Fail Even With Great Music",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "GRAVEDGR stopped by the show to talk about how the EDM scene has evolved. EDM/Electronic producers drop your tracks. EDM/electronic producers ...",
+          "importanza": 7,
+          "fonte": "4 months ago",
+          "data": "2026-10-03",
+          "url": "https://www.reddit.com/r/EDM/comments/1tdmbqs/gravedgr_on_why_edm_artists_fail_even_with_great/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Additive Solves EDM Surface Finish Problem",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Problems included concerns about the health hazards, difficulty keeping the materials suspended for uniform surface finish (especially on sidewalls), short ...",
+          "importanza": 7,
+          "fonte": "https://www.makino.com / resources / article / archive",
+          "data": "2026-10-03",
+          "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
+          "costruttore": null
+        },
+        {
+          "titolo": "Hello I have questions about wirecut EDM, When i started ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "I got a pretty annoying problem yesterday after a spool change + wire friction calibration : After an automatic wiring, the wiring isn't tighten ...",
+          "importanza": 7,
+          "fonte": "10+ comments · 3 years ago",
+          "data": "2026-10-03",
+          "url": "https://www.facebook.com/groups/1155283854594528/posts/5669101449879390/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Attention to common problems with EDM machines",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "2. Avoid short circuits during discharge machining. Spark machines are prone to forming short circuits during machining, which can easily cause ...",
+          "importanza": 7,
+          "fonte": "2 years ago",
+          "data": "2026-10-03",
+          "url": "https://www.linkedin.com/pulse/attention-common-problems-edm-machines-suzhou-baoma-dglxc",
+          "costruttore": null
+        },
+        {
+          "titolo": "shop edm",
+          "categoria": "Richieste Funzionalità",
+          "riassunto": "To start viewing messages, select the forum that you want to visit from the selection below. shop edm. Pictures and a bit of description here: ...",
+          "importanza": 7,
+          "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
+          "data": "2026-10-03",
+          "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/65721-shop-edm",
+          "costruttore": null
+        },
+        {
           "titolo": "DNC MAX - Industrial Forum",
           "categoria": "Richieste Funzionalità",
-          "riassunto": "My question is is Dnc Max the answer to my problems? Also could someone explane the remote request feature and will it work with any control?",
-          "importanza": 9,
+          "riassunto": "The remote request allows you to call and send back your programs right from the control. Some systems are also wireless.",
+          "importanza": 7,
           "fonte": "https://www.emastercam.com / ... / Industrial Forum",
-          "data": "2026-10-02",
+          "data": "2026-10-03",
           "url": "https://www.emastercam.com/forums/topic/15444-dnc-max/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Cnc machine operator jobs in Westover, MD",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Troubleshoot machine issues, wire breaks, and dimensional deviations. Set up and operate Wire EDM machines (Fanuc, Mitsubishi, Makino, or similar). The Wire EDM ...",
-          "importanza": 8,
-          "fonte": "https://www.indeed.com / q-cnc-machine-operator-l-we...",
-          "data": "2026-10-02",
-          "url": "https://www.indeed.com/q-cnc-machine-operator-l-westover,-md-jobs.html",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Resolving Fanuc FX20K 'Program Not Found' Load Errors",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "For wire EDM platforms, ensure the dielectric tank and fire-suppression interlocks are not inhibited. A corrupted value can cause: Counter ...",
-          "importanza": 8,
-          "fonte": "https://industrialmonitordirect.com / knowledgebase",
-          "data": "2026-10-02",
-          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/resolving-fanuc-fx20k-program-not-found-load-errors?srsltid=AU7gw4XgChgD9GJLjGkpuo7zLcFd6_qKSPztAtuZPxTA4N-2way1BBfD",
-          "costruttore": "Fanuc"
-        },
-        {
-          "titolo": "Reduce wire consumption with FANUC ROBOCUT",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Problem: You have separate Omron and Fanuc silos—programming, diagnostics, and safety procedures differ, slowing down project rollouts.",
-          "importanza": 8,
-          "fonte": "70+ reactions · 1 year ago",
-          "data": "2026-10-02",
-          "url": "https://www.linkedin.com/posts/methods-machine-tools_reduce-wire-consumption-with-fanuc-robocut-activity-7376586957612793856-iyN-",
-          "costruttore": "Fanuc"
-        },
-        {
-          "titolo": "EDM through loctite?",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "I don't think it will be a problem to edm through it, but holding a real tight tolerance might present a problem. We often wedm laminated ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-02",
-          "url": "https://www.practicalmachinist.com/forum/threads/edm-through-loctite.183525/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM Troubleshooting and Techniques | PDF | Machining",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The document discusses problems and challenges related to electrode fabrication for electrical discharge machining (EDM) using rapid prototyping.",
-          "importanza": 7,
-          "fonte": "https://www.scribd.com / document / problemedmpdf-...",
-          "data": "2026-10-02",
-          "url": "https://www.scribd.com/document/567979317/problemedmpdf-GoogleSearch-1648751360975",
-          "costruttore": null
-        },
-        {
-          "titolo": "Wire EDM problem : r/machining",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Electrical discharge machining(EDM) cuts metal using a superfine brass wire. Electricity is zapped through it produces a spark. The electric ...",
-          "importanza": 7,
-          "fonte": "4 comments · 2 years ago",
-          "data": "2026-10-02",
-          "url": "https://www.reddit.com/r/machining/comments/18i5srx/wire_edm_problem/",
-          "costruttore": null
-        },
-        {
-          "titolo": "What is the solution to the problem with the Wire EDM ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Wire melting in Sany excavators is often caused by improper repairs or modifications, such as bridging fuse mounts with wire, which can lead to ...",
-          "importanza": 7,
-          "fonte": "8 comments · 1 year ago",
-          "data": "2026-10-02",
-          "url": "https://www.facebook.com/groups/370518224235699/posts/1329852548302257/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Edmtrain Concerts • Festivals • Raves",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Upcoming EDM shows near you! See your favorite artists live, 2-6PM happy hour, food, cocktails, live DJs. PROBLEMS NYC Promo code 'edmtrain' for 20% OFF ...",
-          "importanza": 7,
-          "fonte": "https://edmtrain.com",
-          "data": "2026-10-02",
-          "url": "https://edmtrain.com/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM: The Definitive Voice of Electronic Dance Music",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The lawsuit arrives more than a year after organizers pulled the plug on their 2025 festival, citing permitting issues at the venue, a claim the property's ...",
-          "importanza": 7,
-          "fonte": "https://edm.com",
-          "data": "2026-10-02",
-          "url": "https://edm.com/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM'ing welded steel : r/Machinists",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "I am trying to cut through a low-carbon steel block that is welded to pliers, and the EDM wire breaks once it reaches the layer of weld. I've ...",
-          "importanza": 7,
-          "fonte": "10+ comments · 4 years ago",
-          "data": "2026-10-02",
-          "url": "https://www.reddit.com/r/Machinists/comments/vo5ey2/edming_welded_steel/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Wire edm : r/Machinists",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Wire breaks usually happen for a few reasons. If you are cutting too fast it will break. If you don't have enough cooling water it will break.",
-          "importanza": 7,
-          "fonte": "8 comments · 2 years ago",
-          "data": "2026-10-02",
-          "url": "https://www.reddit.com/r/Machinists/comments/17vmnu0/wire_edm/",
-          "costruttore": null
-        },
-        {
-          "titolo": "This is what trust issues looks like : r/Machinists",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "the machine in the photo is a wire EDM machine. We did this with our wire EDM when it acts up and gives us alarms unexpectedly.",
-          "importanza": 7,
-          "fonte": "70+ comments · 5 months ago",
-          "data": "2026-10-02",
-          "url": "https://www.reddit.com/r/Machinists/comments/1smmu59/this_is_what_trust_issues_looks_like/",
-          "costruttore": null
-        },
-        {
-          "titolo": "What do you adjust first when you break wire",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Hi All: What do you adjust first when you are breaking wire frequently in the cut. Wire speed or wire tension?",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-02",
-          "url": "https://www.practicalmachinist.com/forum/threads/what-do-you-adjust-first-when-you-break-wire.166005/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Why Do EDM Wires Break?",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "EDM wires break because their fracture toughness is too low to sustain the flaws that are being introduced by the discharges being generated.",
-          "importanza": 7,
-          "fonte": "https://ctemag.com / Articles",
-          "data": "2026-10-02",
-          "url": "https://ctemag.com/articles/why-do-edm-wires-break/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Troubleshooting wire edm cutting issues with aisi 1045 ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Anyone really good with wire edm, because I'm not. My training at work was basically \"run this preset, if it keeps breaking, try this preset.\" After a ...",
-          "importanza": 7,
-          "fonte": "80+ comments · 1 year ago",
-          "data": "2026-10-02",
-          "url": "https://www.facebook.com/groups/769782850345135/posts/1795636867759723/",
-          "costruttore": null
-        },
-        {
-          "titolo": "ELI5: how come the wire in EDM machine doesn't break ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The wire is heated and does degrade, which is why it is constantly pulled past the work piece. If you kept reusing the wire it would wear ...",
-          "importanza": 7,
-          "fonte": "20+ comments · 11 months ago",
-          "data": "2026-10-02",
-          "url": "https://www.reddit.com/r/explainlikeimfive/comments/1ogfada/eli5_how_come_the_wire_in_edm_machine_doesnt/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM wire - breaks frequently during edge-finding on",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "If the EDM wire breaks frequently during edge-finding, the possible reason is the larger wire tension power. Normally the default setting of the wire tension ...",
-          "importanza": 7,
-          "fonte": "http://www.techedm.com / N_view",
-          "data": "2026-10-02",
-          "url": "http://www.techedm.com/N_view.asp?nid=40",
-          "costruttore": null
-        },
-        {
-          "titolo": "Eroding the Challenges of Die-Sink EDM",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "can pose challenging problems during the machining process. Sinker EDMs often can solve the problems posed by machining materials such as high- ...",
-          "importanza": 7,
-          "fonte": "https://www.canadianmetalworking.com / metalworking",
-          "data": "2026-10-02",
-          "url": "https://www.canadianmetalworking.com/canadianindustrialmachinery/article/metalworking/eroding-the-challenges-of-die-sink-edm",
-          "costruttore": null
-        },
-        {
-          "titolo": "How do I get better at wire EDM?",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Went in, wire broke, it auto rethreaded, broke again. Many problems that \"surface\" on a wire machine can be traced back to poor maintenance.",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-02",
-          "url": "https://www.practicalmachinist.com/forum/threads/how-do-i-get-better-at-wire-edm.443185/",
           "costruttore": null
         }
       ]
