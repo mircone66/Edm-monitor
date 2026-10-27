@@ -1,206 +1,206 @@
 [
   {
-    "timestamp": "2026-10-26T15:43:32.843843",
+    "timestamp": "2026-10-27T15:04:39.475798",
     "data": {
       "notizie": [
-        {
-          "titolo": "Sodick Wire EDM problem ?? - CNCARENA FORUM",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "When I press \"wire guide open\" it goes to the center of the nozzle , but when the guide is closed it is not centered (the wire goes in Y+ ...",
-          "importanza": 9,
-          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-10-26",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/265420-sodick-wire-edm-problem.html",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Mitsubishi EDM Taper Cutting Problem (Buttress Thread Tool)",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "1. You need to have a wire compensation code (G41 or G42) otherwise your U and V won't move properly. Even if you want no comp, you need to use ...",
-          "importanza": 9,
-          "fonte": "https://www.cnczone.com / forums / 351156-cadcam-cam",
-          "data": "2026-10-26",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/351156-cadcam-cam.html",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Makino wire EDM touch problem - CNCARENA FORUM",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "The problem was with the GAP cable. It was loose and hanging on a thread. After replacing the GAP cable the touch function works fine.",
-          "importanza": 9,
-          "fonte": "https://en.industryarena.com / forum / thread / 168240-...",
-          "data": "2026-10-26",
-          "url": "https://en.industryarena.com/forum/thread/168240-makino-wire-edm-touch-problem/",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "wire edm help - CNCARENA FORUM",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "filters and flow hardware is also an issue. Make sure the \"Back off\" circuit is working good, as well, or lots of broke wire. Note: EDM is SLOW ...",
-          "importanza": 8,
-          "fonte": "https://www.cnczone.com / ... / Waterjet General Topics",
-          "data": "2026-10-26",
-          "url": "https://www.cnczone.com/forums/waterjet-general-topics/32196-wire-edm-help.html",
-          "costruttore": null
-        },
-        {
-          "titolo": "wire edm problem - cncarena forum - Industry Arena",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut. ...",
-          "importanza": 8,
-          "fonte": "https://www.cnczone.com / forums / fanuc / 427592-wi...",
-          "data": "2026-10-26",
-          "url": "https://www.cnczone.com/forums/fanuc/427592-wire-edm-problem.html",
-          "costruttore": null
-        },
         {
           "titolo": "Wire breakage.... - Industrial Forum",
           "categoria": "Problemi e Soluzioni",
           "riassunto": "Wire breakage detection pulley is freakin' out !!! Keeps bouncing violently up and down when cutting. Enough to toss wire off pulley and break ...",
           "importanza": 8,
           "fonte": "https://www.emastercam.com / ... / Industrial Forum",
-          "data": "2026-10-26",
+          "data": "2026-10-27",
           "url": "https://www.emastercam.com/forums/topic/7774-wire-breakage/",
           "costruttore": null
         },
         {
-          "titolo": "Sodick EDM Common Problems",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Sodick EDM users often run into flushing issues, wire EDM post problems, and floppy disc failures on older Mark 25 machines. The most talked-about headaches ...",
-          "importanza": 8,
-          "fonte": "https://www.facebook.com / fb-answers / sodick-edm-...",
-          "data": "2026-10-26",
-          "url": "https://www.facebook.com/fb-answers/sodick-edm-common-problems/?locale=mk_MK",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Sodick A325 Mk25 problem with 2-3 skim cuts",
+          "titolo": "Any experience with wire edm machines",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "We see odd behaviour when our lower power feed contact is worn. Machine will rough cut fine, but will go super slow or even report shorts on ...",
+          "riassunto": "There are good and bads in either case. The real problem is the maintainence to keep the machine in tolerance. The current 2 Sodicks are older ...",
           "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
-          "data": "2026-10-26",
-          "url": "https://www.practicalmachinist.com/forum/threads/sodick-a325-mk25-problem-with-2-3-skim-cuts.410504/",
+          "fonte": "https://www.hobby-machinist.com / threads / any-expe...",
+          "data": "2026-10-27",
+          "url": "https://www.hobby-machinist.com/threads/any-experience-with-wire-edm-machines.7264/",
           "costruttore": "Sodick"
         },
         {
-          "titolo": "Sodick EDM Software Issues? Expert Troubleshooting Guide",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Software issues on Sodick EDM machines typically stem from control software glitches or parameter/data problems.Start by performing a complete power reset. Turn ...",
-          "importanza": 8,
-          "fonte": "https://www.justanswer.com / computer-programming",
-          "data": "2026-10-26",
-          "url": "https://www.justanswer.com/computer-programming/uwdhr-sodick-edm-machine-software-issue.html",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "GF Machining Solutions",
+          "titolo": "Sodick EDM COND File Error in hard disk",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "A look at some challenges when cutting titanium with wire EDM and ways to mitigate any issues.",
+          "riassunto": "Previous owner has never seen this message: COND FILE error in hard disk unit. Reinstall the COND FILE. This happens when we try to start the ...",
           "importanza": 8,
-          "fonte": "https://www.canadianmetalworking.com / showroom",
-          "data": "2026-10-26",
-          "url": "https://www.canadianmetalworking.com/directory/showroom/gf-machining-solutions",
+          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
+          "data": "2026-10-27",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-edm-cond-file-error-in-hard-disk.431994/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "GF Machining Agie CUT Error Messages",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Does anyone have a pdf or any other document containing error codes and description for all types of GF Machining CNCs? Thank you!",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
+          "data": "2026-10-27",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/473752-gf-machining-agie-cut-error-messages-new-post.html",
           "costruttore": "GF Machining"
         },
         {
-          "titolo": "Agie Charmilles (+GF+) Cut 300SP Reliability Issues",
+          "titolo": "Fanuc EDM wire Trouble shooting questions : r/machining",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "We had some problems with Overpressured lower head, broken bearing on wire chopper, software colapsed. you need to have GF in and fix the ...",
+          "riassunto": "We are having trouble having the auto Graphic displaying the toolpath. It's would flash for a second and disappear. Is this a setting issue or ...",
           "importanza": 8,
+          "fonte": "1 comment",
+          "data": "2026-10-27",
+          "url": "https://www.reddit.com/r/machining/comments/1j54oc2/fanuc_edm_wire_trouble_shooting_questions/",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "A Comprehensive Guide to FANUC Wire EDM Machines",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "FANUC's proprietary CNC technology is renowned for its stability and real-time feedback, reducing the risk of costly errors.",
+          "importanza": 8,
+          "fonte": "https://www.lemhunter.com / Blog",
+          "data": "2026-10-27",
+          "url": "https://www.lemhunter.com/news/a-comprehensive-guide-to-fanuc-wire-edm-machines/",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "The Future of Precision Machining with Best Sodick Wire ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "With Sodick's wire EDM technology continuing to break new ground ... Sodick Wire Edm Prices · Evelyn. Updated: July 13, 2025. Evelyn.",
+          "importanza": 8,
+          "fonte": "https://www.lemhunter.com / Blog",
+          "data": "2026-10-27",
+          "url": "https://www.lemhunter.com/blog/future-of-precision-machining-sodick-wire-edm-technologies/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "EDM in the Era of Industry 4.0: Challenges and Solutions",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Cybersecurity challenges in smart EDM systems; Interoperability issues in integrating EDM with other smart manufacturing technologies; Data ...",
+          "importanza": 7,
+          "fonte": "https://www.market-prospects.com / articles / edm-in-th...",
+          "data": "2026-10-27",
+          "url": "https://www.market-prospects.com/articles/edm-in-the-era-of-industry-4-0-challenges-and-solutions",
+          "costruttore": null
+        },
+        {
+          "titolo": "Diagnosing Common EDM Machining Issues: Causes and ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Learn how to identify and fix frequent wire breakage and poor discharge in EDM machining for improved efficiency and quality.",
+          "importanza": 7,
+          "fonte": "https://www.mfgrobots.com / Article / mfg / mpm",
+          "data": "2026-10-27",
+          "url": "https://www.mfgrobots.com/Article/mfg/mpm/41916.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Process Hidden Dangers: White Layer and Tool Failure",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The hidden issue is the re-cast layer, or \"white layer.\" As molten metal cools rapidly in dielectric fluid, it creates a brittle, ultra-hard ...",
+          "importanza": 7,
+          "fonte": "1 reaction",
+          "data": "2026-10-27",
+          "url": "https://www.linkedin.com/posts/stamod-technologies_edm-is-a-thermal-process-masquerading-as-activity-7458871598578733056-cOrQ",
+          "costruttore": null
+        },
+        {
+          "titolo": "Problem (EDM/Dance Style Song)",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Stream Problem (EDM/Dance Style Song) by Dead Zone Audio on desktop and mobile. Play over 320 million tracks for free on SoundCloud.",
+          "importanza": 7,
+          "fonte": "2 likes",
+          "data": "2026-10-27",
+          "url": "https://soundcloud.com/deadzoneaudioproduction/problem-edmdance-style-song",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | edm wire",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "When I had a BIOS failure of my machine from 2011, I had to send the on board computer to a service center to re-flash the BIOS. EDM not ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-10-27",
+          "url": "https://www.practicalmachinist.com/forum/threads/edm-wire.444521/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Common problems and solutions of EDM drilling",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Common problems and solutions of EDM drilling · 1. First, check whether the parameter settings are normal. · 2. Check whether the working ...",
+          "importanza": 7,
+          "fonte": "https://www.chinawedm.com / news / common-problem...",
+          "data": "2026-10-27",
+          "url": "https://www.chinawedm.com/news/common-problems-and-solutions-of-edm-drilling.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Issues with fine lines on finish",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "If the wire encounters a loose chip stuck between the plates, it can create a momentary short, so the wire backs up, and starts again, making a ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / i...",
+          "data": "2026-10-27",
+          "url": "https://www.practicalmachinist.com/forum/threads/issues-with-fine-lines-on-finish.259312/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Wire EDM: What Are Common Causes for Wire Breaks?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Mechanical issues and misalignments frequently lead to wire breakage. Regular maintenance and precise alignment of wire guides and tensioning ...",
+          "importanza": 7,
+          "fonte": "https://www.sstconsumables.com / article / edm19",
+          "data": "2026-10-27",
+          "url": "https://www.sstconsumables.com/en/knowledgeCenter/article/edm19",
+          "costruttore": null
+        },
+        {
+          "titolo": "what problem with EDM cutting wire?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Pls help me anybody. This on what problem",
+          "importanza": 7,
+          "fonte": "5 comments",
+          "data": "2026-10-27",
+          "url": "https://www.facebook.com/groups/603711620209991/posts/1701089030472239/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM wire - breaks frequently during edge-finding on",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "If the EDM wire breaks frequently during edge-finding, the possible reason is the larger wire tension power. Normally the default setting of the wire tension ...",
+          "importanza": 7,
+          "fonte": "http://www.techedm.com / N_view",
+          "data": "2026-10-27",
+          "url": "http://www.techedm.com/N_view.asp?nid=40",
+          "costruttore": null
+        },
+        {
+          "titolo": "Hi all does anyone here have any experience with the ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "On my edm baoma 7763 the wire often breaks. Replaced replacement parts: water, bearings, carbon, electrical cables and rollers. but nothing has ...",
+          "importanza": 7,
+          "fonte": "11 months ago",
+          "data": "2026-10-27",
+          "url": "https://www.facebook.com/groups/603711620209991/posts/1953956431852163/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Agie charmilles GF EDM CUT 30 probleme",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Get expert advice and feedback on your specific machining challenges from industry leaders. Build your network by sharing your expertise and ...",
+          "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-10-26",
-          "url": "https://www.practicalmachinist.com/forum/threads/agie-charmilles-gf-cut-300sp-reliability-issues.337658/",
+          "data": "2026-10-27",
+          "url": "https://www.practicalmachinist.com/forum/threads/agie-charmilles-gf-edm-cut-30-probleme.445097/",
           "costruttore": "Agie"
         },
         {
-          "titolo": "Mitsubishi Wire EDM Troubleshooting: Common Problems ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "What causes frequent wire breaks on a Mitsubishi wire EDM? The most common causes are worn or contaminated power feed contacts, dielectric water ...",
-          "importanza": 8,
-          "fonte": "https://www.wsmtechnology.com / feeds / blog / mitsu...",
-          "data": "2026-10-26",
-          "url": "https://www.wsmtechnology.com/feeds/blog/mitsubishi-wire-edm-troubleshooting",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Mitsubishi Wire EDM problems",
+          "titolo": "MALFUNCTION Definition & Meaning",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "So I am running a MV1200R Mitsubishi Wire EDM and for some reason my tank wont stay filled with water while running a program? ive been ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-10-26",
-          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-problems.346305/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "Mitsubishi H110 & Charmilles Wire EDM Board Repair Guide",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Diagnose Mitsubishi H110 wire EDM control board failures. Compare $9-18k OEM replacement to $300-900 board-level repair with field ...",
-          "importanza": 8,
-          "fonte": "https://industrialmonitordirect.com / Knowledge Base",
-          "data": "2026-10-26",
-          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/troubleshooting-mitsubishi-h110-wire-edm-control-board-failures?srsltid=AYCX9vJuFk7dMFe1aR-NEOJTjYSohK_POXiwWyeMJIG9fR1XkRMllpXB",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "EDM Machines | Wire & Sinker EDM Solutions",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "\"Tooling for high-speed stamping has some tight tolerances, but the Mitsubishi wire EDMs have no problems meeting those tolerances. To know what we're ...",
-          "importanza": 8,
-          "fonte": "https://www.mcmachinery.com / technology / edm",
-          "data": "2026-10-26",
-          "url": "https://www.mcmachinery.com/technology/edm/",
-          "costruttore": "Mitsubishi"
-        },
-        {
-          "titolo": "OT...interesting problem ..with.... Makino U6 and some ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "the water jet ceramic induction tube will have wear issues. The (x2) most common issues I have seen are: 1) Dirty I-Roller on the Upper Head. ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-26",
-          "url": "https://www.practicalmachinist.com/forum/threads/ot-interesting-problem-with-makino-u6-and-some-information.384440/",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Additive Solves EDM Surface Finish Problem",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "The additive used in Makino's HQSF TM technology overcomes these shortcomings, the company claims. HQSF TM uses a proprietary non-toxic powder, called µSC. Its ...",
-          "importanza": 8,
-          "fonte": "https://www.makino.com / resources / article / archive",
-          "data": "2026-10-26",
-          "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
-          "costruttore": "Makino"
-        },
-        {
-          "titolo": "Problem with FANUC Alpha 1iB - EDM Machining",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Problem: The wire curls in the storage box, therefore causing a ''Wire Jamming'' alarm. changed every bearing from the spool to the feed and ...",
-          "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-26",
-          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-fanuc-alpha-1ib.194192/",
-          "costruttore": "Fanuc"
-        },
-        {
-          "titolo": "ROBOCUT EDM Machines",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "With incredibly long mean times between failures, low maintenance, longevity and excellent uptimes, FANUC ROBOCUT is the most reliable CNC in the world.",
-          "importanza": 8,
-          "fonte": "https://www.fanucamerica.com / Products",
-          "data": "2026-10-26",
-          "url": "https://www.fanucamerica.com/products/robocut",
-          "costruttore": "Fanuc"
-        },
-        {
-          "titolo": "press fit",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The press in joints are a natural failure point for the structure and require more mass than a single solid component.",
+          "riassunto": "The meaning of MALFUNCTION is to function imperfectly or badly : fail to operate normally. How to use malfunction in a sentence.",
           "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-26",
-          "url": "https://www.practicalmachinist.com/forum/threads/press-fit.72895/",
+          "fonte": "https://www.merriam-webster.com / dictionary / malfu...",
+          "data": "2026-10-27",
+          "url": "https://www.merriam-webster.com/dictionary/malfunction",
           "costruttore": null
         }
       ]
