@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-27T15:04:39.475798",
+    "timestamp": "2026-10-28T15:40:20.470031",
     "data": {
       "notizie": [
         {
@@ -9,9 +9,19 @@
           "riassunto": "Wire breakage detection pulley is freakin' out !!! Keeps bouncing violently up and down when cutting. Enough to toss wire off pulley and break ...",
           "importanza": 8,
           "fonte": "https://www.emastercam.com / ... / Industrial Forum",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.emastercam.com/forums/topic/7774-wire-breakage/",
           "costruttore": null
+        },
+        {
+          "titolo": "Sodick Wire Edm Top Tips for Global Buyers to Know",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Check the fluid levels daily. Dirty or inefficient coolant can lead to overheating. Misalignment issues are common in wire EDM processes, and ...",
+          "importanza": 8,
+          "fonte": "https://www.lemhunter.com / Blog",
+          "data": "2026-10-28",
+          "url": "https://www.lemhunter.com/blog/sodick-wire-edm-tips-for-global-buyers/",
+          "costruttore": "Sodick"
         },
         {
           "titolo": "Any experience with wire edm machines",
@@ -19,18 +29,18 @@
           "riassunto": "There are good and bads in either case. The real problem is the maintainence to keep the machine in tolerance. The current 2 Sodicks are older ...",
           "importanza": 8,
           "fonte": "https://www.hobby-machinist.com / threads / any-expe...",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.hobby-machinist.com/threads/any-experience-with-wire-edm-machines.7264/",
           "costruttore": "Sodick"
         },
         {
-          "titolo": "Sodick EDM COND File Error in hard disk",
+          "titolo": "Sodick A320F Issue with E164 - EDM Machining",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "Previous owner has never seen this message: COND FILE error in hard disk unit. Reinstall the COND FILE. This happens when we try to start the ...",
+          "riassunto": "I was wondering I am attempting to run my colleges A320F, and I am getting this error: \"E164 Machine over moved. Release from heat switch\"",
           "importanza": 8,
-          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-10-27",
-          "url": "https://www.practicalmachinist.com/forum/threads/sodick-edm-cond-file-error-in-hard-disk.431994/",
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-10-28",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-a320f-issue-with-e164.204598/",
           "costruttore": "Sodick"
         },
         {
@@ -39,9 +49,19 @@
           "riassunto": "Does anyone have a pdf or any other document containing error codes and description for all types of GF Machining CNCs? Thank you!",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/473752-gf-machining-agie-cut-error-messages-new-post.html",
           "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "Mitsubishi FA-10 wire EDM not cutting!",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Hello, Purchased used new to me FA10 Wire EDM. We are having issues with it not cutting/burning any parts. Things we have tried:",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-10-28",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-fa-10-wire-edm-not-cutting.450042/",
+          "costruttore": "Mitsubishi"
         },
         {
           "titolo": "Fanuc EDM wire Trouble shooting questions : r/machining",
@@ -49,8 +69,18 @@
           "riassunto": "We are having trouble having the auto Graphic displaying the toolpath. It's would flash for a second and disappear. Is this a setting issue or ...",
           "importanza": 8,
           "fonte": "1 comment",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.reddit.com/r/machining/comments/1j54oc2/fanuc_edm_wire_trouble_shooting_questions/",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Fanuc ROBOCUT WEDM Technical Reference",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Reliable, accurate, easy to use, Long-standing premium brand, Mature after early issues, Reliable, workhorse. Operators with Fanuc milling ...",
+          "importanza": 8,
+          "fonte": "https://industrialmonitordirect.com / knowledgebase / f...",
+          "data": "2026-10-28",
+          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/fanuc-robocut-wedm-technical-reference-performance-parameters?srsltid=AYCX9vI8-CvGe_NK4vVRXyVxlHLceAkM-TUzHo60rx5A0DRSlIHfQ2Oz",
           "costruttore": "Fanuc"
         },
         {
@@ -59,7 +89,7 @@
           "riassunto": "FANUC's proprietary CNC technology is renowned for its stability and real-time feedback, reducing the risk of costly errors.",
           "importanza": 8,
           "fonte": "https://www.lemhunter.com / Blog",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.lemhunter.com/news/a-comprehensive-guide-to-fanuc-wire-edm-machines/",
           "costruttore": "Fanuc"
         },
@@ -69,7 +99,7 @@
           "riassunto": "With Sodick's wire EDM technology continuing to break new ground ... Sodick Wire Edm Prices · Evelyn. Updated: July 13, 2025. Evelyn.",
           "importanza": 8,
           "fonte": "https://www.lemhunter.com / Blog",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.lemhunter.com/blog/future-of-precision-machining-sodick-wire-edm-technologies/",
           "costruttore": "Sodick"
         },
@@ -78,8 +108,8 @@
           "categoria": "Problemi e Soluzioni",
           "riassunto": "Cybersecurity challenges in smart EDM systems; Interoperability issues in integrating EDM with other smart manufacturing technologies; Data ...",
           "importanza": 7,
-          "fonte": "https://www.market-prospects.com / articles / edm-in-th...",
-          "data": "2026-10-27",
+          "fonte": "https://www.market-prospects.com / articles / edm-in-the...",
+          "data": "2026-10-28",
           "url": "https://www.market-prospects.com/articles/edm-in-the-era-of-industry-4-0-challenges-and-solutions",
           "costruttore": null
         },
@@ -89,7 +119,7 @@
           "riassunto": "Learn how to identify and fix frequent wire breakage and poor discharge in EDM machining for improved efficiency and quality.",
           "importanza": 7,
           "fonte": "https://www.mfgrobots.com / Article / mfg / mpm",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.mfgrobots.com/Article/mfg/mpm/41916.html",
           "costruttore": null
         },
@@ -99,8 +129,18 @@
           "riassunto": "The hidden issue is the re-cast layer, or \"white layer.\" As molten metal cools rapidly in dielectric fluid, it creates a brittle, ultra-hard ...",
           "importanza": 7,
           "fonte": "1 reaction",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.linkedin.com/posts/stamod-technologies_edm-is-a-thermal-process-masquerading-as-activity-7458871598578733056-cOrQ",
+          "costruttore": null
+        },
+        {
+          "titolo": "Festival / Rave Problems : r/EDM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "some people might avoid going to festivals and raves. What are some incredibly bizarre/cringy moments that has taken place at an EDM festival?",
+          "importanza": 7,
+          "fonte": "2 comments",
+          "data": "2026-10-28",
+          "url": "https://www.reddit.com/r/EDM/comments/1fk28oh/festival_rave_problems/",
           "costruttore": null
         },
         {
@@ -109,8 +149,18 @@
           "riassunto": "Stream Problem (EDM/Dance Style Song) by Dead Zone Audio on desktop and mobile. Play over 320 million tracks for free on SoundCloud.",
           "importanza": 7,
           "fonte": "2 likes",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://soundcloud.com/deadzoneaudioproduction/problem-edmdance-style-song",
+          "costruttore": null
+        },
+        {
+          "titolo": "Basic Thread Terms",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "In this article, we will discuss some of the essential terms related to screw threads. An error occurred. Thread allowance is the distance in maximum material ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / Posts",
+          "data": "2026-10-28",
+          "url": "https://www.practicalmachinist.com/basic-thread-terms/",
           "costruttore": null
         },
         {
@@ -119,18 +169,8 @@
           "riassunto": "When I had a BIOS failure of my machine from 2011, I had to send the on board computer to a service center to re-flash the BIOS. EDM not ...",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.practicalmachinist.com/forum/threads/edm-wire.444521/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Common problems and solutions of EDM drilling",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Common problems and solutions of EDM drilling · 1. First, check whether the parameter settings are normal. · 2. Check whether the working ...",
-          "importanza": 7,
-          "fonte": "https://www.chinawedm.com / news / common-problem...",
-          "data": "2026-10-27",
-          "url": "https://www.chinawedm.com/news/common-problems-and-solutions-of-edm-drilling.html",
           "costruttore": null
         },
         {
@@ -139,7 +179,7 @@
           "riassunto": "If the wire encounters a loose chip stuck between the plates, it can create a momentary short, so the wire backs up, and starts again, making a ...",
           "importanza": 7,
           "fonte": "https://www.practicalmachinist.com / forum / threads / i...",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.practicalmachinist.com/forum/threads/issues-with-fine-lines-on-finish.259312/",
           "costruttore": null
         },
@@ -149,58 +189,18 @@
           "riassunto": "Mechanical issues and misalignments frequently lead to wire breakage. Regular maintenance and precise alignment of wire guides and tensioning ...",
           "importanza": 7,
           "fonte": "https://www.sstconsumables.com / article / edm19",
-          "data": "2026-10-27",
+          "data": "2026-10-28",
           "url": "https://www.sstconsumables.com/en/knowledgeCenter/article/edm19",
           "costruttore": null
         },
         {
-          "titolo": "what problem with EDM cutting wire?",
+          "titolo": "Troubleshooting wire edm cutting issues with aisi 1045 ...",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Pls help me anybody. This on what problem",
+          "riassunto": "Anyone really good with wire edm, because I'm not. My training at work was basically \"run this preset, if it keeps breaking, try this preset.\" After a ...",
           "importanza": 7,
-          "fonte": "5 comments",
-          "data": "2026-10-27",
-          "url": "https://www.facebook.com/groups/603711620209991/posts/1701089030472239/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM wire - breaks frequently during edge-finding on",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "If the EDM wire breaks frequently during edge-finding, the possible reason is the larger wire tension power. Normally the default setting of the wire tension ...",
-          "importanza": 7,
-          "fonte": "http://www.techedm.com / N_view",
-          "data": "2026-10-27",
-          "url": "http://www.techedm.com/N_view.asp?nid=40",
-          "costruttore": null
-        },
-        {
-          "titolo": "Hi all does anyone here have any experience with the ...",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "On my edm baoma 7763 the wire often breaks. Replaced replacement parts: water, bearings, carbon, electrical cables and rollers. but nothing has ...",
-          "importanza": 7,
-          "fonte": "11 months ago",
-          "data": "2026-10-27",
-          "url": "https://www.facebook.com/groups/603711620209991/posts/1953956431852163/",
-          "costruttore": null
-        },
-        {
-          "titolo": "Agie charmilles GF EDM CUT 30 probleme",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Get expert advice and feedback on your specific machining challenges from industry leaders. Build your network by sharing your expertise and ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / ... / EDM Machining",
-          "data": "2026-10-27",
-          "url": "https://www.practicalmachinist.com/forum/threads/agie-charmilles-gf-edm-cut-30-probleme.445097/",
-          "costruttore": "Agie"
-        },
-        {
-          "titolo": "MALFUNCTION Definition & Meaning",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "The meaning of MALFUNCTION is to function imperfectly or badly : fail to operate normally. How to use malfunction in a sentence.",
-          "importanza": 7,
-          "fonte": "https://www.merriam-webster.com / dictionary / malfu...",
-          "data": "2026-10-27",
-          "url": "https://www.merriam-webster.com/dictionary/malfunction",
+          "fonte": "80+ comments",
+          "data": "2026-10-28",
+          "url": "https://www.facebook.com/groups/769782850345135/posts/1795636867759723/",
           "costruttore": null
         }
       ]
