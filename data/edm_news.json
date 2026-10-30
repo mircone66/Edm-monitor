@@ -1,15 +1,25 @@
 [
   {
-    "timestamp": "2026-10-29T15:46:55.906333",
+    "timestamp": "2026-10-30T15:29:04.065893",
     "data": {
       "notizie": [
         {
+          "titolo": "Troubleshooting - cert-manager Documentation",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Troubleshooting a failed certificate request · 1. Checking the Certificate resource · 2. Checking the CertificateRequest · 3. Check the issuer state · 4. ACME ...",
+          "importanza": 8,
+          "fonte": "https://cert-manager.io / docs / troubleshooting",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESaAHrOzAVT_trl5BFVFwlsaIVzcmhLSUOqD7kyjz4MDnxyhEARbzWknAX7lZvuMotcleGqOG23SRhzY3uKY6sIBd31D1IusLerVI3UhmfCnCoYN1Y2jdCuZg5PAJKy-2rIjpSPwIVcGK4",
+          "costruttore": null
+        },
+        {
           "titolo": "Sodick EDM Powers Toolmakers in Automotive Industry",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "manufacture of high-precision press-tool punches and dies,” the machine still running, without stoppages due to a failed wire re-threading ...",
+          "riassunto": "Sodick EDM Empowers Toolmakers in the Automotive Fast Lane ... Also, we often have customers come to us with a problem, so we set about designing ...",
           "importanza": 8,
           "fonte": "https://sodick.eu / news / how-sodick-edm-empowers-t...",
-          "data": "2026-10-29",
+          "data": "2026-10-30",
           "url": "https://sodick.eu/news/how-sodick-edm-empowers-toolmakers-in-the-automotive-fast-lane",
           "costruttore": "Sodick"
         },
@@ -19,8 +29,8 @@
           "riassunto": "I've got a sodic A320 edm and we are having some accuracy issues out of it, we ran a test square and were -.001 on the \"x\" dimention and ...",
           "importanza": 8,
           "fonte": "7 years ago",
-          "data": "2026-10-29",
-          "url": "https://www.reddit.com/r/Machinists/comments/dmlwc7/please_help_with_sodick_wire_edm/",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESkAEB6zswFZ1_GqSTzckJIxyJ8pBekMTiuedMbfG28hwDsKBm9Qn9GzLLNWYXkNrOl0LtOJU7g3vMbu460dsGlXO1ciuRRJB1TpayD0MUScZZ7t28TT8nWymSAktsP62mO9ozmu4bwQXUlANboKnDQSvqnNXJfThbKDRE3hDzzmNG5uEDhhQ-WoS_s9sdUP4jPas",
           "costruttore": "Sodick"
         },
         {
@@ -29,8 +39,8 @@
           "riassunto": "“One particular part was causing us real problems to machine using CNC milling,” states Mr Demczynski. “It was taking about three months to cut ...",
           "importanza": 8,
           "fonte": "https://memuknews.com / inmotion / automotive / sod...",
-          "data": "2026-10-29",
-          "url": "https://memuknews.com/inmotion/automotive/sodick-edm-machines-help-optimise-part-machining-in-battery-application/",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESrQEB6zswFXhcIou5KGY_117JtEp2wLfgXwdgdXWseEbLmFJFtcDZQoYeF5h3Kgtmknq2Ujx40B9dwT7HBHLXW3MJ1p6Jw8utE8BXCz9Xpr71PJNToxNJ2BXs9PM8BqmhebNHV9X79whp-qazV8rKq1htY1lxmoS4PQJWQ-xyIYJUxaIRjU-7F4kpULKsix-5zTJs9j1q8yT2jdKpLoGXIr2-9CHI0vjiEdCx-ZuPhg",
           "costruttore": "Sodick"
         },
         {
@@ -39,8 +49,8 @@
           "riassunto": "Sometimes a memory error appears when I start my NEC 9801UF PC. Other times it starts up, but when it loads the CNC program, I see problems on ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / ... / CNC Machining",
-          "data": "2026-10-29",
-          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-sodick-a320d.444201/",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESjQEB6zswFToOPxzIrK3Jqd6Te4g0j8rSh485uSrZhGHd3_3VaPdYubn9SmVs2BMS0Hiz-JVutcGWEmai-my70DXYUM7xJoaSVKOElkJzSbDSnWxmS_TpmPh2QvjcOh92S4nn7AlT7sJmcB3KNpVlhxZ6pkj7LfVczwpuKv3Gc8BR1Pib9FAnfLDkXYUP2FQ",
           "costruttore": "Sodick"
         },
         {
@@ -49,9 +59,69 @@
           "riassunto": "Does anyone have a pdf or any other document containing error codes and description for all types of GF Machining CNCs? Thank you!",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-10-29",
-          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/473752-gf-machining-agie-cut-error-messages-new-post.html",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESsQEB6zswFXtVtJlNbDTlQhq3HVyOgB8y9cCEzo8UUpO3CYAlDzSDQzQYKObXJOCh8GPybo_f9VlEhBzQV6bpumZW6dKTE2wtO7cWFywMXiXdwE_1f9erX5ZdIGH6TRyyuS7QeB41o0bObDbvCsZc9_4mGVJiu897T4tyIs8RDgBjx3Ngicfj-eTkn51We72lXk5Y0YQAnqMHIM00-r7ZSMdFxfW_pXP0fuVc-eSIg6u_EGU",
           "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "GF Machining Solutions - AgieCharmilles EDM",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "A non-contact, vision-based measurement system integrated into the EDM machine can overcome both the limitations and cost issues of on-machine part location ...",
+          "importanza": 8,
+          "fonte": "https://pt.slideshare.net / slideshow / gf-machining-solu...",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESowEB6zswFQe4Jqpvj_0KdW7Wbzu9hJadpay8JpDKIuXzItm1FWzr_KAkeuU-DXizajGILIDYsFOXZdoa257YGg6twOeM86YphQPskQNjx-ZnrjR9apQ2chuXRdf8Wdz-Jxb7wmQiEmbpbF800-zFssgcyJ3nxvVBgDb8ZCGWitP1BifE2zN7O_PUExp1gmUA40Xl3WmqPvrnF0R8WnjoorQRYOct",
+          "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "MV1200R Wire EDM Tank Level Drop: Field Troubleshooting",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Mitsubishi MV1200R Wire EDM tank water level drops during machining? Diagnose worn door seals, dirty probes, failed plungers, ...",
+          "importanza": 8,
+          "fonte": "https://industrialmonitordirect.com / knowledgebase",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAES9gEB6zswFUdQbHacSo41FC_jYgxtrwLWE3X6YYtzb8n2UoFOcdRENbMedaT_vXnGLilTR9nTa4spvpXgdjCgiePWaUBW3PQ9HLVKSD07_H8bBHFxn8la7U2jg8vjyYhqiXNYGFyJbAOwYR8SRBCuGrXm6egReHxTJW-e4m1WeNr3SN3kPE3VHZgdJmrkLg1OuW9aF4Z0fxqJ-a8ND098HweYSCM5I47WZO4wAQZTCTp1rcb4Uj19Z_YLmnUqnarmz66N2PiW-c2J6hJpVcLlUW-XXeZ3r8dVgN090Xmdf5e0E6-jdzliG8jn23HWEOCSjpyKuRcYdFY",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Fanuc EDM wire Trouble shooting questions : r/machining",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "We are having trouble having the auto Graphic displaying the toolpath. It's would flash for a second and disappear. Is this a setting issue or ...",
+          "importanza": 8,
+          "fonte": "1 comment",
+          "data": "2026-10-30",
+          "url": "https://www.reddit.com/r/machining/comments/1j54oc2/fanuc_edm_wire_trouble_shooting_questions/",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Fanuc ROBOCUT WEDM Technical Reference",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Reliable, accurate, easy to use, Long-standing premium brand, Mature after early issues, Reliable, workhorse. Operators with Fanuc milling ...",
+          "importanza": 8,
+          "fonte": "https://industrialmonitordirect.com / knowledgebase / f...",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAES8gEB6zswFf_w_A2J3aA31N5WmDkcgcIMh65dTpsdtopYGJMZnPNm-ui-2nyy--SsMzKB-Xsr_I2_AjVROYR0f9YmQdK6N8w2FgDQt8kpASEmQ1mCOd5JjkYoWcn3qHIfGSpIA-lzNrFmvsdpdy1-3z4aXfLThz2BhLw_PUCOxGbSvgyFJIXAivUi-vEhBv4dM-Y98upyu4BA3tcclBbcsezA8-XlprTySUTQxiqvsOhyk-NiRUbC9q_Ic-rGILfqh3r2xQN_MX_OaihTjF7qs5hj0P3C_yylW1MTPG_hWGGFbgZDxxmgHmLa3GNC9d4ovAnDew",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "Looking for Wire EDM Repair Tech",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "had a myriad of problems ranging from wire tension issues, burn issues, and threading problems with little to no help from Mits. FANUC EDM C400 ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / l...",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESlAEB6zswFQdq8dSwjwqFjhQl-yko-U9VG6lk6TLBQPnktwK3mXEayiqNDJEiMVjZ7b3Ms2EvXVfgtNHAo-7VOO1zYsqZ2m9Sv7wBcOi1ZVoTnI9EU1OiBUsRqm8d12qaXz0dXx5IeWVjKi-0DHp1K8V_sQjvRMU7IsTLH7Lr70Yd5k3TKHncI2aeoKxuY6aJhzg-aFeQ",
+          "costruttore": "Fanuc"
+        },
+        {
+          "titolo": "The Future of Precision Machining with Best Sodick Wire ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "With Sodick's wire EDM technology continuing to break new ground ... Sodick Wire Edm Prices · Evelyn. Updated: July 13, 2025. Evelyn.",
+          "importanza": 8,
+          "fonte": "https://www.lemhunter.com / Blog",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESlQEB6zswFbF6a-K0GqRXG0NU4WkkI3XmSZjrvYbI_TcX95w662Rhu6TD2ckDYUcoIW7-srl466DLHcx7I-YeuaS9bLBqk41PQWSlC6_lir-5pLiOT90Qxi7LD44Tp9FqTUxEceja1uTZBtgmdTx6JoIk4Njsmbm7fOINcpVym2zGqBn1I8v-R4nc5y_4jaxN6qTNHR5JOA",
+          "costruttore": "Sodick"
         },
         {
           "titolo": "EDM in the Era of Industry 4.0: Challenges and Solutions",
@@ -59,8 +129,8 @@
           "riassunto": "Cybersecurity challenges in smart EDM systems; Interoperability issues in integrating EDM with other smart manufacturing technologies; Data ...",
           "importanza": 7,
           "fonte": "https://www.market-prospects.com / articles / edm-in-th...",
-          "data": "2026-10-29",
-          "url": "https://www.market-prospects.com/articles/edm-in-the-era-of-industry-4-0-challenges-and-solutions",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESnAEB6zswFaxGCP7CHTn8uDXTv8IWD_MIv6ir_IKv9I6fA63dakB9jHTpIg89b8Z00QB2DKOxKPGU9JaA6fgrcnDifGzCVcaPzccMDXH3DU3BYHV6FI0fcU6__UX-DcKpa8na4uUSXFPc4ICTy67m2yiIYjdCyzTcx7xzO5GVHE3-r3TymaYnV19P4goCEPoCeuClTytEww5wr9KAbac",
           "costruttore": null
         },
         {
@@ -69,7 +139,7 @@
           "riassunto": "Learn how to identify and fix frequent wire breakage and poor discharge in EDM machining for improved efficiency and quality.",
           "importanza": 7,
           "fonte": "https://www.mfgrobots.com / Article / mfg / mpm",
-          "data": "2026-10-29",
+          "data": "2026-10-30",
           "url": "https://www.mfgrobots.com/Article/mfg/mpm/41916.html",
           "costruttore": null
         },
@@ -79,18 +149,8 @@
           "riassunto": "The hidden issue is the re-cast layer, or \"white layer.\" As molten metal cools rapidly in dielectric fluid, it creates a brittle, ultra-hard ...",
           "importanza": 7,
           "fonte": "1 reaction",
-          "data": "2026-10-29",
-          "url": "https://www.linkedin.com/posts/stamod-technologies_edm-is-a-thermal-process-masquerading-as-activity-7458871598578733056-cOrQ",
-          "costruttore": null
-        },
-        {
-          "titolo": "Problem (EDM/Dance Style Song)",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Stream Problem (EDM/Dance Style Song) by Dead Zone Audio on desktop and mobile. Play over 320 million tracks for free on SoundCloud.",
-          "importanza": 7,
-          "fonte": "2 likes",
-          "data": "2026-10-29",
-          "url": "https://soundcloud.com/deadzoneaudioproduction/problem-edmdance-style-song",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESuAEB6zswFbepievfhYjYoZUXXxuzDGPEM65bHPLtw3GGEyDaRcPM40evLCrQGI-ikag8QNhZ2xDUJolf4skVTlcwp660qpJDIZRvPE3wLropmMIzTw_FHi4dVogHZWVKMiGizjFxx4uwEJpmWSnEC7jN9Hdr2AuPdxoJ5QsLtUGczTRxoRe9XByN1r9YLlQthQbgBrn3FIUkdM6AcT64TL801a2VtjLwL7FDKyrAdlojNhvUzpqgEbfk",
           "costruttore": null
         },
         {
@@ -99,109 +159,49 @@
           "riassunto": "What are the most common problems faced by you when u were a begginer level EDM producer and artist and how did you over come it?",
           "importanza": 7,
           "fonte": "40+ answers",
-          "data": "2026-10-29",
-          "url": "https://www.quora.com/What-are-the-most-common-problems-faced-by-you-when-u-were-a-begginer-level-EDM-producer-and-artist-and-how-did-you-over-come-it",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAES0gEB6zswFfGj1RIN11PxA-cDjPm5I_B5du7LF4pfJns959GVAIJwtSzU8N_YdxTj-t9fMWm0_EsGkfeP49-Ht-Oy5RGtNK1UrUgamQsxFRiWau6COqaNFvnr4iHwAWmmMa_bjhPqdEIW9YyLpTdavZpArWgomzFqUReGGTgGRSqcy4wNl4X8PHMYgOuq_X5M3ppc84iOhDUNRrOegV4PJDq9ydgLme7lxBDu3K22ONzaK1VChU6W1PwPUw2dd7z91zBcVVAzpDPHxaA1NIhFoOrtDkM",
           "costruttore": null
         },
         {
-          "titolo": "FAILURE BAND",
+          "titolo": "Wire EDM Makes Impossible Cuts Possible with Titans of CNC ...",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Failure presents: \"Location Lost\", our new album out now from Failure Records, via Arduous Records/Virgin Music Group. Special Edition “Eye” Artist ...",
+          "riassunto": "A demonstration of the Electrical Discharge Machining (EDM) process to solve a mechanical fitment issue. The video shows the setup and operation ...",
           "importanza": 7,
-          "fonte": "https://www.failureband.com",
-          "data": "2026-10-29",
-          "url": "https://www.failureband.com/",
+          "fonte": "16.3K+ reactions",
+          "data": "2026-10-30",
+          "url": "https://www.google.com/goto?url=CAESqAEB6zswFes0VKo5W7yyq9rJKD9RKfjhwkQsuEFuqLLP2jtQjUfMkB-eL0f8MWS9vKf6ImjdKhL3KhJld1LBGSsIelAr-aUh2aFv5F9dFM_PPrHLgnsuE2NVn6Y7SK2TueCjfv8uo9ZWHkdBqVu5K5aU0nz-5julZe_zkml9EgSC-vDp0QZUDPjRUYy0lbTi35tvju4ZR-uHyZDzKjVyBUQZY3AI_F3qSsw",
           "costruttore": null
         },
         {
-          "titolo": "Failure (band)",
+          "titolo": "Wire EDM problem : r/machining",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Failure is an American alternative rock band from Los Angeles that was active from 1990 to 1997 and again since 2014. They have released seven full-length ...",
+          "riassunto": "Electrical discharge machining(EDM) cuts metal using a superfine brass wire. Electricity is zapped through it produces a spark. The electric ...",
           "importanza": 7,
-          "fonte": "https://en.wikipedia.org / wiki / Failure_(band)",
-          "data": "2026-10-29",
-          "url": "https://en.wikipedia.org/wiki/Failure_(band)",
+          "fonte": "4 comments",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESgAEB6zswFXPUANOoVEpZSEXqjMkPEz8qjeG3lh4FKpYK7g6Z12rBWMiYWhXyZlh-7kTrY5UXX29tRZJaAuJufO7l0uJuT6kxLQ7XQVxpMrb1Cg_0Ua0zPGruBfRFUtGOAjA6B0DVe2W7oOgVJoVWszquO_zM8PV6-U-EscJh5AXncg",
           "costruttore": null
         },
         {
-          "titolo": "Failure | Los Angeles CA",
+          "titolo": "Prevention of wire breakage in wire EDM - Inderscience Online",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Low ticket warning for Failure at The Belasco in Los Angeles October 30th. Get your tickets now and don't miss out! Link to tickets in bio.",
+          "riassunto": "This paper compares the performance of brass wire and zinc-coated wire on wire electro discharge machining (EDM) of high speed steel (HSS) ...",
           "importanza": 7,
-          "fonte": "61.8K+ followers",
-          "data": "2026-10-29",
-          "url": "/goto?url=CAESYAHrOzAV2Rc_bqiTpgJdY6OrTtzI03_TgucKeV9QA79lEFfewkxUEYTEo80wolJZpclEbxL0TyShrdXhMYvohl4OcGcA4BEGQl2QzIpg8CliTO5jx1T9BjU_oCMZj17E7A",
+          "fonte": "https://www.inderscienceonline.com / doi / abs / IJMM...",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESfwHrOzAVYnbjKuxY4fbhQ6V2kZGcTwQkwNI0kUCL2u2V1ebY_ETklEGZfKCGLp5J75dhpuSoT9x45HrQpjK1hq30HWtoAdnMcRYtzZS096a6iH2oRU9cPbODc7KCQYLv22-8XoMIPzNFKZkGCZz-6BweGgWHQ4XwDNwNmlTwlic",
           "costruttore": null
         },
         {
-          "titolo": "Listen to Failure Songs",
+          "titolo": "Troubleshooting",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Failure ; Another Space Song. 19,463,125 ; Stuck on You. 10,384,165 ; Saturday Saviour. 7,698,064 ; Undone. 3,000,599 ; The Rising Skyline. 1,238,313 ...",
+          "riassunto": "Troubleshooting is a form of problem solving, often applied to repair failed products or processes on a machine or a system. It is a logical, ...",
           "importanza": 7,
-          "fonte": "https://open.spotify.com / artist",
-          "data": "2026-10-29",
-          "url": "/goto?url=CAEScQHrOzAVMTXgGND45s-fDfKFg_x4xFlBbNaSjfJyJC37pPvg3nakMvXhL2X8-t9SS254YzXa-vnVKHK5z3oJORhlVPv9W1UipZxQA8_DhSNd7cIPsO_LYXy-c12nJiYDMX1L9haaR7JWlZd7H4SmPO6w",
+          "fonte": "https://en.wikipedia.org / wiki / Troubleshooting",
+          "data": "2026-10-30",
+          "url": "/goto?url=CAESaAHrOzAVqfU66hjRVdeJN5uN8K3twe7NIWERj3MjCyp0Dd4hBT_4NitOMsPiC9BGftgNnG6Cx-3B3aQJhqFY9IZcZ-sDd-z8GdyNonE31NDXQHHO3FnUl8yMzDqr5KTnx1p_NsCF6pZ-",
           "costruttore": null
-        },
-        {
-          "titolo": "How To Fail With Elizabeth Day - Podcast",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Every success story you've ever been told is incomplete. How To Fail with Elizabeth Day is the part they leave out. Each week, Sunday Times #1 bestselling ...",
-          "importanza": 7,
-          "fonte": "https://podcasts.apple.com / podcast / how-to-fail-with-...",
-          "data": "2026-10-29",
-          "url": "/goto?url=CAESjAEB6zswFbQ6n0Tf6Xgif_tmqwPIgjZAen2ppmbhsScPhoUtSZwK5lF3fznCE3gihTBRn07b7MfieFxNSXmZNhgCQ8gxBF54N9WSGU4AbrHGU-86PcZVLVxMtUCRzst8E4Yk1GXuR8o2lt7Cx3MePABado9bbh8CXh-CGilmJj9v497kjvZsHxfNMmDJTw",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM Machining | edm wire",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "When I had a BIOS failure of my machine from 2011, I had to send the on board computer to a service center to re-flash the BIOS. EDM not ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-29",
-          "url": "https://www.practicalmachinist.com/forum/threads/edm-wire.444521/",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM.com",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Expect lots of networking and skrillex has addressed the sound issues during his set. DJ apologized to fans who experienced the issues,",
-          "importanza": 7,
-          "fonte": "203.8K+ followers",
-          "data": "2026-10-29",
-          "url": "https://www.threads.com/@edm",
-          "costruttore": null
-        },
-        {
-          "titolo": "Blog - Page 2 of 313 - EDM",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The authorized special issue features an exclusive cover by Cédric Hervet and Warren Fu, the duo behind the cover art and illustrations for Daft Punk's ...",
-          "importanza": 7,
-          "fonte": "https://edm.com / blog / page",
-          "data": "2026-10-29",
-          "url": "https://edm.com/blog/page/2/",
-          "costruttore": null
-        },
-        {
-          "titolo": "sodick wire edm mark 21 - cncarena forum - Industry Arena",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "I can not transmit and received data via RS232 interface. my computer can not read and write floppy. not move axises during M00 code execution! ...",
-          "importanza": 7,
-          "fonte": "https://en.industryarena.com / forum / sodick-wire-edm-...",
-          "data": "2026-10-29",
-          "url": "https://en.industryarena.com/forum/sodick-wire-edm-mark-21--70357.html",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Agie charmilles GF EDM CUT 30 probleme",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Get expert advice and feedback on your specific machining challenges from industry leaders. Build your network by sharing your expertise and ...",
-          "importanza": 7,
-          "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-10-29",
-          "url": "https://www.practicalmachinist.com/forum/threads/agie-charmilles-gf-edm-cut-30-probleme.445097/",
-          "costruttore": "Agie"
         }
       ]
     }
