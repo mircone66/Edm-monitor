@@ -1,26 +1,36 @@
 [
   {
-    "timestamp": "2026-11-01T15:41:13.258684",
+    "timestamp": "2026-11-02T19:02:15.891102",
     "data": {
       "notizie": [
         {
-          "titolo": "5 Things You Need to Know About Wire EDM Tolerances",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Many factors can affect wire EDM tolerances. Learning what these factors are and how to fix problems can help you get the most out of your ...",
-          "importanza": 8,
-          "fonte": "https://www.southernfabsales.com / blog / 5-things-you-...",
-          "data": "2026-11-01",
-          "url": "https://www.southernfabsales.com/blog/5-things-you-need-to-know-about-wire-edm-tolerances",
-          "costruttore": null
+          "titolo": "Need help reinstalling software on Mitsubishi VX20 EDM ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "My machine was disconnected from power for a while, and once power was restored, the internal memory was completely wiped. hardware failure on ...",
+          "importanza": 9,
+          "fonte": "3 comments",
+          "data": "2026-11-02",
+          "url": "https://www.reddit.com/r/Machinists/comments/1r5o1w1/need_help_reinstalling_software_on_mitsubishi/",
+          "costruttore": "Mitsubishi"
         },
         {
-          "titolo": "Breaks – Accommodations",
+          "titolo": "Makino EDM reviews wanted : r/Machinists",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Yea, we didnt have any issues. If you already have EDM knowledge it probably wont take much time to get use to it. Just dont open the front ...",
+          "importanza": 9,
+          "fonte": "4 comments",
+          "data": "2026-11-02",
+          "url": "https://www.reddit.com/r/Machinists/comments/2xf9bw/makino_edm_reviews_wanted/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Wire breakage.... - Industrial Forum",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Although many College Board exams include scheduled breaks, students with certain documented disabilities may need additional or longer breaks.",
+          "riassunto": "Wire breakage detection pulley is freakin' out !!! Keeps bouncing violently up and down when cutting. Enough to toss wire off pulley and break ...",
           "importanza": 8,
-          "fonte": "https://accommodations.collegeboard.org / breaks",
-          "data": "2026-11-01",
-          "url": "https://accommodations.collegeboard.org/how-accommodations-work/about-accommodations/breaks",
+          "fonte": "https://www.emastercam.com / ... / Industrial Forum",
+          "data": "2026-11-02",
+          "url": "https://www.emastercam.com/forums/topic/7774-wire-breakage/",
           "costruttore": null
         },
         {
@@ -29,18 +39,8 @@
           "riassunto": "There are good and bads in either case. The real problem is the maintainence to keep the machine in tolerance. The current 2 Sodicks are older ...",
           "importanza": 8,
           "fonte": "https://www.hobby-machinist.com / threads / any-expe...",
-          "data": "2026-11-01",
+          "data": "2026-11-02",
           "url": "https://www.hobby-machinist.com/threads/any-experience-with-wire-edm-machines.7264/",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Sodick EDM Powers Toolmakers in Automotive Industry",
-          "categoria": "Problemi per Costruttore",
-          "riassunto": "Sodick EDM Empowers Toolmakers in the Automotive Fast Lane ... Also, we often have customers come to us with a problem, so we set about designing ...",
-          "importanza": 8,
-          "fonte": "https://sodick.eu / news / how-sodick-edm-empowers-t...",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAESkAEB6zswFWXJQKnzzg5o-xmekkE3mss9VwXk0k9x86MJLrxarNK9epNpglw69AP8T4nf8UJ0bUFfOIA7GXaGtA2sv7slRH760N6Woq9ea0syNoKkY6z-kW5Bn_Rq575nPXDD_gmtHaIbzfp7Ea7ZIxlsFYboZJ0stjd9DT1uYVplkrV6IySOQrJ4V6QJ7NYPcBA",
           "costruttore": "Sodick"
         },
         {
@@ -49,8 +49,18 @@
           "riassunto": "We have a Sodick AQ 537L and other than lots of threading problems, it's a good wire machine. I don't know about the other Sodicks, but the 537 ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAESigEB6zswFdv8gUVRQGmaleRI0BnrtwaH9uB8uPvtKUmPD6oqpqsmS711csA_S_JtiB2s2JjS8-ZqzEMjIHlEWyI22GA3A01UjaLUEKE7-Wnhtfrmb9bf0eAQNL8jBETfjS9dwYyORQEeXRUcDWPdmJX8ABfGUBcpEIwfUjDA2u1LCdEoCJ4a6x3dNF8",
+          "data": "2026-11-02",
+          "url": "https://www.practicalmachinist.com/forum/threads/what-edm-do-you-prefer.219217/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Sodick EDM Machines : Part Machining in Battery Application",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "“One particular part was causing us real problems to machine using CNC milling,” states Mr Demczynski. “It was taking about three months to cut ...",
+          "importanza": 8,
+          "fonte": "https://memuknews.com / inmotion / automotive / sod...",
+          "data": "2026-11-02",
+          "url": "https://memuknews.com/inmotion/automotive/sodick-edm-machines-help-optimise-part-machining-in-battery-application/",
           "costruttore": "Sodick"
         },
         {
@@ -59,18 +69,28 @@
           "riassunto": "Does anyone have a pdf or any other document containing error codes and description for all types of GF Machining CNCs? Thank you!",
           "importanza": 8,
           "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
-          "data": "2026-11-01",
+          "data": "2026-11-02",
           "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/473752-gf-machining-agie-cut-error-messages-new-post.html",
           "costruttore": "GF Machining"
         },
         {
-          "titolo": "Fix Mitsubishi HA Wire EDM Take-Up Roller Slippage",
+          "titolo": "Mitsubishi EA30 EDM intermittent contact stopping",
           "categoria": "Problemi per Costruttore",
-          "riassunto": "Diagnose and fix Mitsubishi HA wire EDM take-up roller slippage that breaks wire at the rollers. Covers resurfacing with a 220 diamond wheel ...",
+          "riassunto": "Overheating is a leading cause of automatic transmission failure, and by extension, may be related to toolchange issues in certain machinery. •.",
           "importanza": 8,
-          "fonte": "https://industrialmonitordirect.com / knowledgebase / r...",
-          "data": "2026-11-01",
-          "url": "https://industrialmonitordirect.com/de/blogs/knowledgebase/resolving-mitsubishi-ha-wire-edm-take-up-roller-slippage?_pos=3678&_sid=ddcefa06d&_ss=r&srsltid=AYCX9vJ6mwHsHClBu54Dasld8ho9tbtuz9b9VqKUWvd_sPGKcq3i_ZE-",
+          "fonte": "5 comments",
+          "data": "2026-11-02",
+          "url": "https://www.facebook.com/groups/769782850345135/posts/1246657765990972/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "MV1200R Wire EDM Tank Level Drop: Field Troubleshooting",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Mitsubishi MV1200R Wire EDM tank water level drops during machining? Diagnose worn door seals, dirty probes, failed plungers, ...",
+          "importanza": 8,
+          "fonte": "https://industrialmonitordirect.com / knowledgebase",
+          "data": "2026-11-02",
+          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/mitsubishi-mv1200r-wire-edm-troubleshooting-tank-water-level-drop?srsltid=AYCX9vKtWIvDkl7jLOHSGDtRx4o3h5OQKFTgKwiep4AiWkTR4mycG4ps",
           "costruttore": "Mitsubishi"
         },
         {
@@ -79,7 +99,7 @@
           "riassunto": "We are having trouble having the auto Graphic displaying the toolpath. It's would flash for a second and disappear. Is this a setting issue or ...",
           "importanza": 8,
           "fonte": "1 comment",
-          "data": "2026-11-01",
+          "data": "2026-11-02",
           "url": "https://www.reddit.com/r/machining/comments/1j54oc2/fanuc_edm_wire_trouble_shooting_questions/",
           "costruttore": "Fanuc"
         },
@@ -89,8 +109,8 @@
           "riassunto": "Reliable, accurate, easy to use, Long-standing premium brand, Mature after early issues, Reliable, workhorse. Operators with Fanuc milling ...",
           "importanza": 8,
           "fonte": "https://industrialmonitordirect.com / knowledgebase / f...",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAES8gEB6zswFXqUnKoN0I6zg5TnZ7JiKgw28lkEt-m2UO3hhW9aVXAL37hKYdVR5MCItnqydit2Ofntg_tB_IWSNaAMAUWGKbNx15efcP_WAh9mWzl1fZc8miEpNci6PspOeZW8-kR5hPbE-9nsKGa-erMOXMciQIpTbHRqC-z0VnBqqqBchFzSCrvaGv-FQYw26keg2c9UvhAvsXwrMELqWFmvZ-9Y7xBoFf6e5z7uSHawtwKBelKFvoBepDSVTM2GouQRQWAlvqi6iLqVgbRIs22zrSyROiDaGpyRDME1VwLQmmyaHhcuhGndIAU5m1YTJmwQgQ",
+          "data": "2026-11-02",
+          "url": "https://industrialmonitordirect.com/blogs/knowledgebase/fanuc-robocut-wedm-technical-reference-performance-parameters?srsltid=AYCX9vI78b3uyAwzgvDC85AspU2CFnBEjc5AFCirOQHI4CpQcBD7Ipkv",
           "costruttore": "Fanuc"
         },
         {
@@ -99,68 +119,28 @@
           "riassunto": "Fanuc Wire EDM Positioning errors and corresponding settings. Get expert advice and feedback on your specific machining challenges from ...",
           "importanza": 8,
           "fonte": "https://www.practicalmachinist.com / forum / threads / f...",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAESlgEB6zswFakOpdafL5olHY1l1ak4PyUzQZWxBTbcgCISqFMA2acCUcs8JTW_aELebblfLsrzDvKrH6nwdZGJjezexlGfM6iqwCzmN7eYMSmQzdJtDx7XQiN3NftBkaEr9rg--wJ2azBrN0TqWN226gvJinbzcornIKnUpkC1YlooWFn2N1Imf8i9_jkGfuHU6LtmB_kAqYk",
+          "data": "2026-11-02",
+          "url": "https://www.practicalmachinist.com/forum/threads/fanuc-robocut-wire-edm-user-points.176247/",
           "costruttore": "Fanuc"
         },
         {
-          "titolo": "The Future of Precision Machining with Best Sodick Wire ...",
+          "titolo": "Failure detection and control for wire EDM process using ...",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "With Sodick's wire EDM technology continuing to break new ground ... Sodick Wire Edm Prices · Evelyn. Updated: July 13, 2025. Evelyn.",
-          "importanza": 8,
-          "fonte": "https://www.lemhunter.com / Blog",
-          "data": "2026-11-01",
-          "url": "https://www.lemhunter.com/blog/future-of-precision-machining-sodick-wire-edm-technologies/",
-          "costruttore": "Sodick"
-        },
-        {
-          "titolo": "Diagnosing Common EDM Machining Issues: Causes and ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Learn how to identify and fix frequent wire breakage and poor discharge in EDM machining for improved efficiency and quality.",
+          "riassunto": "Unstable machining conditions during wire EDM process would lead to process failures, affecting the efficiency and sustainability of process.",
           "importanza": 7,
-          "fonte": "https://www.mfgrobots.com / Article / mfg / mpm",
-          "data": "2026-11-01",
-          "url": "https://www.mfgrobots.com/Article/mfg/mpm/41916.html",
+          "fonte": "https://strathprints.strath.ac.uk / Puthanveettil_M...",
+          "data": "2026-11-02",
+          "url": "https://strathprints.strath.ac.uk/80701/1/Puthanveettil_Madathil_Chakradhar_CIRPJ_2021_Failure_detection_and_control_for_wire_EDM.pdf",
           "costruttore": null
         },
         {
-          "titolo": "EDM in the Era of Industry 4.0: Challenges and Solutions",
+          "titolo": "What are some common challenges faced by Wire EDM ...",
           "categoria": "Problemi e Soluzioni",
-          "riassunto": "Cybersecurity challenges in smart EDM systems; Interoperability issues in integrating EDM with other smart manufacturing technologies; Data ...",
+          "riassunto": "Wire EDM operators often encounter challenges such as maintaining tight tolerances, managing wire breakage, and optimizing machine settings for differe.",
           "importanza": 7,
-          "fonte": "https://www.market-prospects.com / articles / edm-in-th...",
-          "data": "2026-11-01",
-          "url": "https://www.market-prospects.com/articles/edm-in-the-era-of-industry-4-0-challenges-and-solutions",
-          "costruttore": null
-        },
-        {
-          "titolo": "EDM Process Hidden Dangers: White Layer and Tool Failure",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "The hidden issue is the re-cast layer, or \"white layer.\" As molten metal cools rapidly in dielectric fluid, it creates a brittle, ultra-hard ...",
-          "importanza": 7,
-          "fonte": "1 reaction",
-          "data": "2026-11-01",
-          "url": "https://www.linkedin.com/posts/stamod-technologies_edm-is-a-thermal-process-masquerading-as-activity-7458871598578733056-cOrQ",
-          "costruttore": null
-        },
-        {
-          "titolo": "Problem (EDM/Dance Style Song)",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "Stream Problem (EDM/Dance Style Song) by Dead Zone Audio on desktop and mobile. Play over 320 million tracks for free on SoundCloud.",
-          "importanza": 7,
-          "fonte": "2 likes",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAEShQEB6zswFRid-LkajPPVUNO98WiL_HB9K56pBbdd3o36l9H5qNitKyswmc91ItJGyIpStMuQjK_x-ActlkdAMFr_lLeSRxcaNh6PzRzVg46ACIb7PlxlGWYraRn11EoqPF7EaC72g6mbrk4b2vBXitBhLengrhp3wKH2WRcDwM7qQ-P6n0MQ",
-          "costruttore": null
-        },
-        {
-          "titolo": "What are the most common problems faced by you when u ...",
-          "categoria": "Problemi e Soluzioni",
-          "riassunto": "What are the most common problems faced by you when u were a begginer level EDM producer and artist and how did you over come it?",
-          "importanza": 7,
-          "fonte": "40+ answers",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAES0gEB6zswFRUZV1IccbOphFjXw4P-MWqpqrgNRGuY5LMD_xoG-VsuVjAHXI51bOH4-dfruvOlZ1Fi5gH_JrLdPOMDPwJoi_Bk7Y9oEVddWCMcS50ZQ2TdeH-3XE79DwbR5HnT6_UkRGLVQTFz6VhwhhyUJBVjuaSN5zEH89ysJ0jzeUQ3r9B4QCebP_BfbRV_fsPri-k6HP2e2ZT9ul7edSBBOYmq3am6IRY_X0SU2j-Zecr7Xi222QAOQr1enehngBi1A6u5BM5iA-CnIIg8i7hy3ms",
+          "fonte": "https://www.ziprecruiter.com / Wire-Edm-What-are-so...",
+          "data": "2026-11-02",
+          "url": "https://www.ziprecruiter.com/e/Wire-Edm-What-are-some-common-challenges-faced-by-Wire-EDM-operators-and-how-can-they-be-addressed",
           "costruttore": null
         },
         {
@@ -169,7 +149,7 @@
           "riassunto": "Failure presents: \"Location Lost\", our new album out now from Failure Records, via Arduous Records/Virgin Music Group. -Order is Live Now. get concert, live ...",
           "importanza": 7,
           "fonte": "https://www.failureband.com",
-          "data": "2026-11-01",
+          "data": "2026-11-02",
           "url": "https://www.failureband.com/",
           "costruttore": null
         },
@@ -179,7 +159,7 @@
           "riassunto": "Failure is an American alternative rock band from Los Angeles that was active from 1990 to 1997 and again since 2014. They have released seven full-length ...",
           "importanza": 7,
           "fonte": "https://en.wikipedia.org / wiki / Failure_(band)",
-          "data": "2026-11-01",
+          "data": "2026-11-02",
           "url": "https://en.wikipedia.org/wiki/Failure_(band)",
           "costruttore": null
         },
@@ -189,7 +169,7 @@
           "riassunto": "Public Low ticket warning for Failure at The Belasco in Los Angeles October 30th. Get your tickets now and don't miss out! Link to tickets in bio.",
           "importanza": 7,
           "fonte": "61.8K+ followers",
-          "data": "2026-11-01",
+          "data": "2026-11-02",
           "url": "https://www.facebook.com/Failureband/",
           "costruttore": null
         },
@@ -199,8 +179,28 @@
           "riassunto": "Listen to Failure on Spotify. For a band so closely associated with weight, density, and mass, Failure have spent",
           "importanza": 7,
           "fonte": "https://open.spotify.com / artist",
-          "data": "2026-11-01",
-          "url": "https://www.google.com/goto?url=CAEScQHrOzAVZ5hiDZyhz6IxUOeN5w-6d5GUMko2M01bdmqL4cTicyWeNqbSZHXnEGFrodLbbQgutNV-PyZJ3Bz3_mxHvZvm3iJBlXywj64UdUCXplSjtAM28Z3ziV7XLJxlKSAwtebJrr2YIobrU5DNPFW8",
+          "data": "2026-11-02",
+          "url": "https://open.spotify.com/artist/3grvcGPaLhfrD5CYsecr4j",
+          "costruttore": null
+        },
+        {
+          "titolo": "How To Fail With Elizabeth Day - Podcast",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Every success story you've ever been told is incomplete. How To Fail with Elizabeth Day is the part they leave out. Each week, Sunday Times #1 bestselling ...",
+          "importanza": 7,
+          "fonte": "https://podcasts.apple.com / podcast / how-to-fail-with-...",
+          "data": "2026-11-02",
+          "url": "https://podcasts.apple.com/us/podcast/how-to-fail-with-elizabeth-day/id1407451189",
+          "costruttore": null
+        },
+        {
+          "titolo": "Is there any downside to taking wire speed down?",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Expect to break more wire as the water gets warmer...the chiller will keep it in bounds if your parts will no longer be parallel because the wire ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / i...",
+          "data": "2026-11-02",
+          "url": "https://www.practicalmachinist.com/forum/threads/is-there-any-downside-to-taking-wire-speed-down.443588/",
           "costruttore": null
         }
       ]
