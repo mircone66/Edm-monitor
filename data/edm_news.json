@@ -1,8 +1,209 @@
 [
   {
-    "timestamp": "2026-11-22T16:49:46.474014",
+    "timestamp": "2026-11-23T20:48:12.242663",
     "data": {
-      "notizie": []
+      "notizie": [
+        {
+          "titolo": "Sodick Wire EDM problem ?? - CNCARENA FORUM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "When I press \"wire guide open\" it goes to the center of the nozzle , but when the guide is closed it is not centered (the wire goes in Y+ ...",
+          "importanza": 9,
+          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
+          "data": "2026-11-23",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/265420-sodick-wire-edm-problem.html",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Sodick Short Circuit Error - CNCARENA FORUM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "When you try to run at max settings I get a short circuit error, if I lower the settings and keep Amps to about 8 or lower it will run all day ...",
+          "importanza": 9,
+          "fonte": "https://www.cnczone.com / edm-discussion-general-topics",
+          "data": "2026-11-23",
+          "url": "https://www.cnczone.com/forums/edm-discussion-general-topics/434087-sodick-short-circuit-error.html",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Makino Sinker EDM hyper i Arcing issue",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "I'm trying to eliminate there being a potential issue with a loss of conductivity between the Electrode and its Holder. Please verify that the ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/makino-sinker-edm-hyper-i-arcing-issue.435831/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Mitsubishi Wire EDM problems",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "So I am running a MV1200R Mitsubishi Wire EDM and for some reason my tank wont stay filled with water while running a program? ive been ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-problems.346305/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Mitsubishi Wire EDM Wire Cut Problems",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "On our machines if the wire diameter is not set correctly it will not cut the wire,it's on the process control page under PM.",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/mitsubishi-wire-edm-wire-cut-problems.291211/",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "wire edm problem - cncarena forum - Industry Arena",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Had a battery alarm replaced the batteries and alarm will not clear .It appers as the two wires on the bottom battery box have become cut. ...",
+          "importanza": 8,
+          "fonte": "https://www.cnczone.com / forums / fanuc / 427592-wi...",
+          "data": "2026-11-23",
+          "url": "https://www.cnczone.com/forums/fanuc/427592-wire-edm-problem.html",
+          "costruttore": null
+        },
+        {
+          "titolo": "Wire breakage.... - Industrial Forum",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Wire breakage detection pulley is freakin' out !!! Keeps bouncing violently up and down when cutting. Enough to toss wire off pulley and break ...",
+          "importanza": 8,
+          "fonte": "https://www.emastercam.com / ... / Industrial Forum",
+          "data": "2026-11-23",
+          "url": "https://www.emastercam.com/forums/topic/7774-wire-breakage/",
+          "costruttore": null
+        },
+        {
+          "titolo": "Sodick wire EDM taper issues",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "If the hole is tapered and not angled, the alignment of the upper guide relative to the lower guide cannot be the issue. your erosion is uneven ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / s...",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/sodick-wire-edm-taper-issues.396483/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Sodick Wire EDM Parts Replacement Guide for Precision ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Typical Issues: Wear leads to inconsistent power delivery, causing cutting defects or wire breaks. Flush Nozzles and Nozzle Guides. Sizes: ...",
+          "importanza": 8,
+          "fonte": "https://www.lemhunter.com / Blog",
+          "data": "2026-11-23",
+          "url": "https://www.lemhunter.com/news/sodick-wire-edm-parts-replacement-guide-for-precision-and-durability/",
+          "costruttore": "Sodick"
+        },
+        {
+          "titolo": "Agie Charmilles (+GF+) Cut 300SP Reliability Issues",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "We had some problems with Overpressured lower head, broken bearing on wire chopper, software colapsed. you need to have GF in and fix the ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/agie-charmilles-gf-cut-300sp-reliability-issues.337658/",
+          "costruttore": "Agie"
+        },
+        {
+          "titolo": "GF Machining Solutions Celebrates 70 Years of EDM ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Made in the USA has looked into system-wide effects of broken supply chains, automation, skilled workforce issues and our perception of ...",
+          "importanza": 8,
+          "fonte": "https://www.mmsonline.com / ... / Machining Solutions",
+          "data": "2026-11-23",
+          "url": "https://www.mmsonline.com/news/gf-machining-solutions-celebrates-70-years-of-edm-technology",
+          "costruttore": "GF Machining"
+        },
+        {
+          "titolo": "X on X",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Mitsubishi has recalled more than 108,000 vehicles due to an issue with the gas spring cylinder. Here's which models it affects.",
+          "importanza": 8,
+          "fonte": "https://x.com / beaconjournal / status",
+          "data": "2026-11-23",
+          "url": "https://x.com/beaconjournal/status/2047654466183131265",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Mitsubishi EMC Computer Issues? Expert Troubleshooting ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Repeated EMC computer failure can stem from wiring shorts, poor ground connections, or voltage spikes. Inspect the main wiring harness for ...",
+          "importanza": 8,
+          "fonte": "https://www.justanswer.com / Mitsubishi",
+          "data": "2026-11-23",
+          "url": "https://www.justanswer.com/mitsubishi/452ft-92-mitsubishi-emc-computer-keep-going-out-i.html",
+          "costruttore": "Mitsubishi"
+        },
+        {
+          "titolo": "Problem with old Makino EC7050 wire EDM breaking ...",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "Check the boot straps (grounds) , what ever you call them on the table. These on older machines tend to get build up under the bolts , clean ...",
+          "importanza": 8,
+          "fonte": "https://www.practicalmachinist.com / ... / General",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-old-makino-ec7050-wire-edm-breaking-wire-at-higher-currents.298912/",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Additive Solves EDM Surface Finish Problem",
+          "categoria": "Problemi per Costruttore",
+          "riassunto": "The additive used in Makino's HQSF TM technology overcomes these shortcomings, the company claims. HQSF TM uses a proprietary non-toxic powder, called µSC. Its ...",
+          "importanza": 8,
+          "fonte": "https://www.makino.com / resources / article / archive",
+          "data": "2026-11-23",
+          "url": "https://www.makino.com/resources/content-library/article/archive/additive-solves-edm-surface-finish-problem/144",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "Slightly OT, repair of a Makino wire EDM that eats ...",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "The problem with it is that it has begun to break wire easily. It's a 16A machine, but can't be run much above 3A or it eats wire. It may go ...",
+          "importanza": 8,
+          "fonte": "https://bbs.homeshopmachinist.net / ... / Digital Machinist",
+          "data": "2026-11-23",
+          "url": "https://bbs.homeshopmachinist.net/forum/digital-machinist/67409-slightly-ot-repair-of-a-makino-wire-edm-that-eats-wire-need-ideas",
+          "costruttore": "Makino"
+        },
+        {
+          "titolo": "PROBLEM WITH WIRE EDM",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "It sounds like your transformer taps and breaker are the most likely problem. If the machine is able to power up at all with the transformer set ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/problem-with-wire-edm.111121/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Intermittent \"Crash\" Problem on Mits",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "Hello, University shop here with 1 wire EDM machine that gets relatively low use mostly cutting material test specimen and the odd prototype ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads / i...",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/intermittent-crash-problem-on-mits.421073/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | Problems cutting in center",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "It sounds like your head is out of alignment in the Y direction. That can definitely happen when you drop a slug on the head. You saying it ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/problems-cutting-in-center.417973/",
+          "costruttore": null
+        },
+        {
+          "titolo": "EDM Machining | wire breaks problem troubleshooting",
+          "categoria": "Problemi e Soluzioni",
+          "riassunto": "- Mechanical tension too high. - Bottom injection misadjusted. - Wire unreeling speed too low. - Bottom head dirty. - Check top power supply ...",
+          "importanza": 7,
+          "fonte": "https://www.practicalmachinist.com / forum / threads",
+          "data": "2026-11-23",
+          "url": "https://www.practicalmachinist.com/forum/threads/wire-breaks-problem-troubleshooting.330242/",
+          "costruttore": null
+        }
+      ]
     }
   }
 ]
